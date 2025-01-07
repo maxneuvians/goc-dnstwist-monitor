@@ -5,6 +5,9 @@ on:
     - cron: '0 0 * * *'  # Runs daily at midnight
   workflow_dispatch:  # Allows manual triggering
 
+permissions:
+  contents: write
+
 jobs:
   scan-domains:
     runs-on: ubuntu-latest
@@ -24,16 +27,12 @@ jobs:
           
       - name: Run DNSTwist scan and compare
         run: python .github/scripts/dnstwist_monitor.py
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-      - name: Create Pull Request if changes detected
-        uses: peter-evans/create-pull-request@v5
-        with:
-          commit-message: Update domain monitoring results
-          title: 'feat: Update domain monitoring results'
-          body: |
-            New potentially malicious domains detected.
-            This PR was automatically created by the DNSTwist monitoring workflow.
-          branch: update-domain-monitoring
-          delete-branch: true
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Work bot"
+          git add results.json
+          git add summary.json
+          git commit -m "Updated history `date '+%Y-%m-%d %H:%M:%S'`" -a
+          git push origin main
