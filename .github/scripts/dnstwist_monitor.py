@@ -3,7 +3,7 @@ import json
 import os
 import dnstwist
 import subprocess
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Dict, List, Set
 
 def load_domains(filename: str = 'domains.txt') -> List[str]:
@@ -70,7 +70,7 @@ def main():
         
         # Create or update summary file
         summary = {
-            'last_updated': datetime.datetime.now(datetime.UTC),
+            'last_updated': datetime.now(timezone.utc).isoformat(),
             'new_domains': sorted(list(new_domains))
         }
         with open('summary.json', 'w') as f:
