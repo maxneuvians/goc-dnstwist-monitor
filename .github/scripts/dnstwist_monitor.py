@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import os
+import dnstwist
 import subprocess
 from datetime import datetime
 from typing import Dict, List, Set
@@ -21,14 +22,8 @@ def load_existing_results(filename: str = 'results.json') -> Dict:
 def run_dnstwist(domain: str) -> List[Dict]:
     """Run DNSTwist scan for a single domain."""
     try:
-        result = subprocess.run(
-            ['dnstwist', '--format', 'json', domain],
-            capture_output=True,
-            text=True,
-            check=True
-        )
-        return json.loads(result.stdout)
-    except subprocess.CalledProcessError as e:
+        return dnstwist.run(domain=domain, nameservers='8.8.8.8', registered=True, format="null")
+    except Error as e:
         print(f"Error scanning domain {domain}: {e}")
         return []
 
@@ -38,14 +33,14 @@ def compare_results(old_results: Dict, new_results: Dict) -> Set[str]:
         domain['domain']
         for domain_list in old_results.values()
         for domain in domain_list
-        if domain.get('dns-a')  # Only consider domains with A records
+        if domain.get('dns_a')  # Only consider domains with A records
     }
     
     new_domains = {
         domain['domain']
         for domain_list in new_results.values()
         for domain in domain_list
-        if domain.get('dns-a')  # Only consider domains with A records
+        if domain.get('dns_a')  # Only consider domains with A records
     }
     
     return new_domains - old_domains
@@ -75,7 +70,7 @@ def main():
         
         # Create or update summary file
         summary = {
-            'last_updated': datetime.utcnow().isoformat(),
+            'last_updated': datetime.datetime.now(datetime.UTC),
             'new_domains': sorted(list(new_domains))
         }
         with open('summary.json', 'w') as f:

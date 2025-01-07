@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install dnstwist requests
+          pip install dnstwist requests dnspython
           
       - name: Run DNSTwist scan and compare
         run: python .github/scripts/dnstwist_monitor.py
