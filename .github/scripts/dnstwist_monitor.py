@@ -22,7 +22,7 @@ def load_existing_results(filename: str = 'results.json') -> Dict:
 def run_dnstwist(domain: str) -> List[Dict]:
     """Run DNSTwist scan for a single domain."""
     try:
-        return dnstwist.run(domain=domain, nameservers='8.8.8.8', registered=True, format="null")
+        return dnstwist.run(domain=domain, registered=True, format="null")
     except Error as e:
         print(f"Error scanning domain {domain}: {e}")
         return []
