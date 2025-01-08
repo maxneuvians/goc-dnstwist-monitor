@@ -76,11 +76,8 @@ def main():
         with open('summary.json', 'w') as f:
             json.dump(summary, f, indent=2)
         
-        # Exit with status 1 to indicate changes were detected
-        exit(1)
     else:
         print("\nNo new potentially malicious domains detected.")
-        exit(0)
 
 if __name__ == '__main__':
     main()
