@@ -21,6 +21,9 @@
       ],
       "dns_a": [
         "!ServFail"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
       ]
     },
     {
@@ -106,6 +109,19 @@
       ],
       "dns_a": [
         "185.230.63.107"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "canadav.ca",
+      "dns_ns": [
+        "parking1.whc.ca"
+      ],
+      "dns_a": [
+        "199.34.228.59"
+      ],
+      "dns_mx": [
+        "emailfwd.canadav.ca"
       ]
     },
     {
@@ -238,16 +254,6 @@
       ],
       "dns_mx": [
         "alt1.aspmx.l.google.com"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "canadav.ca",
-      "dns_ns": [
-        "parking1.whc.ca"
-      ],
-      "dns_mx": [
-        "emailfwd.canadav.ca"
       ]
     },
     {
@@ -508,6 +514,26 @@
       ],
       "dns_mx": [
         "can-ada.ca"
+      ]
+    },
+    {
+      "fuzzer": "hyphenation",
+      "domain": "ca-nada.ca",
+      "dns_ns": [
+        "ns1.wordpress.com"
+      ]
+    },
+    {
+      "fuzzer": "insertion",
+      "domain": "vcanada.ca",
+      "dns_ns": [
+        "ns1.whc.ca"
+      ],
+      "dns_a": [
+        "167.114.83.239"
+      ],
+      "dns_mx": [
+        "vcanada.ca"
       ]
     },
     {
@@ -783,6 +809,19 @@
     {
       "fuzzer": "insertion",
       "domain": "cawnada.ca",
+      "dns_ns": [
+        "curitiba.ns.porkbun.com"
+      ],
+      "dns_a": [
+        "199.59.243.228"
+      ]
+    },
+    {
+      "fuzzer": "insertion",
+      "domain": "caznada.ca",
+      "dns_ns": [
+        "curitiba.ns.porkbun.com"
+      ],
       "dns_a": [
         "199.59.243.228"
       ]
@@ -924,23 +963,6 @@
       ]
     },
     {
-      "fuzzer": "insertion",
-      "domain": "caznada.ca",
-      "dns_ns": [
-        "curitiba.ns.porkbun.com"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "vcanada.ca",
-      "dns_ns": [
-        "ns1.whc.ca"
-      ],
-      "dns_mx": [
-        "vcanada.ca"
-      ]
-    },
-    {
       "fuzzer": "omission",
       "domain": "anada.ca",
       "dns_ns": [
@@ -1063,6 +1085,16 @@
       ],
       "dns_a": [
         "104.247.81.51"
+      ]
+    },
+    {
+      "fuzzer": "replacement",
+      "domain": "cabada.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.53"
       ]
     },
     {
@@ -1257,13 +1289,6 @@
       ]
     },
     {
-      "fuzzer": "replacement",
-      "domain": "cabada.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ]
-    },
-    {
       "fuzzer": "subdomain",
       "domain": "can.ada.ca",
       "dns_ns": [
@@ -1336,7 +1361,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.130.204.160"
+        "3.18.7.81"
       ]
     },
     {
@@ -1346,7 +1371,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.94.41.167"
+        "3.18.7.81"
       ]
     },
     {
@@ -1660,7 +1685,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.130.204.160"
+        "3.18.7.81"
       ]
     }
   ],
@@ -1948,7 +1973,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "52.71.57.184"
+        "3.94.41.167"
       ]
     }
   ],
@@ -2246,7 +2271,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.130.204.160"
+        "34.205.242.146"
       ]
     },
     {
@@ -2547,7 +2572,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.94.41.167"
+        "52.71.57.184"
       ]
     }
   ],
@@ -2835,7 +2860,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.130.204.160"
+        "34.205.242.146"
       ]
     },
     {
@@ -3314,7 +3339,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "34.205.242.146"
+        "3.130.204.160"
       ]
     }
   ],
@@ -3324,6 +3349,19 @@
       "domain": "library-archives.canada.ca",
       "dns_a": [
         "142.78.200.99"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "library-archives.canadad.ca",
+      "dns_ns": [
+        "!ServFail"
+      ],
+      "dns_a": [
+        "!ServFail"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
       ]
     },
     {
@@ -3410,16 +3448,6 @@
       "domain": "library-archives.canaday.ca",
       "dns_a": [
         "69.16.231.58"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "library-archives.canadad.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
       ]
     },
     {
@@ -3940,22 +3968,22 @@
     },
     {
       "fuzzer": "various",
-      "domain": "library-archives.canadaca.com",
-      "dns_ns": [
-        "nsg1.namebrightdns.com"
-      ],
-      "dns_a": [
-        "3.94.41.167"
-      ]
-    },
-    {
-      "fuzzer": "various",
       "domain": "library-archives.canada-ca.com",
       "dns_ns": [
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "52.71.57.184"
+        "3.18.7.81"
+      ]
+    },
+    {
+      "fuzzer": "various",
+      "domain": "library-archives.canadaca.com",
+      "dns_ns": [
+        "nsg1.namebrightdns.com"
+      ],
+      "dns_a": [
+        "34.205.242.146"
       ]
     },
     {
@@ -4263,7 +4291,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "18.119.154.66"
+        "3.94.41.167"
       ]
     }
   ],
@@ -4309,7 +4337,7 @@
         "2606:4700:20::681a:2ca"
       ],
       "dns_mx": [
-        "sf1.neolore.com"
+        "nature-ca.mail.protection.outlook.com"
       ]
     },
     {
@@ -4322,6 +4350,9 @@
         "!ServFail"
       ],
       "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
         "!ServFail"
       ]
     },
@@ -4845,7 +4876,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "34.205.242.146"
+        "3.130.204.160"
       ]
     }
   ],
@@ -4855,6 +4886,19 @@
       "domain": "northern-pipeline.canada.ca",
       "dns_a": [
         "198.103.48.79"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "northern-pipeline.canadad.ca",
+      "dns_ns": [
+        "!ServFail"
+      ],
+      "dns_a": [
+        "!ServFail"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
       ]
     },
     {
@@ -4941,16 +4985,6 @@
       "domain": "northern-pipeline.canaday.ca",
       "dns_a": [
         "69.16.231.58"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "northern-pipeline.canadad.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
       ]
     },
     {
@@ -5476,7 +5510,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.130.204.160"
+        "3.18.7.81"
       ]
     },
     {
@@ -5486,7 +5520,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.130.204.160"
+        "34.205.242.146"
       ]
     },
     {
@@ -6153,7 +6187,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.94.41.167"
+        "3.18.7.81"
       ]
     },
     {
@@ -6163,7 +6197,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "34.205.242.146"
+        "3.94.41.167"
       ]
     },
     {
@@ -6474,7 +6508,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "34.205.242.146"
+        "18.119.154.66"
       ]
     }
   ],
@@ -6762,7 +6796,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "18.119.154.66"
+        "34.205.242.146"
       ]
     }
   ],
@@ -7050,7 +7084,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "18.119.154.66"
+        "52.71.57.184"
       ]
     }
   ],
@@ -7921,7 +7955,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "18.119.154.66"
+        "3.130.204.160"
       ]
     }
   ],
@@ -8206,7 +8240,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "52.71.57.184"
+        "3.130.204.160"
       ]
     }
   ],
@@ -8494,7 +8528,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "52.71.57.184"
+        "3.18.7.81"
       ]
     }
   ],
@@ -9067,7 +9101,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.94.41.167"
+        "3.18.7.81"
       ]
     },
     {
@@ -9077,7 +9111,7 @@
         "ns1.hastydns.com"
       ],
       "dns_a": [
-        "95.211.117.215"
+        "69.162.80.56"
       ]
     }
   ],
@@ -9357,13 +9391,6 @@
     },
     {
       "fuzzer": "various",
-      "domain": "weather.gc-ca.com",
-      "dns_a": [
-        "18.119.154.66"
-      ]
-    },
-    {
-      "fuzzer": "various",
       "domain": "weathergc.ca",
       "dns_ns": [
         "basi.ns.giantpanda.com"
@@ -9376,6 +9403,16 @@
       ],
       "dns_mx": [
         "mail.mailerhost.net"
+      ]
+    },
+    {
+      "fuzzer": "various",
+      "domain": "weather.gc-ca.com",
+      "dns_ns": [
+        "nsg1.namebrightdns.com"
+      ],
+      "dns_a": [
+        "52.71.57.184"
       ]
     }
   ],
@@ -9659,11 +9696,8 @@
     {
       "fuzzer": "various",
       "domain": "acoa-apeca.gc-ca.com",
-      "dns_ns": [
-        "nsg1.namebrightdns.com"
-      ],
       "dns_a": [
-        "34.205.242.146"
+        "52.71.57.184"
       ]
     }
   ],
@@ -10372,7 +10406,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.130.204.160"
+        "18.119.154.66"
       ]
     }
   ],
@@ -10660,7 +10694,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "18.119.154.66"
+        "34.205.242.146"
       ]
     }
   ],
@@ -10940,7 +10974,7 @@
         "ns1.siteground.net"
       ],
       "dns_a": [
-        "34.149.36.179"
+        "34.120.190.48"
       ],
       "dns_mx": [
         "mx10.antispam.mailspamprotection.com"
@@ -11003,19 +11037,6 @@
       ],
       "dns_mx": [
         "rdc-ca.mail.protection.outlook.com"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "bdic.ca",
-      "dns_ns": [
-        "ns1.web-dns1.com"
-      ],
-      "dns_a": [
-        "104.193.172.162"
-      ],
-      "dns_mx": [
-        "bdic.ca"
       ]
     },
     {
@@ -11611,7 +11632,7 @@
         "a1-226.akam.net"
       ],
       "dns_a": [
-        "23.36.90.114"
+        "184.26.226.89"
       ],
       "dns_aaaa": [
         "2600:1406:3a00:781::1dc5"
@@ -11951,7 +11972,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "18.119.154.66"
+        "3.94.41.167"
       ]
     },
     {
@@ -12534,7 +12555,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.18.7.81"
+        "34.205.242.146"
       ]
     }
   ],
@@ -12822,7 +12843,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.18.7.81"
+        "52.71.57.184"
       ]
     }
   ],
@@ -12956,6 +12977,9 @@
       ],
       "dns_a": [
         "169.239.217.51"
+      ],
+      "dns_mx": [
+        "mx1.cpmx.co.za"
       ]
     },
     {
@@ -12968,7 +12992,7 @@
         "18.154.132.108"
       ],
       "dns_aaaa": [
-        "2600:9000:24db:1400:b:8f7b:67c0:93a1"
+        "2600:9000:24db:200:b:8f7b:67c0:93a1"
       ],
       "dns_mx": [
         "d402294.a.ess.ca.barracudanetworks.com"
@@ -14025,7 +14049,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "18.119.154.66"
+        "34.205.242.146"
       ]
     }
   ],
@@ -14436,6 +14460,22 @@
     },
     {
       "fuzzer": "addition",
+      "domain": "cccf.ca",
+      "dns_ns": [
+        "ns1.dns-parking.com"
+      ],
+      "dns_a": [
+        "147.79.120.13"
+      ],
+      "dns_aaaa": [
+        "2a02:4780:4f:f7d1:2a1:88cb:e76d:b9a"
+      ],
+      "dns_mx": [
+        "alt1.aspmx.l.google.com"
+      ]
+    },
+    {
+      "fuzzer": "addition",
       "domain": "cccl.ca",
       "dns_ns": [
         "ns33.domaincontrol.com"
@@ -14507,22 +14547,6 @@
       ],
       "dns_mx": [
         "mx1c1.megamailservers.com"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "cccu.ca",
-      "dns_ns": [
-        "ns1.central1.com"
-      ],
-      "dns_a": [
-        "18.155.192.14"
-      ],
-      "dns_aaaa": [
-        "2600:9000:20c5:1800:6:a61b:fc80:93a1"
-      ],
-      "dns_mx": [
-        "mx-01-us-west-2.prod.hydra.sophos.com"
       ]
     },
     {
@@ -14620,10 +14644,10 @@
         "ns1.dns-parking.com"
       ],
       "dns_a": [
-        "77.37.76.26"
+        "92.112.198.177"
       ],
       "dns_aaaa": [
-        "2a02:4780:4e:222b:35c0:d0e2:91b3:9e09"
+        "2a02:4780:51:ccaa:f703:68dc:85db:a91e"
       ],
       "dns_mx": [
         "mx1.hostinger.com"
@@ -14631,18 +14655,18 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cccf.ca",
+      "domain": "cccu.ca",
       "dns_ns": [
-        "ns1.dns-parking.com"
+        "ns1.central1.com"
       ],
       "dns_a": [
-        "77.37.76.3"
+        "99.84.203.43"
       ],
       "dns_aaaa": [
-        "2a02:4780:4f:60e2:a091:c5:cba4:bfe7"
+        "2600:9000:20c5:3800:6:a61b:fc80:93a1"
       ],
       "dns_mx": [
-        "alt1.aspmx.l.google.com"
+        "mx-01-us-west-2.prod.hydra.sophos.com"
       ]
     },
     {
@@ -14909,10 +14933,10 @@
         "edns1.ultradns.biz"
       ],
       "dns_a": [
-        "13.227.74.13"
+        "18.65.25.18"
       ],
       "dns_aaaa": [
-        "2600:9000:2364:0:17:27c8:dc00:93a1"
+        "2600:9000:2364:6400:17:27c8:dc00:93a1"
       ],
       "dns_mx": [
         "alt1.aspmx.l.google.com"
@@ -15140,7 +15164,7 @@
         "ns-1175.awsdns-18.org"
       ],
       "dns_a": [
-        "15.156.220.36"
+        "15.157.89.137"
       ],
       "dns_mx": [
         "ccohs-ca.mail.protection.outlook.com"
@@ -15296,19 +15320,6 @@
       ],
       "dns_mx": [
         "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "bdic.ca",
-      "dns_ns": [
-        "ns1.web-dns1.com"
-      ],
-      "dns_a": [
-        "104.193.172.162"
-      ],
-      "dns_mx": [
-        "bdic.ca"
       ]
     },
     {
@@ -15575,7 +15586,7 @@
         "ns1.torresdns.com"
       ],
       "dns_a": [
-        "78.41.204.31"
+        "78.41.204.37"
       ]
     },
     {
@@ -16586,7 +16597,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.94.41.167"
+        "18.119.154.66"
       ]
     },
     {
@@ -16608,14 +16619,8 @@
     {
       "fuzzer": "*original",
       "domain": "cnsc-ccsn.gc.ca",
-      "dns_ns": [
-        "ns1.d-zone.ca"
-      ],
       "dns_a": [
         "20.116.65.184"
-      ],
-      "dns_mx": [
-        "cnscccsn-gc-ca01b.mail.protection.outlook.com"
       ]
     },
     {
@@ -16888,7 +16893,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "18.119.154.66"
+        "52.71.57.184"
       ]
     }
   ],
@@ -17176,7 +17181,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "18.119.154.66"
+        "34.205.242.146"
       ]
     }
   ],
@@ -17464,7 +17469,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.130.204.160"
+        "3.18.7.81"
       ]
     }
   ],
@@ -17752,7 +17757,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.18.7.81"
+        "18.119.154.66"
       ]
     }
   ],
@@ -18040,7 +18045,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.18.7.81"
+        "34.205.242.146"
       ]
     }
   ],
@@ -18328,7 +18333,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.94.41.167"
+        "18.119.154.66"
       ]
     }
   ],
@@ -18616,7 +18621,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "34.205.242.146"
+        "3.94.41.167"
       ]
     }
   ],
@@ -18821,6 +18826,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "efc.ca",
+      "dns_ns": [
+        "ns1.mediatemple.net"
+      ],
+      "dns_a": [
+        "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "elc.ca",
       "dns_ns": [
         "ns1.zabco.net"
@@ -18876,16 +18891,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "etc.ca",
-      "dns_ns": [
-        "ns-1533.awsdns-63.org"
-      ],
-      "dns_a": [
-        "16.182.71.141"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "gdc.ca",
       "dns_ns": [
         "ns1.bluehost.com"
@@ -18919,6 +18924,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "etc.ca",
+      "dns_ns": [
+        "ns-1533.awsdns-63.org"
+      ],
+      "dns_a": [
+        "3.5.12.105"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "eds.ca",
       "dns_ns": [
         "cce02dnsauth01d.amer.dxc.com"
@@ -18941,13 +18956,6 @@
       ],
       "dns_mx": [
         "mx00.ionos.com"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "efc.ca",
-      "dns_ns": [
-        "ns1.mediatemple.net"
       ]
     },
     {
@@ -20055,7 +20063,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.130.204.160"
+        "34.205.242.146"
       ]
     }
   ],
@@ -20343,7 +20351,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.130.204.160"
+        "3.94.41.167"
       ]
     }
   ],
@@ -21740,7 +21748,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "18.119.154.66"
+        "3.94.41.167"
       ]
     }
   ],
@@ -22092,8 +22100,11 @@
     {
       "fuzzer": "various",
       "domain": "ic.gc-ca.com",
+      "dns_ns": [
+        "nsg1.namebrightdns.com"
+      ],
       "dns_a": [
-        "18.119.154.66"
+        "3.130.204.160"
       ]
     }
   ],
@@ -22382,7 +22393,7 @@
         "92.112.185.146"
       ],
       "dns_aaaa": [
-        "2a02:4780:50:2abe:ff32:724e:5837:c89f"
+        "2a02:4780:4e:d71d:7ce6:afa5:4119:1276"
       ],
       "dns_mx": [
         "mx1.hostinger.com"
@@ -22687,7 +22698,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.130.204.160"
+        "18.119.154.66"
       ]
     }
   ],
@@ -22975,7 +22986,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.94.41.167"
+        "52.71.57.184"
       ]
     }
   ],
@@ -23271,28 +23282,28 @@
     },
     {
       "fuzzer": "various",
+      "domain": "international-gc.ca",
+      "dns_ns": [
+        "ns1.dns-parking.com"
+      ],
+      "dns_a": [
+        "148.135.128.7"
+      ],
+      "dns_aaaa": [
+        "2a02:4780:50:ed3c:5475:b094:62f3:77d0"
+      ],
+      "dns_mx": [
+        "mx1.titan.email"
+      ]
+    },
+    {
+      "fuzzer": "various",
       "domain": "international.gc-ca.com",
       "dns_ns": [
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
         "3.18.7.81"
-      ]
-    },
-    {
-      "fuzzer": "various",
-      "domain": "international-gc.ca",
-      "dns_ns": [
-        "ns1.dns-parking.com"
-      ],
-      "dns_a": [
-        "92.112.198.120"
-      ],
-      "dns_aaaa": [
-        "2a02:4780:50:8f92:386e:903d:1218:ba4b"
-      ],
-      "dns_mx": [
-        "mx1.titan.email"
       ]
     }
   ],
@@ -23580,7 +23591,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.18.7.81"
+        "3.94.41.167"
       ]
     }
   ],
@@ -25122,7 +25133,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "34.205.242.146"
+        "3.94.41.167"
       ]
     }
   ],
@@ -25435,7 +25446,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "52.71.57.184"
+        "3.94.41.167"
       ]
     }
   ],
@@ -26014,7 +26025,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.94.41.167"
+        "3.18.7.81"
       ]
     },
     {
@@ -26315,7 +26326,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.94.41.167"
+        "52.71.57.184"
       ]
     }
   ],
@@ -26600,7 +26611,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "18.119.154.66"
+        "3.18.7.81"
       ]
     }
   ],
@@ -27202,7 +27213,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "34.205.242.146"
+        "18.119.154.66"
       ]
     }
   ],
@@ -27503,7 +27514,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "18.119.154.66"
+        "34.205.242.146"
       ]
     },
     {
@@ -27982,7 +27993,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "34.205.242.146"
+        "3.130.204.160"
       ]
     }
   ],
@@ -28867,22 +28878,22 @@
     },
     {
       "fuzzer": "various",
+      "domain": "veterans.gc-ca.com",
+      "dns_ns": [
+        "nsg1.namebrightdns.com"
+      ],
+      "dns_a": [
+        "18.119.154.66"
+      ]
+    },
+    {
+      "fuzzer": "various",
       "domain": "veteransgc.ca",
       "dns_ns": [
         "ns-cloud-a1.googledomains.com"
       ],
       "dns_a": [
         "198.49.23.144"
-      ]
-    },
-    {
-      "fuzzer": "various",
-      "domain": "veterans.gc-ca.com",
-      "dns_ns": [
-        "nsg1.namebrightdns.com"
-      ],
-      "dns_a": [
-        "3.94.41.167"
       ]
     }
   ],
@@ -29170,7 +29181,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "52.71.57.184"
+        "3.18.7.81"
       ]
     }
   ],
@@ -29458,7 +29469,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.18.7.81"
+        "52.71.57.184"
       ]
     }
   ],
@@ -29742,11 +29753,8 @@
     {
       "fuzzer": "various",
       "domain": "wd-deo.gc-ca.com",
-      "dns_ns": [
-        "nsg1.namebrightdns.com"
-      ],
       "dns_a": [
-        "3.94.41.167"
+        "18.119.154.66"
       ]
     }
   ]
