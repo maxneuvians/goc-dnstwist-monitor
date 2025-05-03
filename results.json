@@ -15,11 +15,24 @@
     },
     {
       "fuzzer": "addition",
+      "domain": "canada7.ca",
+      "dns_ns": [
+        "ams-ns1.websitehostserver.net"
+      ],
+      "dns_a": [
+        "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "addition",
       "domain": "canadad.ca",
       "dns_ns": [
         "cloud1.whc.ca"
       ],
       "dns_a": [
+        "!ServFail"
+      ],
+      "dns_aaaa": [
         "!ServFail"
       ],
       "dns_mx": [
@@ -201,13 +214,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "canada7.ca",
-      "dns_ns": [
-        "ams-ns1.websitehostserver.net"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "canadaa.ca",
       "dns_ns": [
         "ns1.parkingcrew.net"
@@ -228,16 +234,6 @@
       "domain": "canadax.ca",
       "dns_ns": [
         "dns1.registrar-servers.com"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "canade.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.82.52"
       ]
     },
     {
@@ -346,6 +342,13 @@
       ],
       "dns_mx": [
         "mx.banada.ca"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "canade.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
       ]
     },
     {
@@ -812,7 +815,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.18.7.81"
+        "3.130.204.160"
       ]
     },
     {
@@ -1531,6 +1534,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "cra-arc.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "cra-arc.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -1547,13 +1560,6 @@
       ],
       "dns_a": [
         "13.248.169.48"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "cra-arc.ga.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
       ]
     },
     {
@@ -1684,9 +1690,6 @@
       "domain": "cra-arc-gc.ca",
       "dns_ns": [
         "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.82.52"
       ]
     }
   ],
@@ -1825,6 +1828,16 @@
       ],
       "dns_aaaa": [
         "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "crtc.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
       ]
     },
     {
@@ -1980,9 +1993,6 @@
       ],
       "dns_a": [
         "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
       ]
     },
     {
@@ -2027,9 +2037,6 @@
     {
       "fuzzer": "addition",
       "domain": "cyber.gcb.ca",
-      "dns_ns": [
-        "ns1.namefind.com"
-      ],
       "dns_a": [
         "13.248.169.48"
       ]
@@ -2061,13 +2068,6 @@
     {
       "fuzzer": "addition",
       "domain": "cyber.gcn.ca",
-      "dns_a": [
-        "199.59.243.228"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "cyber.gcu.ca",
       "dns_a": [
         "199.59.243.228"
       ]
@@ -2585,6 +2585,13 @@
       ]
     },
     {
+      "fuzzer": "bitsquatting",
+      "domain": "irb-cisr.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ]
+    },
+    {
       "fuzzer": "homoglyph",
       "domain": "irb-cisr.qe.ca",
       "dns_ns": [
@@ -2732,9 +2739,6 @@
     {
       "fuzzer": "addition",
       "domain": "library-archives.canadaa.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
       "dns_a": [
         "104.247.81.51"
       ]
@@ -2791,27 +2795,6 @@
       ]
     },
     {
-      "fuzzer": "addition",
-      "domain": "library-archives.canada7.ca",
-      "dns_ns": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "library-archives.canafa.ca",
-      "dns_a": [
-        "104.247.81.50"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "library-archives.canade.ca",
-      "dns_a": [
-        "104.247.82.52"
-      ]
-    },
-    {
       "fuzzer": "bitsquatting",
       "domain": "library-archives.kanada.ca",
       "dns_ns": [
@@ -2833,6 +2816,20 @@
       "domain": "library-archives.banada.ca",
       "dns_a": [
         "66.96.160.154"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "library-archives.canade.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "library-archives.canafa.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
       ]
     },
     {
@@ -2888,6 +2885,9 @@
     {
       "fuzzer": "repetition",
       "domain": "library-archives.canadda.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
       "dns_a": [
         "104.247.81.52"
       ]
@@ -2901,9 +2901,9 @@
     },
     {
       "fuzzer": "replacement",
-      "domain": "library-archives.cansda.ca",
+      "domain": "library-archives.cabada.ca",
       "dns_a": [
-        "104.247.81.51"
+        "104.247.81.53"
       ]
     },
     {
@@ -2928,13 +2928,6 @@
       "domain": "library-archives.canaca.ca",
       "dns_a": [
         "66.49.254.5"
-      ]
-    },
-    {
-      "fuzzer": "replacement",
-      "domain": "library-archives.cabada.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
       ]
     },
     {
@@ -2970,7 +2963,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.130.204.160"
+        "34.205.242.146"
       ]
     },
     {
@@ -2986,6 +2979,9 @@
     {
       "fuzzer": "vowel-swap",
       "domain": "library-archives.conada.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
       "dns_a": [
         "104.247.82.51"
       ]
@@ -3123,6 +3119,13 @@
       ],
       "dns_aaaa": [
         "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "mpcc-cppm.ga.ca",
+      "dns_a": [
+        "104.247.81.51"
       ]
     },
     {
@@ -3686,13 +3689,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "ncc-ccn.ga.ca",
-      "dns_a": [
-        "104.247.81.51"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "ncc-ccn.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -3858,16 +3854,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "northern-pipeline.canadaa.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.81.51"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "northern-pipeline.canadas.ca",
       "dns_ns": [
         "basi.ns.giantpanda.com"
@@ -3918,30 +3904,10 @@
       ]
     },
     {
-      "fuzzer": "addition",
-      "domain": "northern-pipeline.canada7.ca",
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "bitsquatting",
       "domain": "northern-pipeline.canafa.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
       "dns_a": [
         "104.247.81.50"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "northern-pipeline.canade.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.82.52"
       ]
     },
     {
@@ -4020,39 +3986,9 @@
     },
     {
       "fuzzer": "repetition",
-      "domain": "northern-pipeline.canadda.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.81.52"
-      ]
-    },
-    {
-      "fuzzer": "repetition",
       "domain": "northern-pipeline.canaada.ca",
       "dns_a": [
         "199.59.243.228"
-      ]
-    },
-    {
-      "fuzzer": "replacement",
-      "domain": "northern-pipeline.cansda.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.81.51"
-      ]
-    },
-    {
-      "fuzzer": "replacement",
-      "domain": "northern-pipeline.cabada.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.81.53"
       ]
     },
     {
@@ -4112,7 +4048,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.130.204.160"
+        "3.18.7.81"
       ]
     },
     {
@@ -4122,17 +4058,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.94.41.167"
-      ]
-    },
-    {
-      "fuzzer": "vowel-swap",
-      "domain": "northern-pipeline.conada.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.82.51"
+        "34.205.242.146"
       ]
     }
   ],
@@ -4168,6 +4094,16 @@
       ],
       "dns_aaaa": [
         "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "nrc.canadaa.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
       ]
     },
     {
@@ -4223,6 +4159,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "nrc.canafa.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.50"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "nrc.kanada.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -4243,13 +4189,6 @@
       "domain": "nrc.banada.ca",
       "dns_a": [
         "66.96.160.154"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "nrc.canade.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
       ]
     },
     {
@@ -4305,6 +4244,9 @@
     {
       "fuzzer": "repetition",
       "domain": "nrc.canadda.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
       "dns_a": [
         "104.247.81.52"
       ]
@@ -4314,16 +4256,6 @@
       "domain": "nrc.canaada.ca",
       "dns_a": [
         "199.59.243.228"
-      ]
-    },
-    {
-      "fuzzer": "replacement",
-      "domain": "nrc.cansda.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.81.51"
       ]
     },
     {
@@ -4403,7 +4335,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.18.7.81"
+        "18.119.154.66"
       ]
     },
     {
@@ -4413,7 +4345,7 @@
         "nsg1.namebrightdns.com"
       ],
       "dns_a": [
-        "3.94.41.167"
+        "3.18.7.81"
       ]
     },
     {
@@ -4559,6 +4491,16 @@
       ],
       "dns_aaaa": [
         "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "nrc-cnrc.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
       ]
     },
     {
@@ -5106,16 +5048,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "otc-cta.ga.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.81.51"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "otc-cta.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -5384,16 +5316,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "pco.ga.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.81.51"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "pco.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -5410,6 +5332,13 @@
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "pco.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
       ]
     },
     {
@@ -5662,13 +5591,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "pm.ga.ca",
-      "dns_a": [
-        "104.247.81.51"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "pm.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -5685,6 +5607,13 @@
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "pm.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
       ]
     },
     {
@@ -5945,9 +5874,6 @@
     {
       "fuzzer": "bitsquatting",
       "domain": "pmprb-cepmb.ga.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
       "dns_a": [
         "104.247.81.51"
       ]
@@ -6220,6 +6146,9 @@
     {
       "fuzzer": "bitsquatting",
       "domain": "publications.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
       "dns_a": [
         "104.247.81.51"
       ]
@@ -6494,6 +6423,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "science.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "science.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -6758,6 +6697,13 @@
       ],
       "dns_aaaa": [
         "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "tbs-sct.ga.ca",
+      "dns_a": [
+        "104.247.81.51"
       ]
     },
     {
@@ -7027,16 +6973,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "travel.ga.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.81.51"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "travel.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -7172,7 +7108,7 @@
         "ns1.hastydns.com"
       ],
       "dns_a": [
-        "95.211.219.66"
+        "69.162.80.57"
       ]
     }
   ],
@@ -7308,16 +7244,6 @@
       ],
       "dns_aaaa": [
         "2606:4700:3035::6815:285b"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "weather.ga.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.81.51"
       ]
     },
     {
@@ -7602,13 +7528,6 @@
       ],
       "dns_aaaa": [
         "2606:4700:3035::6815:285b"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "acoa-apeca.ga.ca",
-      "dns_a": [
-        "104.247.81.51"
       ]
     },
     {
@@ -8302,6 +8221,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "agr.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "agr.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -8566,6 +8495,16 @@
       ],
       "dns_aaaa": [
         "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "asc-csa.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
       ]
     },
     {
@@ -8990,7 +8929,7 @@
         "ns1.siteground.net"
       ],
       "dns_a": [
-        "34.149.36.179"
+        "34.149.120.3"
       ],
       "dns_mx": [
         "mx10.antispam.mailspamprotection.com"
@@ -9635,8 +9574,14 @@
     {
       "fuzzer": "transposition",
       "domain": "bcd.ca",
+      "dns_ns": [
+        "ns302.cawebhosting.com"
+      ],
       "dns_a": [
         "69.90.243.51"
+      ],
+      "dns_mx": [
+        "bcd.ca"
       ]
     },
     {
@@ -9671,10 +9616,10 @@
         "a1-226.akam.net"
       ],
       "dns_a": [
-        "23.204.180.17"
+        "23.203.223.238"
       ],
       "dns_aaaa": [
-        "2600:1404:6400:88c::1dc5"
+        "2600:1406:2e00:784::1dc5"
       ],
       "dns_mx": [
         "mh1.cpg-gpc.ca"
@@ -9866,13 +9811,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "cannor.ga.ca",
-      "dns_a": [
-        "104.247.81.51"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "cannor.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -9889,6 +9827,13 @@
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "cannor.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
       ]
     },
     {
@@ -10005,10 +9950,10 @@
       "fuzzer": "various",
       "domain": "cannorgc.ca",
       "dns_ns": [
-        "ns1.dns-parking.com"
+        "ina1.registrar.eu"
       ],
       "dns_a": [
-        "84.32.84.32"
+        "15.197.130.221"
       ]
     }
   ],
@@ -10164,6 +10109,13 @@
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "cas-satj.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
       ]
     },
     {
@@ -10412,6 +10364,13 @@
       ],
       "dns_aaaa": [
         "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "catsa-acsta.ga.ca",
+      "dns_a": [
+        "104.247.81.51"
       ]
     },
     {
@@ -10684,6 +10643,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "cb-cda.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "cb-cda.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -10821,7 +10790,7 @@
         "a1-29.akam.net"
       ],
       "dns_a": [
-        "23.204.188.36"
+        "23.213.147.36"
       ],
       "dns_mx": [
         "eu-smtp-inbound-1.mimecast.com"
@@ -10943,9 +10912,6 @@
       ],
       "dns_a": [
         "169.239.217.51"
-      ],
-      "dns_mx": [
-        "mx1.cpmx.co.za"
       ]
     },
     {
@@ -10955,10 +10921,10 @@
         "ns1.central1.com"
       ],
       "dns_a": [
-        "18.154.110.117"
+        "18.238.192.105"
       ],
       "dns_aaaa": [
-        "2600:9000:2506:1e00:b:8f7b:67c0:93a1"
+        "2600:9000:24db:2a00:b:8f7b:67c0:93a1"
       ],
       "dns_mx": [
         "d402294.a.ess.ca.barracudanetworks.com"
@@ -11254,6 +11220,19 @@
     },
     {
       "fuzzer": "homoglyph",
+      "domain": "cibc.ca",
+      "dns_ns": [
+        "a1-188.akam.net"
+      ],
+      "dns_a": [
+        "184.25.254.17"
+      ],
+      "dns_mx": [
+        "mxa-00146707.gslb.pphosted.com"
+      ]
+    },
+    {
+      "fuzzer": "homoglyph",
       "domain": "cclc.ca",
       "dns_ns": [
         "ns1.bodis.com"
@@ -11286,19 +11265,6 @@
       ],
       "dns_mx": [
         "cldc-ca.mail.protection.outlook.com"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "cibc.ca",
-      "dns_ns": [
-        "a1-188.akam.net"
-      ],
-      "dns_a": [
-        "23.198.7.174"
-      ],
-      "dns_mx": [
-        "mxa-00146707.gslb.pphosted.com"
       ]
     },
     {
@@ -11827,6 +11793,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "cbsa-asfc.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "cbsa-asfc.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -12108,6 +12084,13 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "ccbn-nbc.ga.ca",
+      "dns_a": [
+        "104.247.81.51"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "ccbn-nbc.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -12288,18 +12271,12 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cccu.ca",
+      "domain": "ccct.ca",
       "dns_ns": [
-        "ns1.central1.com"
+        "ns1.parkingcrew.net"
       ],
       "dns_a": [
-        "108.156.120.101"
-      ],
-      "dns_aaaa": [
-        "2600:9000:234f:1200:6:a61b:fc80:93a1"
-      ],
-      "dns_mx": [
-        "mx-01-us-west-2.prod.hydra.sophos.com"
+        "104.247.81.53"
       ]
     },
     {
@@ -12329,6 +12306,38 @@
       ],
       "dns_mx": [
         "mx1.titan.email"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cccf.ca",
+      "dns_ns": [
+        "ns1.dns-parking.com"
+      ],
+      "dns_a": [
+        "148.135.128.109"
+      ],
+      "dns_aaaa": [
+        "2a02:4780:4e:9b00:be35:68a5:7a46:4ca"
+      ],
+      "dns_mx": [
+        "alt1.aspmx.l.google.com"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cccv.ca",
+      "dns_ns": [
+        "ns1.dns-parking.com"
+      ],
+      "dns_a": [
+        "148.135.128.242"
+      ],
+      "dns_aaaa": [
+        "2a02:4780:4f:3397:c1cf:a593:1761:c11d"
+      ],
+      "dns_mx": [
+        "mx1.hostinger.com"
       ]
     },
     {
@@ -12408,6 +12417,22 @@
     },
     {
       "fuzzer": "addition",
+      "domain": "cccu.ca",
+      "dns_ns": [
+        "ns1.central1.com"
+      ],
+      "dns_a": [
+        "18.155.192.14"
+      ],
+      "dns_aaaa": [
+        "2600:9000:24ba:1200:6:a61b:fc80:93a1"
+      ],
+      "dns_mx": [
+        "mx-01-us-west-2.prod.hydra.sophos.com"
+      ]
+    },
+    {
+      "fuzzer": "addition",
       "domain": "cccc.ca",
       "dns_ns": [
         "ns12.wixdns.net"
@@ -12458,14 +12483,8 @@
     {
       "fuzzer": "addition",
       "domain": "cccq.ca",
-      "dns_ns": [
-        "ns1.serveurkaleidos.com"
-      ],
       "dns_a": [
         "66.70.238.38"
-      ],
-      "dns_mx": [
-        "mail.serveurkaleidos.com"
       ]
     },
     {
@@ -12483,51 +12502,12 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cccv.ca",
-      "dns_ns": [
-        "ns1.dns-parking.com"
-      ],
-      "dns_a": [
-        "92.112.198.170"
-      ],
-      "dns_aaaa": [
-        "2a02:4780:50:31cc:27da:7aa0:f84:3c56"
-      ],
-      "dns_mx": [
-        "mx1.hostinger.com"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "cccf.ca",
-      "dns_ns": [
-        "ns1.dns-parking.com"
-      ],
-      "dns_a": [
-        "92.112.198.49"
-      ],
-      "dns_aaaa": [
-        "2a02:4780:50:4f9c:8b4a:5401:3985:aff0"
-      ],
-      "dns_mx": [
-        "alt1.aspmx.l.google.com"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cccj.ca",
       "dns_ns": [
         "ns1.parkingcrew.net"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "ccct.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
       ],
       "dns_mx": [
-        "mail.h-email.net"
+        "alltheemails.com"
       ]
     },
     {
@@ -12625,7 +12605,7 @@
         "a1-29.akam.net"
       ],
       "dns_a": [
-        "23.204.188.36"
+        "23.35.57.227"
       ],
       "dns_mx": [
         "eu-smtp-inbound-1.mimecast.com"
@@ -12807,10 +12787,10 @@
         "edns1.ultradns.biz"
       ],
       "dns_a": [
-        "18.154.144.10"
+        "18.239.199.104"
       ],
       "dns_aaaa": [
-        "2600:9000:24da:1000:17:27c8:dc00:93a1"
+        "2600:9000:25ef:2a00:17:27c8:dc00:93a1"
       ],
       "dns_mx": [
         "alt1.aspmx.l.google.com"
@@ -13467,7 +13447,7 @@
         "ns1.torresdns.com"
       ],
       "dns_a": [
-        "209.126.123.12"
+        "209.126.123.11"
       ]
     },
     {
@@ -13773,16 +13753,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "cer-rec.ga.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.81.51"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "cer-rec.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -14051,13 +14021,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "chrc-ccdp.ga.ca",
-      "dns_a": [
-        "104.247.81.51"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "chrc-ccdp.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -14322,6 +14285,16 @@
       ],
       "dns_aaaa": [
         "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "cmhc-schl.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
       ]
     },
     {
@@ -14604,6 +14577,16 @@
       ],
       "dns_aaaa": [
         "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "cnsc-ccsn.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
       ]
     },
     {
@@ -15151,13 +15134,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "csc-scc.ga.ca",
-      "dns_a": [
-        "104.247.81.51"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "csc-scc.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -15174,6 +15150,13 @@
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "csc-scc.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
       ]
     },
     {
@@ -15422,6 +15405,13 @@
       ],
       "dns_aaaa": [
         "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "cse-cst.ga.ca",
+      "dns_a": [
+        "104.247.81.51"
       ]
     },
     {
@@ -15690,13 +15680,6 @@
       ],
       "dns_aaaa": [
         "2606:4700:3035::6815:285b"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "csps-efpc.ga.ca",
-      "dns_a": [
-        "104.247.81.51"
       ]
     },
     {
@@ -16237,6 +16220,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "dfo-mpo.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "dfo-mpo.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -16567,6 +16560,9 @@
       ],
       "dns_a": [
         "!ServFail"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
       ]
     },
     {
@@ -16631,7 +16627,7 @@
         "ns-1533.awsdns-63.org"
       ],
       "dns_a": [
-        "16.15.193.174"
+        "16.15.216.89"
       ]
     },
     {
@@ -16695,15 +16691,15 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "cbc.ca",
+      "domain": "eelc.ca",
       "dns_ns": [
-        "a1-29.akam.net"
+        "parking1.whc.ca"
       ],
       "dns_a": [
-        "104.106.76.30"
+        "149.56.225.6"
       ],
       "dns_mx": [
-        "eu-smtp-inbound-1.mimecast.com"
+        "emailfwd.eelc.ca"
       ]
     },
     {
@@ -16793,6 +16789,19 @@
     },
     {
       "fuzzer": "homoglyph",
+      "domain": "cbc.ca",
+      "dns_ns": [
+        "a1-29.akam.net"
+      ],
+      "dns_a": [
+        "23.60.113.160"
+      ],
+      "dns_mx": [
+        "eu-smtp-inbound-1.mimecast.com"
+      ]
+    },
+    {
+      "fuzzer": "homoglyph",
       "domain": "cde.ca",
       "dns_ns": [
         "ns1.dyna-ns.net"
@@ -16812,16 +16821,6 @@
       ],
       "dns_mx": [
         "cdlc-ca.mail.protection.outlook.com"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "eelc.ca",
-      "dns_ns": [
-        "parking1.whc.ca"
-      ],
-      "dns_mx": [
-        "emailfwd.eelc.ca"
       ]
     },
     {
@@ -16995,6 +16994,16 @@
     },
     {
       "fuzzer": "replacement",
+      "domain": "edd.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.52"
+      ]
+    },
+    {
+      "fuzzer": "replacement",
       "domain": "exc.ca",
       "dns_ns": [
         "ns1.bonfire.ca"
@@ -17067,13 +17076,6 @@
       ],
       "dns_a": [
         "52.20.84.62"
-      ]
-    },
-    {
-      "fuzzer": "replacement",
-      "domain": "edd.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
       ]
     },
     {
@@ -17346,6 +17348,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "feddevontario.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "feddevontario.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -17614,6 +17626,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "fintrac-canafe.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "fintrac-canafe.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -17878,6 +17900,16 @@
       ],
       "dns_aaaa": [
         "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "fja-cmf.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
       ]
     },
     {
@@ -18603,6 +18635,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "go.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.82.50"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "fg.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -18704,13 +18746,6 @@
       "domain": "ge.ca",
       "dns_ns": [
         "crpeomusanyca01.ge-dns.com"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "go.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
       ]
     },
     {
@@ -19266,16 +19301,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "grainscanada.ga.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.81.51"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "grainscanada.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -19292,6 +19317,13 @@
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "grainscanada.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
       ]
     },
     {
@@ -19583,6 +19615,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "ic.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "ic.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -19732,6 +19774,9 @@
       "domain": "icgc.ca",
       "dns_ns": [
         "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.50"
       ]
     }
   ],
@@ -19921,16 +19966,6 @@
     },
     {
       "fuzzer": "replacement",
-      "domain": "iddc.ca",
-      "dns_ns": [
-        "dns.rebel.com"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "replacement",
       "domain": "isrc.ca",
       "dns_ns": [
         "eric.ns.cloudflare.com"
@@ -20020,10 +20055,17 @@
         "92.112.185.146"
       ],
       "dns_aaaa": [
-        "2a02:4780:4f:c9c1:6fd3:bdcc:9dca:c7d"
+        "2a02:4780:50:35cf:4091:849a:c86:16d4"
       ],
       "dns_mx": [
         "mx1.hostinger.com"
+      ]
+    },
+    {
+      "fuzzer": "replacement",
+      "domain": "iddc.ca",
+      "dns_ns": [
+        "dns.rebel.com"
       ]
     },
     {
@@ -20467,13 +20509,6 @@
       ]
     },
     {
-      "fuzzer": "bitsquatting",
-      "domain": "inspection.ga.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ]
-    },
-    {
       "fuzzer": "homoglyph",
       "domain": "inspection.qe.ca",
       "dns_ns": [
@@ -20733,6 +20768,13 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "international.ga.ca",
+      "dns_a": [
+        "104.247.81.51"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "international.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -20873,6 +20915,9 @@
       "domain": "internationalgc.ca",
       "dns_ns": [
         "ns1.parkingcrew.net"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
       ]
     }
   ],
@@ -21011,6 +21056,16 @@
       ],
       "dns_aaaa": [
         "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "justice.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
       ]
     },
     {
@@ -22050,7 +22105,7 @@
         "a1-62.akam.net"
       ],
       "dns_a": [
-        "104.68.248.46"
+        "184.84.195.18"
       ],
       "dns_mx": [
         "nbf-ca.mail.protection.outlook.com"
@@ -22196,6 +22251,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "nrcan.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "nrcan.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -22212,13 +22277,6 @@
       ],
       "dns_a": [
         "13.248.169.48"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "nrcan.ga.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
       ]
     },
     {
@@ -22506,6 +22564,13 @@
       ]
     },
     {
+      "fuzzer": "bitsquatting",
+      "domain": "nserc-crsng.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ]
+    },
+    {
       "fuzzer": "homoglyph",
       "domain": "nserc-crsng.qe.ca",
       "dns_ns": [
@@ -22776,6 +22841,16 @@
       ],
       "dns_aaaa": [
         "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "oci-bec.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
       ]
     },
     {
@@ -23338,6 +23413,13 @@
       ]
     },
     {
+      "fuzzer": "bitsquatting",
+      "domain": "pc.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ]
+    },
+    {
       "fuzzer": "homoglyph",
       "domain": "pc.qe.ca",
       "dns_ns": [
@@ -23619,6 +23701,13 @@
       ]
     },
     {
+      "fuzzer": "bitsquatting",
+      "domain": "ppsc-sppc.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ]
+    },
+    {
       "fuzzer": "homoglyph",
       "domain": "ppsc-sppc.qe.ca",
       "dns_ns": [
@@ -23861,6 +23950,16 @@
       ],
       "dns_aaaa": [
         "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "publicsafety.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.51"
       ]
     },
     {
@@ -24133,16 +24232,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "rcaanc-cirnac.ga.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.81.51"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "rcaanc-cirnac.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -24411,13 +24500,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "rcmp-grc.ga.ca",
-      "dns_a": [
-        "104.247.81.51"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "rcmp-grc.fc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -24434,6 +24516,13 @@
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "rcmp-grc.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
       ]
     },
     {
@@ -25180,16 +25269,6 @@
       ],
       "dns_aaaa": [
         "2606:4700:3035::6815:285b"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "sshrc-crsh.ga.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.81.51"
       ]
     },
     {
@@ -26338,6 +26417,13 @@
       ]
     },
     {
+      "fuzzer": "bitsquatting",
+      "domain": "vrab-tacra.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ]
+    },
+    {
       "fuzzer": "homoglyph",
       "domain": "vrab-tacra.qe.ca",
       "dns_ns": [
@@ -26878,6 +26964,13 @@
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "wd-deo.ga.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
       ]
     },
     {
