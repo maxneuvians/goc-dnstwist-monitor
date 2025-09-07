@@ -31,16 +31,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "canadax.ca",
-      "dns_ns": [
-        "dns1.registrar-servers.com"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "canadam.ca",
       "dns_ns": [
         "parking1.whc.ca"
@@ -227,6 +217,9 @@
       "domain": "canada7.ca",
       "dns_ns": [
         "ams-ns1.websitehostserver.net"
+      ],
+      "dns_mx": [
+        "!ServFail"
       ]
     },
     {
@@ -237,6 +230,13 @@
       ],
       "dns_mx": [
         "alt1.aspmx.l.google.com"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "canadax.ca",
+      "dns_ns": [
+        "dns1.registrar-servers.com"
       ]
     },
     {
@@ -843,7 +843,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -912,25 +912,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cfc-swc.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cfc-swc.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cfc-swc.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -976,16 +976,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "cfc-swc.oc.ca",
-      "dns_a": [
-        "104.21.40.91"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "cfc-swc.ga.ca",
       "dns_ns": [
         "ns1.parkingcrew.net"
@@ -1001,7 +991,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1014,10 +1004,20 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "cfc-swc.oc.ca",
+      "dns_a": [
+        "172.64.80.1"
+      ],
+      "dns_aaaa": [
+        "2606:4700:130:436c:6f75:6466:6c61:7265"
       ]
     },
     {
@@ -1031,19 +1031,6 @@
       ],
       "dns_aaaa": [
         "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "cfc-swc.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
       ]
     },
     {
@@ -1064,13 +1051,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "cfc-swc.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "cfc-swc.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1090,7 +1090,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1103,7 +1103,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1149,25 +1149,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cihr-irsc.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cihr-irsc.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cihr-irsc.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -1238,7 +1238,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1251,7 +1251,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1272,19 +1272,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "cihr-irsc.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "cihr-irsc.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -1301,13 +1288,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "cihr-irsc.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "cihr-irsc.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1327,7 +1327,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1340,7 +1340,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1386,25 +1386,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cra-arc.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cra-arc.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cra-arc.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -1475,7 +1475,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1488,7 +1488,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1509,19 +1509,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "cra-arc.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "cra-arc.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -1538,13 +1525,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "cra-arc.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "cra-arc.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1564,7 +1564,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1577,7 +1577,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1646,25 +1646,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "crtc.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "crtc.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "crtc.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -1715,7 +1715,7 @@
         "104.21.40.91"
       ],
       "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
+        "2606:4700:130:436c:6f75:6466:6c61:7265"
       ]
     },
     {
@@ -1735,7 +1735,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1748,7 +1748,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1769,19 +1769,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "crtc.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "crtc.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -1798,13 +1785,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "crtc.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "crtc.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1824,7 +1824,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1837,7 +1837,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1883,25 +1883,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cyber.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cyber.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cyber.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -1972,7 +1972,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -1985,7 +1985,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -2006,19 +2006,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "cyber.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "cyber.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -2035,13 +2022,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "cyber.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "cyber.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -2061,7 +2061,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -2074,7 +2074,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -2274,7 +2274,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -2314,25 +2314,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "irb-cisr.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "irb-cisr.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "irb-cisr.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -2388,22 +2388,12 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "irb-cisr.ga.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.81.51"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "irb-cisr.fc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -2416,7 +2406,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -2437,19 +2427,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "irb-cisr.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "irb-cisr.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -2466,13 +2443,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "irb-cisr.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "irb-cisr.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -2492,7 +2482,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -2505,7 +2495,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -2642,16 +2632,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "library-archives.canade.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.82.52"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "library-archives.kanada.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -2726,16 +2706,6 @@
     },
     {
       "fuzzer": "repetition",
-      "domain": "library-archives.canadda.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.81.52"
-      ]
-    },
-    {
-      "fuzzer": "repetition",
       "domain": "library-archives.canaada.ca",
       "dns_a": [
         "199.59.243.228"
@@ -2744,9 +2714,6 @@
     {
       "fuzzer": "replacement",
       "domain": "library-archives.cansda.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
       "dns_a": [
         "104.247.81.51"
       ]
@@ -2754,9 +2721,6 @@
     {
       "fuzzer": "replacement",
       "domain": "library-archives.cabada.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
       "dns_a": [
         "104.247.81.53"
       ]
@@ -2818,7 +2782,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -2836,16 +2800,6 @@
       "dns_aaaa": [
         "2600:1f18:4ae:c607:5974:bfa8:d54b:7fe5"
       ]
-    },
-    {
-      "fuzzer": "vowel-swap",
-      "domain": "library-archives.conada.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.82.51"
-      ]
     }
   ],
   "mpcc-cppm.gc.ca": [
@@ -2861,25 +2815,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "mpcc-cppm.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "mpcc-cppm.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "mpcc-cppm.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -2936,9 +2890,6 @@
     {
       "fuzzer": "bitsquatting",
       "domain": "mpcc-cppm.ga.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
       "dns_a": [
         "104.247.81.51"
       ]
@@ -2950,7 +2901,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -2963,7 +2914,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -2984,19 +2935,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "mpcc-cppm.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "mpcc-cppm.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -3013,13 +2951,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "mpcc-cppm.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "mpcc-cppm.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -3039,7 +2990,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -3052,7 +3003,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -3177,19 +3128,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "natures.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.81.53"
-      ],
-      "dns_mx": [
-        "mail.h-email.net"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "naturev.ca",
       "dns_ns": [
         "ns17.domaincontrol.com"
@@ -3261,6 +3199,13 @@
       ],
       "dns_mx": [
         "mail.naturex.ca"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "natures.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
       ]
     },
     {
@@ -3354,19 +3299,6 @@
     },
     {
       "fuzzer": "vowel-swap",
-      "domain": "naturi.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "vowel-swap",
       "domain": "natare.ca",
       "dns_ns": [
         "ns29.domaincontrol.com"
@@ -3376,6 +3308,19 @@
       ],
       "dns_mx": [
         "d344233a.ess.barracudanetworks.com"
+      ]
+    },
+    {
+      "fuzzer": "vowel-swap",
+      "domain": "naturi.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     }
   ],
@@ -3392,25 +3337,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "ncc-ccn.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "ncc-ccn.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "ncc-ccn.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -3481,7 +3426,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -3494,7 +3439,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -3515,19 +3460,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "ncc-ccn.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "ncc-ccn.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -3544,13 +3476,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "ncc-ccn.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "ncc-ccn.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -3570,7 +3515,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -3583,7 +3528,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -3649,16 +3594,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "northern-pipeline.canadaa.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.81.51"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "northern-pipeline.canada1.ca",
       "dns_a": [
         "199.59.243.228"
@@ -3706,26 +3641,6 @@
       "domain": "northern-pipeline.canaday.ca",
       "dns_a": [
         "69.16.231.58"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "northern-pipeline.canafa.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.81.50"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "northern-pipeline.canade.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.82.52"
       ]
     },
     {
@@ -3821,20 +3736,7 @@
     },
     {
       "fuzzer": "replacement",
-      "domain": "northern-pipeline.cansda.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_a": [
-        "104.247.81.51"
-      ]
-    },
-    {
-      "fuzzer": "replacement",
       "domain": "northern-pipeline.cabada.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
       "dns_a": [
         "104.247.81.53"
       ]
@@ -3896,7 +3798,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -4204,25 +4106,25 @@
     },
     {
       "fuzzer": "various",
-      "domain": "nrc.canadaca.ca",
-      "dns_ns": [
-        "ns1.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "various",
       "domain": "nrccanada.ca",
       "dns_ns": [
         "ns29.domaincontrol.com"
       ],
       "dns_a": [
         "15.197.142.173"
+      ]
+    },
+    {
+      "fuzzer": "various",
+      "domain": "nrc.canadaca.ca",
+      "dns_ns": [
+        "ns1.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -4265,25 +4167,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "nrc-cnrc.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "nrc-cnrc.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "nrc-cnrc.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -4354,7 +4256,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -4367,7 +4269,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -4388,19 +4290,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "nrc-cnrc.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "nrc-cnrc.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -4417,13 +4306,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "nrc-cnrc.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "nrc-cnrc.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -4443,7 +4345,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -4456,7 +4358,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -4502,25 +4404,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "nsira-ossnr.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "nsira-ossnr.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "nsira-ossnr.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -4591,7 +4493,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -4604,7 +4506,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -4625,19 +4527,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "nsira-ossnr.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "nsira-ossnr.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -4654,13 +4543,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "nsira-ossnr.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "nsira-ossnr.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -4680,7 +4582,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -4693,7 +4595,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -4739,25 +4641,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "otc-cta.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "otc-cta.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "otc-cta.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -4803,16 +4705,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "otc-cta.oc.ca",
-      "dns_a": [
-        "104.21.40.91"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "otc-cta.ga.ca",
       "dns_ns": [
         "ns1.parkingcrew.net"
@@ -4828,7 +4720,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -4841,10 +4733,20 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "otc-cta.oc.ca",
+      "dns_a": [
+        "172.64.80.1"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -4858,19 +4760,6 @@
       ],
       "dns_aaaa": [
         "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "otc-cta.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
       ]
     },
     {
@@ -4891,13 +4780,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "otc-cta.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "otc-cta.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -4917,7 +4819,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -4930,7 +4832,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -4976,25 +4878,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "pco.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "pco.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "pco.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -5065,7 +4967,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5078,7 +4980,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5099,19 +5001,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "pco.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "pco.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -5128,13 +5017,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "pco.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "pco.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5154,7 +5056,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5167,7 +5069,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5213,25 +5115,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "pm.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "pm.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "pm.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -5302,7 +5204,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5315,7 +5217,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5336,19 +5238,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "pm.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "pm.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -5365,13 +5254,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "pm.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "pm.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5391,7 +5293,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5404,7 +5306,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5457,25 +5359,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "pmprb-cepmb.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "pmprb-cepmb.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "pmprb-cepmb.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -5546,7 +5448,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5559,7 +5461,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5580,19 +5482,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "pmprb-cepmb.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "pmprb-cepmb.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -5609,13 +5498,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "pmprb-cepmb.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "pmprb-cepmb.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5635,7 +5537,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5648,7 +5550,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5691,25 +5593,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "publications.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "publications.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "publications.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -5780,7 +5682,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5793,7 +5695,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5814,19 +5716,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "publications.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "publications.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -5843,13 +5732,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "publications.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "publications.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5869,7 +5771,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5882,7 +5784,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -5928,25 +5830,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "science.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "science.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "science.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -6017,7 +5919,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6030,7 +5932,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6051,19 +5953,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "science.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "science.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -6080,13 +5969,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "science.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "science.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6106,7 +6008,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6119,7 +6021,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6165,25 +6067,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "tbs-sct.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "tbs-sct.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "tbs-sct.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -6254,7 +6156,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6267,7 +6169,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6288,19 +6190,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "tbs-sct.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "tbs-sct.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -6317,13 +6206,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "tbs-sct.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "tbs-sct.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6343,7 +6245,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6356,7 +6258,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6399,25 +6301,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "travel.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "travel.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "travel.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -6468,7 +6370,7 @@
         "104.21.40.91"
       ],
       "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
+        "2606:4700:130:436c:6f75:6466:6c61:7265"
       ]
     },
     {
@@ -6488,7 +6390,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6501,7 +6403,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6522,19 +6424,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "travel.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "travel.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -6551,13 +6440,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "travel.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "travel.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6577,7 +6479,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6590,7 +6492,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6626,7 +6528,7 @@
         "ns1.hastydns.com"
       ],
       "dns_a": [
-        "69.162.80.58"
+        "69.162.80.52"
       ]
     }
   ],
@@ -6643,25 +6545,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "weather.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "weather.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "weather.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -6732,7 +6634,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6745,7 +6647,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6766,19 +6668,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "weather.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "weather.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -6795,13 +6684,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "weather.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "weather.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6821,7 +6723,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6834,7 +6736,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6896,25 +6798,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "acoa-apeca.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "acoa-apeca.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "acoa-apeca.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -6985,7 +6887,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -6998,7 +6900,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -7019,19 +6921,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "acoa-apeca.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "acoa-apeca.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -7048,13 +6937,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "acoa-apeca.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "acoa-apeca.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -7074,7 +6976,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -7087,7 +6989,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -7545,25 +7447,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "agr.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "agr.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "agr.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -7634,7 +7536,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -7647,7 +7549,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -7668,19 +7570,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "agr.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "agr.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -7697,13 +7586,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "agr.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "agr.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -7723,7 +7625,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -7736,7 +7638,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -7782,25 +7684,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "asc-csa.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "asc-csa.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "asc-csa.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -7871,7 +7773,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -7884,7 +7786,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -7905,19 +7807,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "asc-csa.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "asc-csa.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -7934,13 +7823,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "asc-csa.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "asc-csa.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -7960,7 +7862,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -7973,7 +7875,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -8956,10 +8858,10 @@
         "a1-226.akam.net"
       ],
       "dns_a": [
-        "23.4.56.189"
+        "23.213.90.35"
       ],
       "dns_aaaa": [
-        "2600:1418:a000:380::1dc5"
+        "2600:1408:ec00:1081::1dc5"
       ],
       "dns_mx": [
         "mh1.cpg-gpc.ca"
@@ -9018,25 +8920,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cannor.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cannor.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cannor.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -9082,16 +8984,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "cannor.oc.ca",
-      "dns_a": [
-        "104.21.40.91"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "cannor.ga.ca",
       "dns_ns": [
         "ns1.parkingcrew.net"
@@ -9107,7 +8999,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -9120,10 +9012,20 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "cannor.oc.ca",
+      "dns_a": [
+        "172.64.80.1"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -9137,19 +9039,6 @@
       ],
       "dns_aaaa": [
         "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "cannor.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
       ]
     },
     {
@@ -9170,13 +9059,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "cannor.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "cannor.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -9196,7 +9098,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -9209,7 +9111,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -9252,25 +9154,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cas-satj.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cas-satj.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cas-satj.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -9316,16 +9218,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "cas-satj.oc.ca",
-      "dns_a": [
-        "104.21.40.91"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "cas-satj.ga.ca",
       "dns_ns": [
         "ns1.parkingcrew.net"
@@ -9341,7 +9233,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -9354,10 +9246,20 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "cas-satj.oc.ca",
+      "dns_a": [
+        "172.64.80.1"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -9371,19 +9273,6 @@
       ],
       "dns_aaaa": [
         "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "cas-satj.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
       ]
     },
     {
@@ -9404,13 +9293,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "cas-satj.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "cas-satj.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -9430,7 +9332,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -9443,7 +9345,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -9489,25 +9391,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "catsa-acsta.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "catsa-acsta.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "catsa-acsta.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -9578,7 +9480,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -9591,7 +9493,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -9612,19 +9514,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "catsa-acsta.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "catsa-acsta.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -9641,13 +9530,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "catsa-acsta.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "catsa-acsta.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -9667,7 +9569,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -9680,7 +9582,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -9726,25 +9628,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cb-cda.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cb-cda.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cb-cda.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -9815,7 +9717,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -9828,7 +9730,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -9849,19 +9751,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "cb-cda.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "cb-cda.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -9878,13 +9767,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "cb-cda.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "cb-cda.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -9904,7 +9806,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -9917,7 +9819,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -9972,32 +9874,6 @@
       ],
       "dns_aaaa": [
         "2606:4700:3031::ac43:ae8a"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "cbcb.ca",
-      "dns_ns": [
-        "ns1.dan.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "cbcu.ca",
-      "dns_ns": [
-        "ns1.central1.com"
-      ],
-      "dns_a": [
-        "13.32.230.108"
-      ],
-      "dns_aaaa": [
-        "2600:9000:200c:1200:b:8f7b:67c0:93a1"
-      ],
-      "dns_mx": [
-        "d402294.a.ess.ca.barracudanetworks.com"
       ]
     },
     {
@@ -10064,12 +9940,25 @@
     },
     {
       "fuzzer": "addition",
+      "domain": "cbcb.ca",
+      "dns_ns": [
+        "ns1.dan.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ]
+    },
+    {
+      "fuzzer": "addition",
       "domain": "cbcs.ca",
       "dns_ns": [
         "ns1.cpns.co.za"
       ],
       "dns_a": [
         "169.239.217.51"
+      ],
+      "dns_mx": [
+        "mx1.cpmx.co.za"
       ]
     },
     {
@@ -10139,6 +10028,22 @@
       ],
       "dns_a": [
         "199.59.243.228"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cbcu.ca",
+      "dns_ns": [
+        "ns1.central1.com"
+      ],
+      "dns_a": [
+        "3.171.85.12"
+      ],
+      "dns_aaaa": [
+        "2600:9000:28a9:1600:b:8f7b:67c0:93a1"
+      ],
+      "dns_mx": [
+        "d402294.a.ess.ca.barracudanetworks.com"
       ]
     },
     {
@@ -10413,7 +10318,7 @@
         "a1-188.akam.net"
       ],
       "dns_a": [
-        "23.198.7.174"
+        "23.73.207.17"
       ],
       "dns_mx": [
         "mxa-00146707.gslb.pphosted.com"
@@ -10811,25 +10716,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cbsa-asfc.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cbsa-asfc.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cbsa-asfc.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -10875,16 +10780,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "cbsa-asfc.oc.ca",
-      "dns_a": [
-        "104.21.40.91"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "cbsa-asfc.ga.ca",
       "dns_ns": [
         "ns1.parkingcrew.net"
@@ -10900,7 +10795,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -10913,10 +10808,20 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "cbsa-asfc.oc.ca",
+      "dns_a": [
+        "172.64.80.1"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -10930,19 +10835,6 @@
       ],
       "dns_aaaa": [
         "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "cbsa-asfc.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
       ]
     },
     {
@@ -10963,13 +10855,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "cbsa-asfc.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "cbsa-asfc.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -10989,7 +10894,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -11002,7 +10907,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -11061,25 +10966,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "ccbn-nbc.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "ccbn-nbc.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "ccbn-nbc.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -11150,7 +11055,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -11163,7 +11068,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -11184,19 +11089,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "ccbn-nbc.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "ccbn-nbc.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -11213,13 +11105,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "ccbn-nbc.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "ccbn-nbc.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -11239,7 +11144,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -11252,7 +11157,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -11330,22 +11235,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cccu.ca",
-      "dns_ns": [
-        "ns1.central1.com"
-      ],
-      "dns_a": [
-        "13.32.230.118"
-      ],
-      "dns_aaaa": [
-        "2600:9000:200c:8200:6:a61b:fc80:93a1"
-      ],
-      "dns_mx": [
-        "mx-01-us-west-2.prod.hydra.sophos.com"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cccg.ca",
       "dns_ns": [
         "ns1.netfirms.com"
@@ -11371,38 +11260,6 @@
       ],
       "dns_mx": [
         "mx1.titan.email"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "cccf.ca",
-      "dns_ns": [
-        "ns1.dns-parking.com"
-      ],
-      "dns_a": [
-        "147.79.120.104"
-      ],
-      "dns_aaaa": [
-        "2a02:4780:4e:f8c8:5439:924a:f8ec:7172"
-      ],
-      "dns_mx": [
-        "alt1.aspmx.l.google.com"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "cccv.ca",
-      "dns_ns": [
-        "ns1.dns-parking.com"
-      ],
-      "dns_a": [
-        "148.135.128.210"
-      ],
-      "dns_aaaa": [
-        "2a02:4780:4f:aef:a684:5d56:6d8f:d2e2"
-      ],
-      "dns_mx": [
-        "mx1.hostinger.com"
       ]
     },
     {
@@ -11508,12 +11365,60 @@
     },
     {
       "fuzzer": "addition",
+      "domain": "cccv.ca",
+      "dns_ns": [
+        "ns1.dns-parking.com"
+      ],
+      "dns_a": [
+        "191.101.104.247"
+      ],
+      "dns_aaaa": [
+        "2a02:4780:21:685d:4dbb:64e:2f0a:2a41"
+      ],
+      "dns_mx": [
+        "mx1.hostinger.com"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cccf.ca",
+      "dns_ns": [
+        "ns1.dns-parking.com"
+      ],
+      "dns_a": [
+        "191.101.104.36"
+      ],
+      "dns_aaaa": [
+        "2a02:4780:21:bdb9:bef:94fb:9b7:e322"
+      ],
+      "dns_mx": [
+        "alt1.aspmx.l.google.com"
+      ]
+    },
+    {
+      "fuzzer": "addition",
       "domain": "cccs.ca",
       "dns_ns": [
         "ns1.bodis.com"
       ],
       "dns_a": [
         "199.59.243.228"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cccu.ca",
+      "dns_ns": [
+        "ns1.central1.com"
+      ],
+      "dns_a": [
+        "52.85.12.102"
+      ],
+      "dns_aaaa": [
+        "2600:9000:24f5:1c00:6:a61b:fc80:93a1"
+      ],
+      "dns_mx": [
+        "mx-01-us-west-2.prod.hydra.sophos.com"
       ]
     },
     {
@@ -11834,22 +11739,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "cdcc.ca",
-      "dns_ns": [
-        "edns1.ultradns.biz"
-      ],
-      "dns_a": [
-        "18.154.144.10"
-      ],
-      "dns_aaaa": [
-        "2600:9000:24da:1800:17:27c8:dc00:93a1"
-      ],
-      "dns_mx": [
-        "alt1.aspmx.l.google.com"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "dccc.ca",
       "dns_ns": [
         "ns4.wixdns.net"
@@ -11895,6 +11784,22 @@
       ],
       "dns_mx": [
         "vccc-ca.mail.protection.outlook.com"
+      ]
+    },
+    {
+      "fuzzer": "insertion",
+      "domain": "cdcc.ca",
+      "dns_ns": [
+        "edns1.ultradns.biz"
+      ],
+      "dns_a": [
+        "3.171.85.105"
+      ],
+      "dns_aaaa": [
+        "2600:9000:28a9:4200:17:27c8:dc00:93a1"
+      ],
+      "dns_mx": [
+        "alt1.aspmx.l.google.com"
       ]
     },
     {
@@ -11955,19 +11860,6 @@
     },
     {
       "fuzzer": "replacement",
-      "domain": "ccf.ca",
-      "dns_ns": [
-        "ns1.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "replacement",
       "domain": "cxc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -11987,6 +11879,19 @@
       ],
       "dns_mx": [
         "fcc-ca.mail.protection.outlook.com"
+      ]
+    },
+    {
+      "fuzzer": "replacement",
+      "domain": "ccf.ca",
+      "dns_ns": [
+        "ns1.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -12019,7 +11924,7 @@
         "ns-1134.awsdns-13.org"
       ],
       "dns_a": [
-        "3.96.96.220"
+        "3.97.92.42"
       ],
       "dns_mx": [
         "vcc-ca.mail.protection.outlook.com"
@@ -12083,7 +11988,7 @@
         "ns-1175.awsdns-18.org"
       ],
       "dns_a": [
-        "15.156.50.216"
+        "35.182.219.178"
       ],
       "dns_mx": [
         "ccohs-ca.mail.protection.outlook.com"
@@ -12507,16 +12412,6 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "cbic.ca",
-      "dns_ns": [
-        "ns1.torresdns.com"
-      ],
-      "dns_a": [
-        "209.126.123.11"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "edie.ca",
       "dns_ns": [
         "ns1.hostpapa.com"
@@ -12529,6 +12424,16 @@
       ],
       "dns_mx": [
         "mail.edie.ca"
+      ]
+    },
+    {
+      "fuzzer": "homoglyph",
+      "domain": "cbic.ca",
+      "dns_ns": [
+        "ns1.torresdns.com"
+      ],
+      "dns_a": [
+        "78.41.204.37"
       ]
     },
     {
@@ -12655,7 +12560,7 @@
         "ns1.dan.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ]
     },
     {
@@ -12695,25 +12600,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cer-rec.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cer-rec.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cer-rec.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -12784,7 +12689,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -12797,7 +12702,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -12818,19 +12723,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "cer-rec.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "cer-rec.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -12847,13 +12739,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "cer-rec.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "cer-rec.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -12873,7 +12778,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -12886,7 +12791,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -12932,25 +12837,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "chrc-ccdp.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "chrc-ccdp.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "chrc-ccdp.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -13021,7 +12926,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13034,7 +12939,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13055,19 +12960,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "chrc-ccdp.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "chrc-ccdp.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -13084,13 +12976,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "chrc-ccdp.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "chrc-ccdp.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13110,7 +13015,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13123,7 +13028,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13169,25 +13074,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cmhc-schl.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cmhc-schl.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cmhc-schl.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -13238,7 +13143,7 @@
         "104.21.40.91"
       ],
       "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
+        "2606:4700:130:436c:6f75:6466:6c61:7265"
       ]
     },
     {
@@ -13258,7 +13163,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13271,7 +13176,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13292,19 +13197,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "cmhc-schl.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "cmhc-schl.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -13321,13 +13213,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "cmhc-schl.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "cmhc-schl.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13347,7 +13252,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13360,7 +13265,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13420,25 +13325,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cnsc-ccsn.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cnsc-ccsn.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cnsc-ccsn.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -13509,7 +13414,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13522,7 +13427,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13543,19 +13448,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "cnsc-ccsn.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "cnsc-ccsn.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -13572,13 +13464,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "cnsc-ccsn.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "cnsc-ccsn.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13598,7 +13503,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13611,7 +13516,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13657,25 +13562,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "crcc-ccetp.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "crcc-ccetp.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "crcc-ccetp.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -13746,7 +13651,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13759,7 +13664,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13780,19 +13685,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "crcc-ccetp.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "crcc-ccetp.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -13809,13 +13701,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "crcc-ccetp.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "crcc-ccetp.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13835,7 +13740,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13848,7 +13753,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13894,25 +13799,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "csc-scc.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "csc-scc.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "csc-scc.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -13983,7 +13888,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -13996,7 +13901,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14017,19 +13922,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "csc-scc.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "csc-scc.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -14046,13 +13938,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "csc-scc.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "csc-scc.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14072,7 +13977,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14085,7 +13990,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14131,25 +14036,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cse-cst.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cse-cst.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cse-cst.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -14220,7 +14125,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14233,7 +14138,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14254,19 +14159,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "cse-cst.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "cse-cst.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -14283,13 +14175,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "cse-cst.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "cse-cst.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14309,7 +14214,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14322,7 +14227,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14368,25 +14273,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "csps-efpc.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "csps-efpc.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "csps-efpc.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -14457,7 +14362,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14470,7 +14375,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14491,19 +14396,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "csps-efpc.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "csps-efpc.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -14520,13 +14412,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "csps-efpc.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "csps-efpc.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14546,7 +14451,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14559,7 +14464,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14597,23 +14502,10 @@
         "ns1.d-zone.ca"
       ],
       "dns_a": [
-        "10.200.30.0"
+        "198.103.140.225"
       ],
       "dns_mx": [
         "decced-gc-ca0i.mail.protection.outlook.com"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "dec-ced.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
       ]
     },
     {
@@ -14624,6 +14516,19 @@
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "dec-ced.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -14694,7 +14599,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14707,7 +14612,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14728,19 +14633,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "dec-ced.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "dec-ced.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -14757,13 +14649,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "dec-ced.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "dec-ced.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14783,7 +14688,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14796,7 +14701,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14842,25 +14747,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "dfo-mpo.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "dfo-mpo.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "dfo-mpo.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -14911,7 +14816,7 @@
         "104.21.40.91"
       ],
       "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
+        "2606:4700:130:436c:6f75:6466:6c61:7265"
       ]
     },
     {
@@ -14931,7 +14836,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14944,7 +14849,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -14965,19 +14870,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "dfo-mpo.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "dfo-mpo.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -14994,13 +14886,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "dfo-mpo.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "dfo-mpo.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -15020,7 +14925,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -15033,7 +14938,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -15303,19 +15208,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "udc.ca",
-      "dns_ns": [
-        "ns1.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "edk.ca",
       "dns_ns": [
         "ns1.rochendns.com"
@@ -15334,7 +15226,7 @@
         "ns-1533.awsdns-63.org"
       ],
       "dns_a": [
-        "16.15.186.107"
+        "16.15.176.234"
       ]
     },
     {
@@ -15348,6 +15240,19 @@
       ],
       "dns_mx": [
         "alt1.aspmx.l.google.com"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "udc.ca",
+      "dns_ns": [
+        "ns1.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -15859,7 +15764,7 @@
         "vern.ns.cloudflare.com"
       ],
       "dns_a": [
-        "104.21.36.147"
+        "172.64.80.1"
       ],
       "dns_aaaa": [
         "2606:4700:3030::6815:2493"
@@ -15963,25 +15868,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "feddevontario.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "feddevontario.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "feddevontario.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -16052,7 +15957,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -16065,7 +15970,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -16086,19 +15991,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "feddevontario.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "feddevontario.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -16115,13 +16007,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "feddevontario.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "feddevontario.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -16141,7 +16046,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -16154,7 +16059,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -16200,25 +16105,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "fintrac-canafe.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "fintrac-canafe.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "fintrac-canafe.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -16289,7 +16194,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -16302,7 +16207,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -16323,19 +16228,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "fintrac-canafe.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "fintrac-canafe.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -16352,13 +16244,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "fintrac-canafe.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "fintrac-canafe.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -16378,7 +16283,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -16391,7 +16296,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -16437,25 +16342,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "fja-cmf.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "fja-cmf.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "fja-cmf.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -16526,7 +16431,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -16539,7 +16444,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -16560,19 +16465,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "fja-cmf.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "fja-cmf.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -16589,13 +16481,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "fja-cmf.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "fja-cmf.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -16615,7 +16520,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -16628,7 +16533,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -16903,7 +16808,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -16984,61 +16889,12 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "ggc.ca",
-      "dns_ns": [
-        "ns1.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "ggk.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "ggq.ca",
       "dns_ns": [
         "ns1.uniregistrymarket.link"
       ],
       "dns_a": [
         "13.248.169.48"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "ggu.ca",
-      "dns_ns": [
-        "ns1.dan.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "ggz.ca",
-      "dns_ns": [
-        "ns1.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
       ]
     },
     {
@@ -17078,6 +16934,55 @@
       ],
       "dns_mx": [
         "ggi-ca.mail.protection.outlook.com"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "ggc.ca",
+      "dns_ns": [
+        "ns1.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "ggk.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "ggu.ca",
+      "dns_ns": [
+        "ns1.dan.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "ggz.ca",
+      "dns_ns": [
+        "ns1.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -17256,7 +17161,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -17359,19 +17264,6 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "qg.ca",
-      "dns_ns": [
-        "ns1.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "gq.ca",
       "dns_ns": [
         "slns1.namespro.ca"
@@ -17381,6 +17273,19 @@
       ],
       "dns_mx": [
         "mailroot4.namespro.ca"
+      ]
+    },
+    {
+      "fuzzer": "homoglyph",
+      "domain": "qg.ca",
+      "dns_ns": [
+        "ns1.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -17427,19 +17332,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "zgg.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "gyg.ca",
       "dns_ns": [
         "ns07.domaincontrol.com"
@@ -17475,6 +17367,19 @@
       ],
       "dns_mx": [
         "eforward1.registrar-servers.com"
+      ]
+    },
+    {
+      "fuzzer": "insertion",
+      "domain": "zgg.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -17597,19 +17502,6 @@
     },
     {
       "fuzzer": "replacement",
-      "domain": "bg.ca",
-      "dns_ns": [
-        "ns1.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "replacement",
       "domain": "gz.ca",
       "dns_ns": [
         "slns1.namespro.ca"
@@ -17645,6 +17537,19 @@
       ],
       "dns_mx": [
         "custmx.cscdns.net"
+      ]
+    },
+    {
+      "fuzzer": "replacement",
+      "domain": "bg.ca",
+      "dns_ns": [
+        "ns1.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -17772,25 +17677,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "grainscanada.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "grainscanada.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "grainscanada.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -17861,7 +17766,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -17874,7 +17779,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -17895,19 +17800,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "grainscanada.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "grainscanada.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -17924,13 +17816,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "grainscanada.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "grainscanada.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -17950,7 +17855,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -17963,7 +17868,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -18048,25 +17953,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "ic.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "ic.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "ic.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -18137,7 +18042,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -18150,7 +18055,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -18171,19 +18076,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "ic.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "ic.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -18200,13 +18092,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "ic.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "ic.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -18226,7 +18131,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -18239,7 +18144,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -18297,6 +18202,19 @@
       ],
       "dns_mx": [
         "idrc-ca.mail.protection.outlook.com"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "idvc.ca",
+      "dns_ns": [
+        "ns1.brickhost.com"
+      ],
+      "dns_a": [
+        "148.113.213.228"
+      ],
+      "dns_mx": [
+        "idvc.ca"
       ]
     },
     {
@@ -18408,16 +18326,6 @@
       ],
       "dns_mx": [
         "idrs-ca.mail.protection.outlook.com"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "idvc.ca",
-      "dns_ns": [
-        "ns1.brickhost.com"
-      ],
-      "dns_mx": [
-        "idvc.ca"
       ]
     },
     {
@@ -18595,25 +18503,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "infrastructure.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "infrastructure.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "infrastructure.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -18684,7 +18592,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -18697,7 +18605,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -18718,19 +18626,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "infrastructure.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "infrastructure.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -18747,13 +18642,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "infrastructure.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "infrastructure.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -18773,7 +18681,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -18786,7 +18694,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -18832,25 +18740,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "inspection.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "inspection.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "inspection.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -18921,7 +18829,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -18934,7 +18842,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -18955,19 +18863,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "inspection.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "inspection.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -18984,13 +18879,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "inspection.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "inspection.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -19010,7 +18918,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -19023,7 +18931,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -19079,25 +18987,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "international.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "international.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "international.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -19168,7 +19076,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -19181,7 +19089,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -19202,19 +19110,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "international.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "international.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -19231,13 +19126,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "international.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "international.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -19257,7 +19165,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -19270,7 +19178,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -19329,25 +19237,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "justice.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "justice.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "justice.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -19418,7 +19326,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -19431,7 +19339,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -19452,19 +19360,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "justice.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "justice.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -19481,13 +19376,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "justice.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "justice.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -19507,7 +19415,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -19520,7 +19428,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -19597,10 +19505,10 @@
         "dns1.p09.nsone.net"
       ],
       "dns_a": [
-        "13.52.188.95"
+        "18.208.88.157"
       ],
       "dns_aaaa": [
-        "2600:1f1c:446:4900::258"
+        "2600:1f18:16e:df01::258"
       ]
     },
     {
@@ -19908,32 +19816,6 @@
     },
     {
       "fuzzer": "replacement",
-      "domain": "ming.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "replacement",
-      "domain": "mont.ca",
-      "dns_ns": [
-        "ns1.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "replacement",
       "domain": "miny.ca",
       "dns_ns": [
         "ns55.domaincontrol.com"
@@ -19953,6 +19835,32 @@
       ],
       "dns_mx": [
         "mailroot3.namespro.ca"
+      ]
+    },
+    {
+      "fuzzer": "replacement",
+      "domain": "ming.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
+      "fuzzer": "replacement",
+      "domain": "mont.ca",
+      "dns_ns": [
+        "ns1.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -20103,29 +20011,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "ffb.ca",
-      "dns_ns": [
-        "ns1.dan.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "nbb.ca",
-      "dns_ns": [
-        "ns1.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "nff.ca",
       "dns_ns": [
         "ns37.domaincontrol.com"
@@ -20142,6 +20027,29 @@
       ],
       "dns_a": [
         "158.51.123.93"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "ffb.ca",
+      "dns_ns": [
+        "ns1.dan.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "nbb.ca",
+      "dns_ns": [
+        "ns1.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -20251,16 +20159,6 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "nfld.ca",
-      "dns_ns": [
-        "ns1.dan.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "nflb.ca",
       "dns_ns": [
         "ns1.hover.com"
@@ -20280,6 +20178,16 @@
       ],
       "dns_a": [
         "158.51.123.93"
+      ]
+    },
+    {
+      "fuzzer": "homoglyph",
+      "domain": "nfld.ca",
+      "dns_ns": [
+        "ns1.dan.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
       ]
     },
     {
@@ -20420,16 +20328,6 @@
     },
     {
       "fuzzer": "replacement",
-      "domain": "nfg.ca",
-      "dns_ns": [
-        "ns1.dan.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ]
-    },
-    {
-      "fuzzer": "replacement",
       "domain": "hfb.ca",
       "dns_ns": [
         "ns41.domaincontrol.com"
@@ -20439,6 +20337,16 @@
       ],
       "dns_mx": [
         "alt1.aspmx.l.google.com"
+      ]
+    },
+    {
+      "fuzzer": "replacement",
+      "domain": "nfg.ca",
+      "dns_ns": [
+        "ns1.dan.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
       ]
     },
     {
@@ -20490,7 +20398,7 @@
         "a1-62.akam.net"
       ],
       "dns_a": [
-        "23.198.7.168"
+        "23.73.207.10"
       ],
       "dns_mx": [
         "nbf-ca.mail.protection.outlook.com"
@@ -20529,25 +20437,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "nrcan.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "nrcan.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "nrcan.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -20618,7 +20526,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -20631,7 +20539,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -20652,19 +20560,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "nrcan.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "nrcan.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -20681,13 +20576,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "nrcan.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "nrcan.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -20707,7 +20615,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -20720,7 +20628,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -20766,25 +20674,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "nserc-crsng.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "nserc-crsng.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "nserc-crsng.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -20855,7 +20763,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -20868,7 +20776,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -20889,19 +20797,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "nserc-crsng.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "nserc-crsng.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -20918,13 +20813,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "nserc-crsng.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "nserc-crsng.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -20944,7 +20852,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -20957,7 +20865,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -21015,25 +20923,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "oci-bec.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "oci-bec.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "oci-bec.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -21079,16 +20987,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "oci-bec.oc.ca",
-      "dns_a": [
-        "104.21.40.91"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "oci-bec.ga.ca",
       "dns_ns": [
         "ns1.parkingcrew.net"
@@ -21104,7 +21002,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -21117,10 +21015,20 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "oci-bec.oc.ca",
+      "dns_a": [
+        "172.64.80.1"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -21134,19 +21042,6 @@
       ],
       "dns_aaaa": [
         "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "oci-bec.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
       ]
     },
     {
@@ -21167,13 +21062,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "oci-bec.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "oci-bec.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -21193,7 +21101,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -21206,7 +21114,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -21255,25 +21163,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "osfi-bsif.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "osfi-bsif.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "osfi-bsif.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -21344,7 +21252,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -21357,7 +21265,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -21378,19 +21286,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "osfi-bsif.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "osfi-bsif.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -21407,13 +21302,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "osfi-bsif.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "osfi-bsif.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -21433,7 +21341,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -21446,7 +21354,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -21492,25 +21400,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "pc.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "pc.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "pc.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -21561,7 +21469,7 @@
         "104.21.40.91"
       ],
       "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
+        "2606:4700:130:436c:6f75:6466:6c61:7265"
       ]
     },
     {
@@ -21581,7 +21489,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -21594,7 +21502,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -21615,19 +21523,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "pc.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "pc.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -21644,13 +21539,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "pc.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "pc.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -21670,7 +21578,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -21683,7 +21591,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -21742,25 +21650,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "ppsc-sppc.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "ppsc-sppc.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "ppsc-sppc.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -21806,16 +21714,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "ppsc-sppc.oc.ca",
-      "dns_a": [
-        "104.21.40.91"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "ppsc-sppc.ga.ca",
       "dns_ns": [
         "ns1.parkingcrew.net"
@@ -21831,7 +21729,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -21844,10 +21742,20 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "ppsc-sppc.oc.ca",
+      "dns_a": [
+        "172.64.80.1"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -21861,19 +21769,6 @@
       ],
       "dns_aaaa": [
         "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "ppsc-sppc.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
       ]
     },
     {
@@ -21894,13 +21789,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "ppsc-sppc.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "ppsc-sppc.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -21920,7 +21828,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -21933,7 +21841,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -21976,25 +21884,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "publicsafety.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "publicsafety.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "publicsafety.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -22065,7 +21973,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -22078,7 +21986,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -22099,19 +22007,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "publicsafety.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "publicsafety.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -22128,13 +22023,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "publicsafety.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "publicsafety.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -22154,7 +22062,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -22167,7 +22075,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -22213,25 +22121,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "rcaanc-cirnac.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "rcaanc-cirnac.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "rcaanc-cirnac.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -22302,7 +22210,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -22315,7 +22223,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -22336,19 +22244,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "rcaanc-cirnac.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "rcaanc-cirnac.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -22365,13 +22260,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "rcaanc-cirnac.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "rcaanc-cirnac.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -22391,7 +22299,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -22404,7 +22312,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -22450,25 +22358,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "rcmp-grc.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "rcmp-grc.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "rcmp-grc.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -22514,16 +22422,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "rcmp-grc.oc.ca",
-      "dns_a": [
-        "104.21.40.91"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "rcmp-grc.ga.ca",
       "dns_ns": [
         "ns1.parkingcrew.net"
@@ -22539,7 +22437,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -22552,10 +22450,20 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "rcmp-grc.oc.ca",
+      "dns_a": [
+        "172.64.80.1"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -22569,19 +22477,6 @@
       ],
       "dns_aaaa": [
         "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "rcmp-grc.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
       ]
     },
     {
@@ -22602,13 +22497,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "rcmp-grc.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "rcmp-grc.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -22628,7 +22536,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -22641,7 +22549,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -22713,25 +22621,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "sac-isc.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "sac-isc.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "sac-isc.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -22802,7 +22710,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -22815,7 +22723,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -22836,19 +22744,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "sac-isc.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "sac-isc.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -22865,13 +22760,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "sac-isc.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "sac-isc.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -22891,7 +22799,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -22904,7 +22812,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -23125,25 +23033,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "sshrc-crsh.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "sshrc-crsh.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "sshrc-crsh.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -23214,7 +23122,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -23227,7 +23135,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -23248,19 +23156,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "sshrc-crsh.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "sshrc-crsh.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -23277,13 +23172,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "sshrc-crsh.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "sshrc-crsh.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -23303,7 +23211,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -23316,7 +23224,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -23362,25 +23270,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "statcan.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "statcan.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "statcan.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -23451,7 +23359,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -23464,7 +23372,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -23485,19 +23393,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "statcan.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "statcan.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -23514,13 +23409,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "statcan.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "statcan.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -23540,7 +23448,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -23553,7 +23461,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -23599,25 +23507,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "tc.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "tc.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "tc.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -23688,7 +23596,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -23701,7 +23609,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -23722,19 +23630,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "tc.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "tc.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -23751,13 +23646,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "tc.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "tc.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -23777,7 +23685,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -23790,7 +23698,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -23849,25 +23757,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "veterans.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "veterans.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "veterans.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -23938,7 +23846,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -23951,7 +23859,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -23972,19 +23880,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "veterans.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "veterans.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -24001,13 +23896,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "veterans.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "veterans.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -24027,7 +23935,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -24040,7 +23948,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -24096,25 +24004,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "vrab-tacra.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "vrab-tacra.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "vrab-tacra.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -24185,7 +24093,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -24198,7 +24106,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -24219,19 +24127,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "vrab-tacra.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "vrab-tacra.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -24248,13 +24143,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "vrab-tacra.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "vrab-tacra.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -24274,7 +24182,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -24287,7 +24195,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -24333,25 +24241,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "tsb.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "tsb.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "tsb.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -24422,7 +24330,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -24435,7 +24343,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -24456,19 +24364,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "tsb.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "tsb.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -24485,13 +24380,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "tsb.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "tsb.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -24511,7 +24419,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -24524,7 +24432,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -24570,25 +24478,25 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "wd-deo.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "wd-deo.gcb.ca",
       "dns_ns": [
         "ns1.namefind.com"
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "wd-deo.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -24659,7 +24567,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -24672,7 +24580,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -24693,19 +24601,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "wd-deo.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "wd-deo.zgc.ca",
       "dns_ns": [
         "ns1.namefind.com"
@@ -24722,13 +24617,26 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "wd-deo.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "166.117.110.61"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "wd-deo.ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -24748,7 +24656,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
@@ -24761,7 +24669,7 @@
         "ns1.afternic.com"
       ],
       "dns_a": [
-        "13.248.169.48"
+        "166.117.110.61"
       ],
       "dns_mx": [
         ""
