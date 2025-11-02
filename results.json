@@ -21,6 +21,12 @@
       ],
       "dns_a": [
         "!ServFail"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "!ServFail"
       ]
     },
     {
@@ -883,6 +889,22 @@
     },
     {
       "fuzzer": "vowel-swap",
+      "domain": "canadu.ca",
+      "dns_ns": [
+        "angelina.ns.cloudflare.com"
+      ],
+      "dns_a": [
+        "104.21.56.225"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3033::6815:38e1"
+      ],
+      "dns_mx": [
+        "canadu-ca.mail.protection.outlook.com"
+      ]
+    },
+    {
+      "fuzzer": "vowel-swap",
       "domain": "conada.ca",
       "dns_ns": [
         "ns1.parkingcrew.net"
@@ -895,22 +917,6 @@
       ],
       "dns_mx": [
         "mail.h-email.net"
-      ]
-    },
-    {
-      "fuzzer": "vowel-swap",
-      "domain": "canadu.ca",
-      "dns_ns": [
-        "angelina.ns.cloudflare.com"
-      ],
-      "dns_a": [
-        "172.64.80.1"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3033::6815:38e1"
-      ],
-      "dns_mx": [
-        "canadu-ca.mail.protection.outlook.com"
       ]
     },
     {
@@ -1012,7 +1018,7 @@
         "104.21.40.91"
       ],
       "dns_aaaa": [
-        "2606:4700:130:436c:6f75:6466:6c61:7265"
+        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -1259,7 +1265,7 @@
         "104.21.40.91"
       ],
       "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
+        "2606:4700:130:436c:6f75:6466:6c61:7265"
       ]
     },
     {
@@ -1684,10 +1690,10 @@
       "fuzzer": "various",
       "domain": "cra-arc-gc.ca",
       "dns_ns": [
-        "ns1.ii51.parklogic.com"
+        "ns1.parklogic.com"
       ],
       "dns_a": [
-        "172.233.219.49"
+        "172.233.219.123"
       ],
       "dns_mx": [
         "mx.plingest.com"
@@ -2320,7 +2326,7 @@
         "ns1.ii50.parklogic.com"
       ],
       "dns_a": [
-        "172.233.219.123"
+        "172.233.219.49"
       ],
       "dns_mx": [
         "mx.plingest.com"
@@ -2468,6 +2474,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "irb-cisr.oc.ca",
+      "dns_a": [
+        "104.21.40.91"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "irb-cisr.fc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -2490,16 +2506,6 @@
       ],
       "dns_mx": [
         ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "irb-cisr.oc.ca",
-      "dns_a": [
-        "172.64.80.1"
-      ],
-      "dns_aaaa": [
-        "2606:4700:130:436c:6f75:6466:6c61:7265"
       ]
     },
     {
@@ -2645,6 +2651,13 @@
     },
     {
       "fuzzer": "addition",
+      "domain": "library-archives.canada7.ca",
+      "dns_a": [
+        "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "addition",
       "domain": "library-archives.canadad.ca",
       "dns_ns": [
         "!ServFail"
@@ -2667,6 +2680,22 @@
       ],
       "dns_aaaa": [
         "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "library-archives.canadaa.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
       ]
     },
     {
@@ -2714,10 +2743,32 @@
       ]
     },
     {
-      "fuzzer": "addition",
-      "domain": "library-archives.canadaa.ca",
+      "fuzzer": "bitsquatting",
+      "domain": "library-archives.canade.ca",
       "dns_ns": [
         "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "library-archives.canafa.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
       ],
       "dns_mx": [
         "mail.h-email.net"
@@ -2797,9 +2848,6 @@
       "dns_ns": [
         "ns1.parklogic.com"
       ],
-      "dns_a": [
-        "172.233.219.123"
-      ],
       "dns_mx": [
         "mx.plingest.com"
       ]
@@ -2807,8 +2855,17 @@
     {
       "fuzzer": "repetition",
       "domain": "library-archives.canadda.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
       "dns_a": [
         "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
       ]
     },
     {
@@ -2816,6 +2873,22 @@
       "domain": "library-archives.canaada.ca",
       "dns_a": [
         "199.59.243.228"
+      ]
+    },
+    {
+      "fuzzer": "replacement",
+      "domain": "library-archives.cabada.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
       ]
     },
     {
@@ -2905,16 +2978,25 @@
     },
     {
       "fuzzer": "vowel-swap",
-      "domain": "library-archives.canado.ca",
+      "domain": "library-archives.conada.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
       "dns_a": [
-        "66.96.160.133"
+        "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
       ]
     },
     {
       "fuzzer": "vowel-swap",
-      "domain": "library-archives.conada.ca",
-      "dns_aaaa": [
-        "!ServFail"
+      "domain": "library-archives.canado.ca",
+      "dns_a": [
+        "66.96.160.133"
       ]
     }
   ],
@@ -3000,7 +3082,7 @@
         "104.21.40.91"
       ],
       "dns_aaaa": [
-        "2606:4700:130:436c:6f75:6466:6c61:7265"
+        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -3263,6 +3345,12 @@
       ],
       "dns_a": [
         "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
       ]
     },
     {
@@ -3330,14 +3418,8 @@
     {
       "fuzzer": "addition",
       "domain": "naturex.ca",
-      "dns_ns": [
-        "cns3.dnsprive.com"
-      ],
       "dns_a": [
         "68.168.113.114"
-      ],
-      "dns_mx": [
-        "mail.naturex.ca"
       ]
     },
     {
@@ -3361,9 +3443,6 @@
       ],
       "dns_a": [
         "15.197.148.33"
-      ],
-      "dns_mx": [
-        "mailstore1.secureserver.net"
       ]
     },
     {
@@ -3394,9 +3473,6 @@
       ],
       "dns_a": [
         "192.64.119.85"
-      ],
-      "dns_mx": [
-        "eforward1.registrar-servers.com"
       ]
     },
     {
@@ -3533,6 +3609,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "ncc-ccn.oc.ca",
+      "dns_a": [
+        "104.21.40.91"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "ncc-ccn.fc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -3555,16 +3641,6 @@
       ],
       "dns_mx": [
         ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "ncc-ccn.oc.ca",
-      "dns_a": [
-        "172.64.80.1"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -3736,6 +3812,22 @@
     },
     {
       "fuzzer": "addition",
+      "domain": "northern-pipeline.canadaa.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
+      ]
+    },
+    {
+      "fuzzer": "addition",
       "domain": "northern-pipeline.canada1.ca",
       "dns_a": [
         "199.59.243.228"
@@ -3779,10 +3871,19 @@
       ]
     },
     {
-      "fuzzer": "addition",
-      "domain": "northern-pipeline.canadaa.ca",
+      "fuzzer": "bitsquatting",
+      "domain": "northern-pipeline.canade.ca",
       "dns_ns": [
         "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
       ]
     },
     {
@@ -3793,6 +3894,9 @@
       ],
       "dns_a": [
         "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
       ],
       "dns_mx": [
         "mail.h-email.net"
@@ -3881,16 +3985,57 @@
     },
     {
       "fuzzer": "repetition",
+      "domain": "northern-pipeline.canadda.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
+      ]
+    },
+    {
+      "fuzzer": "repetition",
       "domain": "northern-pipeline.canaada.ca",
       "dns_a": [
         "199.59.243.228"
       ]
     },
     {
-      "fuzzer": "repetition",
-      "domain": "northern-pipeline.canadda.ca",
+      "fuzzer": "replacement",
+      "domain": "northern-pipeline.cabada.ca",
       "dns_ns": [
         "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
+      ]
+    },
+    {
+      "fuzzer": "replacement",
+      "domain": "northern-pipeline.cansda.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
       ]
     },
     {
@@ -3918,13 +4063,6 @@
       "domain": "northern-pipeline.canaca.ca",
       "dns_a": [
         "66.49.254.5"
-      ]
-    },
-    {
-      "fuzzer": "replacement",
-      "domain": "northern-pipeline.cansda.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
       ]
     },
     {
@@ -3972,8 +4110,17 @@
     {
       "fuzzer": "vowel-swap",
       "domain": "northern-pipeline.conada.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
       "dns_a": [
         "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
       ]
     },
     {
@@ -4016,6 +4163,22 @@
       ],
       "dns_aaaa": [
         "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "nrc.canadaa.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
       ]
     },
     {
@@ -4063,10 +4226,35 @@
       ]
     },
     {
-      "fuzzer": "addition",
-      "domain": "nrc.canadaa.ca",
+      "fuzzer": "bitsquatting",
+      "domain": "nrc.canade.ca",
       "dns_ns": [
         "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "nrc.canafa.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
       ]
     },
     {
@@ -4098,23 +4286,6 @@
       "domain": "nrc.banada.ca",
       "dns_a": [
         "66.96.160.154"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "nrc.canade.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "nrc.canafa.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_mx": [
-        "mail.h-email.net"
       ]
     },
     {
@@ -4166,9 +4337,57 @@
     },
     {
       "fuzzer": "repetition",
+      "domain": "nrc.canadda.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
+      ]
+    },
+    {
+      "fuzzer": "repetition",
       "domain": "nrc.canaada.ca",
       "dns_a": [
         "199.59.243.228"
+      ]
+    },
+    {
+      "fuzzer": "replacement",
+      "domain": "nrc.cabada.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
+      ]
+    },
+    {
+      "fuzzer": "replacement",
+      "domain": "nrc.cansda.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
+      "dns_a": [
+        "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
       ]
     },
     {
@@ -4196,23 +4415,6 @@
       "domain": "nrc.canaca.ca",
       "dns_a": [
         "66.49.254.5"
-      ]
-    },
-    {
-      "fuzzer": "replacement",
-      "domain": "nrc.cabada.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_mx": [
-        "mail.h-email.net"
-      ]
-    },
-    {
-      "fuzzer": "replacement",
-      "domain": "nrc.cansda.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
       ]
     },
     {
@@ -4269,19 +4471,25 @@
     },
     {
       "fuzzer": "vowel-swap",
-      "domain": "nrc.canado.ca",
-      "dns_a": [
-        "66.96.160.133"
-      ]
-    },
-    {
-      "fuzzer": "vowel-swap",
       "domain": "nrc.conada.ca",
       "dns_ns": [
         "ns1.parkingcrew.net"
       ],
+      "dns_a": [
+        "104.247.81.99"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
       "dns_mx": [
         "mail.h-email.net"
+      ]
+    },
+    {
+      "fuzzer": "vowel-swap",
+      "domain": "nrc.canado.ca",
+      "dns_a": [
+        "66.96.160.133"
       ]
     }
   ],
@@ -4859,6 +5067,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "otc-cta.oc.ca",
+      "dns_a": [
+        "104.21.40.91"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "otc-cta.fc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -4881,16 +5099,6 @@
       ],
       "dns_mx": [
         ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "otc-cta.oc.ca",
-      "dns_a": [
-        "172.64.80.1"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -6345,6 +6553,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "tbs-sct.oc.ca",
+      "dns_a": [
+        "104.21.40.91"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "tbs-sct.fc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -6367,16 +6585,6 @@
       ],
       "dns_mx": [
         ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "tbs-sct.oc.ca",
-      "dns_a": [
-        "172.64.80.1"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -6762,7 +6970,7 @@
         "ns1.hastydns.com"
       ],
       "dns_a": [
-        "69.162.80.53"
+        "69.162.80.58"
       ]
     }
   ],
@@ -6843,6 +7051,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "weather.oc.ca",
+      "dns_a": [
+        "104.21.40.91"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "weather.fc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -6865,16 +7083,6 @@
       ],
       "dns_mx": [
         ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "weather.oc.ca",
-      "dns_a": [
-        "172.64.80.1"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -7111,7 +7319,7 @@
         "104.21.40.91"
       ],
       "dns_aaaa": [
-        "2606:4700:130:436c:6f75:6466:6c61:7265"
+        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -8012,6 +8220,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "asc-csa.oc.ca",
+      "dns_a": [
+        "104.21.40.91"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "asc-csa.fc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -8034,16 +8252,6 @@
       ],
       "dns_mx": [
         ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "asc-csa.oc.ca",
-      "dns_a": [
-        "172.64.80.1"
-      ],
-      "dns_aaaa": [
-        "2606:4700:130:436c:6f75:6466:6c61:7265"
       ]
     },
     {
@@ -8441,7 +8649,7 @@
         "ns1.siteground.net"
       ],
       "dns_a": [
-        "34.149.36.179"
+        "34.120.190.48"
       ],
       "dns_mx": [
         "mx10.antispam.mailspamprotection.com"
@@ -8837,6 +9045,16 @@
     },
     {
       "fuzzer": "insertion",
+      "domain": "hbdc.ca",
+      "dns_ns": [
+        "curitiba.ns.porkbun.com"
+      ],
+      "dns_a": [
+        "199.59.243.228"
+      ]
+    },
+    {
+      "fuzzer": "insertion",
       "domain": "nbdc.ca",
       "dns_ns": [
         "ns1.bdm.microsoftonline.com"
@@ -9121,10 +9339,10 @@
         "a1-226.akam.net"
       ],
       "dns_a": [
-        "2.17.93.105"
+        "23.213.90.35"
       ],
       "dns_aaaa": [
-        "2600:1407:7800:291::1dc5"
+        "2600:1408:c400:780::1dc5"
       ],
       "dns_mx": [
         "mh1.cpg-gpc.ca"
@@ -9137,7 +9355,7 @@
         "ns1.ii50.parklogic.com"
       ],
       "dns_a": [
-        "172.233.219.123"
+        "172.233.219.49"
       ],
       "dns_mx": [
         "mx.plingest.com"
@@ -9247,6 +9465,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "cannor.oc.ca",
+      "dns_a": [
+        "104.21.40.91"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "cannor.fc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -9269,16 +9497,6 @@
       ],
       "dns_mx": [
         ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "cannor.oc.ca",
-      "dns_a": [
-        "172.64.80.1"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -10160,7 +10378,7 @@
         "a1-29.akam.net"
       ],
       "dns_a": [
-        "23.35.57.227"
+        "23.60.113.160"
       ],
       "dns_mx": [
         "eu-smtp-inbound-1.mimecast.com"
@@ -10203,22 +10421,6 @@
       ],
       "dns_a": [
         "13.248.169.48"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "cbcu.ca",
-      "dns_ns": [
-        "ns1.central1.com"
-      ],
-      "dns_a": [
-        "13.32.205.22"
-      ],
-      "dns_aaaa": [
-        "2600:9000:211c:200:b:8f7b:67c0:93a1"
-      ],
-      "dns_mx": [
-        "d402294.a.ess.ca.barracudanetworks.com"
       ]
     },
     {
@@ -10363,6 +10565,22 @@
       ],
       "dns_a": [
         "199.59.243.228"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cbcu.ca",
+      "dns_ns": [
+        "ns1.central1.com"
+      ],
+      "dns_a": [
+        "3.170.19.107"
+      ],
+      "dns_aaaa": [
+        "2600:9000:286d:2600:b:8f7b:67c0:93a1"
+      ],
+      "dns_mx": [
+        "d402294.a.ess.ca.barracudanetworks.com"
       ]
     },
     {
@@ -10637,7 +10855,7 @@
         "a1-188.akam.net"
       ],
       "dns_a": [
-        "23.66.127.137"
+        "23.53.35.175"
       ],
       "dns_mx": [
         "mxa-00146707.gslb.pphosted.com"
@@ -10975,7 +11193,7 @@
         "104.21.50.200"
       ],
       "dns_aaaa": [
-        "2606:4700:3031::ac43:a68f"
+        "2606:4700:130:436c:6f75:6466:6c61:7265"
       ]
     },
     {
@@ -11664,6 +11882,22 @@
     },
     {
       "fuzzer": "addition",
+      "domain": "cccu.ca",
+      "dns_ns": [
+        "ns1.central1.com"
+      ],
+      "dns_a": [
+        "18.64.155.124"
+      ],
+      "dns_aaaa": [
+        "2600:9000:24f5:1600:6:a61b:fc80:93a1"
+      ],
+      "dns_mx": [
+        "mx-01-us-west-2.prod.hydra.sophos.com"
+      ]
+    },
+    {
+      "fuzzer": "addition",
       "domain": "cccc.ca",
       "dns_ns": [
         "ns12.wixdns.net"
@@ -11695,10 +11929,10 @@
         "ns1.dns-parking.com"
       ],
       "dns_a": [
-        "191.96.144.14"
+        "191.101.104.182"
       ],
       "dns_aaaa": [
-        "2a02:4780:21:866c:ad30:b6ed:d017:5c78"
+        "2a02:4780:1d:62b6:7fb6:4335:9d91:26dd"
       ],
       "dns_mx": [
         "alt1.aspmx.l.google.com"
@@ -11711,10 +11945,10 @@
         "ns1.dns-parking.com"
       ],
       "dns_a": [
-        "191.96.144.223"
+        "195.35.60.154"
       ],
       "dns_aaaa": [
-        "2a02:4780:1e:f052:2641:849f:70ed:4a16"
+        "2a02:4780:21:2172:21c2:a96:150a:43a7"
       ],
       "dns_mx": [
         "mx1.hostinger.com"
@@ -11728,22 +11962,6 @@
       ],
       "dns_a": [
         "199.59.243.228"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "cccu.ca",
-      "dns_ns": [
-        "ns1.central1.com"
-      ],
-      "dns_a": [
-        "52.85.12.102"
-      ],
-      "dns_aaaa": [
-        "2600:9000:2007:1200:6:a61b:fc80:93a1"
-      ],
-      "dns_mx": [
-        "mx-01-us-west-2.prod.hydra.sophos.com"
       ]
     },
     {
@@ -11887,7 +12105,7 @@
         "a1-29.akam.net"
       ],
       "dns_a": [
-        "23.35.57.227"
+        "23.201.244.45"
       ],
       "dns_mx": [
         "eu-smtp-inbound-1.mimecast.com"
@@ -12058,6 +12276,22 @@
     },
     {
       "fuzzer": "insertion",
+      "domain": "cdcc.ca",
+      "dns_ns": [
+        "edns1.ultradns.biz"
+      ],
+      "dns_a": [
+        "108.156.107.11"
+      ],
+      "dns_aaaa": [
+        "2600:9000:2840:2400:17:27c8:dc00:93a1"
+      ],
+      "dns_mx": [
+        "alt1.aspmx.l.google.com"
+      ]
+    },
+    {
+      "fuzzer": "insertion",
       "domain": "dccc.ca",
       "dns_ns": [
         "ns4.wixdns.net"
@@ -12103,22 +12337,6 @@
       ],
       "dns_mx": [
         "vccc-ca.mail.protection.outlook.com"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "cdcc.ca",
-      "dns_ns": [
-        "edns1.ultradns.biz"
-      ],
-      "dns_a": [
-        "3.168.122.30"
-      ],
-      "dns_aaaa": [
-        "2600:9000:2350:2400:17:27c8:dc00:93a1"
-      ],
-      "dns_mx": [
-        "alt1.aspmx.l.google.com"
       ]
     },
     {
@@ -12228,19 +12446,6 @@
     },
     {
       "fuzzer": "replacement",
-      "domain": "xcc.ca",
-      "dns_ns": [
-        "ns1.mm8.parklogic.com"
-      ],
-      "dns_a": [
-        "172.233.219.123"
-      ],
-      "dns_mx": [
-        "mx.plingest.com"
-      ]
-    },
-    {
-      "fuzzer": "replacement",
       "domain": "ccx.ca",
       "dns_ns": [
         "ns1.bodis.com"
@@ -12267,6 +12472,16 @@
       "domain": "dcc.ca",
       "dns_ns": [
         "dns1.idp365.net"
+      ]
+    },
+    {
+      "fuzzer": "replacement",
+      "domain": "xcc.ca",
+      "dns_ns": [
+        "ns1.mm8.parklogic.com"
+      ],
+      "dns_mx": [
+        "mx.plingest.com"
       ]
     },
     {
@@ -12304,7 +12519,7 @@
         "ns-1175.awsdns-18.org"
       ],
       "dns_a": [
-        "15.157.0.14"
+        "3.98.105.119"
       ],
       "dns_mx": [
         "ccohs-ca.mail.protection.outlook.com"
@@ -12356,7 +12571,7 @@
         "ns1.ii50.parklogic.com"
       ],
       "dns_a": [
-        "172.233.219.123"
+        "172.233.219.49"
       ],
       "dns_mx": [
         "mx.plingest.com"
@@ -12412,7 +12627,7 @@
         "ns1.ii50.parklogic.com"
       ],
       "dns_a": [
-        "172.233.219.123"
+        "172.233.219.49"
       ],
       "dns_mx": [
         "mx.plingest.com"
@@ -12718,6 +12933,16 @@
     },
     {
       "fuzzer": "homoglyph",
+      "domain": "cbic.ca",
+      "dns_ns": [
+        "ns1.torresdns.com"
+      ],
+      "dns_a": [
+        "209.126.123.12"
+      ]
+    },
+    {
+      "fuzzer": "homoglyph",
       "domain": "edie.ca",
       "dns_ns": [
         "ns1.hostpapa.com"
@@ -12730,16 +12955,6 @@
       ],
       "dns_mx": [
         "mail.edie.ca"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "cbic.ca",
-      "dns_ns": [
-        "ns1.torresdns.com"
-      ],
-      "dns_a": [
-        "78.41.204.33"
       ]
     },
     {
@@ -12765,6 +12980,9 @@
         "!ServFail"
       ],
       "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
         "!ServFail"
       ]
     },
@@ -13214,6 +13432,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "chrc-ccdp.oc.ca",
+      "dns_a": [
+        "104.21.40.91"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "chrc-ccdp.fc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -13236,16 +13464,6 @@
       ],
       "dns_mx": [
         ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "chrc-ccdp.oc.ca",
-      "dns_a": [
-        "172.64.80.1"
-      ],
-      "dns_aaaa": [
-        "2606:4700:130:436c:6f75:6466:6c61:7265"
       ]
     },
     {
@@ -13461,6 +13679,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "cmhc-schl.oc.ca",
+      "dns_a": [
+        "104.21.40.91"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "cmhc-schl.fc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -13483,16 +13711,6 @@
       ],
       "dns_mx": [
         ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "cmhc-schl.oc.ca",
-      "dns_a": [
-        "172.64.80.1"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -13629,6 +13847,13 @@
     },
     {
       "fuzzer": "various",
+      "domain": "cmhc-schl-gc.ca",
+      "dns_ns": [
+        "ns1.webnames.ca"
+      ]
+    },
+    {
+      "fuzzer": "various",
       "domain": "cmhc-schlgc.ca",
       "dns_ns": [
         "dns.namescout.com"
@@ -13715,6 +13940,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "cnsc-ccsn.oc.ca",
+      "dns_a": [
+        "104.21.40.91"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "cnsc-ccsn.fc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -13737,16 +13972,6 @@
       ],
       "dns_mx": [
         ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "cnsc-ccsn.oc.ca",
-      "dns_a": [
-        "172.64.80.1"
-      ],
-      "dns_aaaa": [
-        "2606:4700:130:436c:6f75:6466:6c61:7265"
       ]
     },
     {
@@ -14214,7 +14439,7 @@
         "104.21.40.91"
       ],
       "dns_aaaa": [
-        "2606:4700:130:436c:6f75:6466:6c61:7265"
+        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -14456,6 +14681,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "cse-cst.oc.ca",
+      "dns_a": [
+        "104.21.40.91"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "cse-cst.fc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -14478,16 +14713,6 @@
       ],
       "dns_mx": [
         ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "cse-cst.oc.ca",
-      "dns_a": [
-        "172.64.80.1"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -14703,6 +14928,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "csps-efpc.oc.ca",
+      "dns_a": [
+        "104.21.40.91"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "csps-efpc.fc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -14725,16 +14960,6 @@
       ],
       "dns_mx": [
         ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "csps-efpc.oc.ca",
-      "dns_a": [
-        "172.64.80.1"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -15197,6 +15422,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "dfo-mpo.oc.ca",
+      "dns_a": [
+        "104.21.40.91"
+      ],
+      "dns_aaaa": [
+        "2606:4700:130:436c:6f75:6466:6c61:7265"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "dfo-mpo.fc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -15219,16 +15454,6 @@
       ],
       "dns_mx": [
         ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "dfo-mpo.oc.ca",
-      "dns_a": [
-        "172.64.80.1"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -15635,7 +15860,7 @@
         "ns-1533.awsdns-63.org"
       ],
       "dns_a": [
-        "16.15.188.96"
+        "16.15.189.233"
       ]
     },
     {
@@ -15829,7 +16054,7 @@
         "a1-29.akam.net"
       ],
       "dns_a": [
-        "23.9.147.110"
+        "23.60.113.160"
       ],
       "dns_mx": [
         "eu-smtp-inbound-1.mimecast.com"
@@ -16187,9 +16412,6 @@
       "domain": "odc.ca",
       "dns_ns": [
         "ns1.sh55.parklogic.com"
-      ],
-      "dns_mx": [
-        "mx.plingest.com"
       ]
     }
   ],
@@ -16832,6 +17054,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "fja-cmf.oc.ca",
+      "dns_a": [
+        "104.21.40.91"
+      ],
+      "dns_aaaa": [
+        "2606:4700:130:436c:6f75:6466:6c61:7265"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "fja-cmf.fc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -16854,16 +17086,6 @@
       ],
       "dns_mx": [
         ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "fja-cmf.oc.ca",
-      "dns_a": [
-        "172.64.80.1"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -18480,7 +18702,7 @@
         "172.64.80.1"
       ],
       "dns_aaaa": [
-        "2606:4700:130:436c:6f75:6466:6c61:7265"
+        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -18648,6 +18870,19 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "idvc.ca",
+      "dns_ns": [
+        "ns1.brickhost.com"
+      ],
+      "dns_a": [
+        "148.113.213.228"
+      ],
+      "dns_mx": [
+        "idvc.ca"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "ierc.ca",
       "dns_ns": [
         "ns11.domaincontrol.com"
@@ -18755,16 +18990,6 @@
       ],
       "dns_mx": [
         "idrs-ca.mail.protection.outlook.com"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "idvc.ca",
-      "dns_ns": [
-        "ns1.brickhost.com"
-      ],
-      "dns_mx": [
-        "idvc.ca"
       ]
     },
     {
@@ -19266,6 +19491,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "inspection.oc.ca",
+      "dns_a": [
+        "104.21.40.91"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "inspection.fc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -19288,16 +19523,6 @@
       ],
       "dns_mx": [
         ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "inspection.oc.ca",
-      "dns_a": [
-        "172.64.80.1"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -20909,7 +21134,7 @@
         "a1-62.akam.net"
       ],
       "dns_a": [
-        "23.213.53.10"
+        "23.212.250.17"
       ],
       "dns_mx": [
         "nbf-ca.mail.protection.outlook.com"
@@ -21017,7 +21242,7 @@
         "104.21.40.91"
       ],
       "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
+        "2606:4700:130:436c:6f75:6466:6c61:7265"
       ]
     },
     {
@@ -22015,6 +22240,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "pc.oc.ca",
+      "dns_a": [
+        "104.21.40.91"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "pc.fc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -22037,16 +22272,6 @@
       ],
       "dns_mx": [
         ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "pc.oc.ca",
-      "dns_a": [
-        "172.64.80.1"
-      ],
-      "dns_aaaa": [
-        "2606:4700:130:436c:6f75:6466:6c61:7265"
       ]
     },
     {
@@ -22524,7 +22749,7 @@
         "104.21.40.91"
       ],
       "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
+        "2606:4700:130:436c:6f75:6466:6c61:7265"
       ]
     },
     {
@@ -23013,16 +23238,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "rcmp-grc.oc.ca",
-      "dns_a": [
-        "104.21.40.91"
-      ],
-      "dns_aaaa": [
-        "2606:4700:130:436c:6f75:6466:6c61:7265"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "rcmp-grc.fc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -23045,6 +23260,16 @@
       ],
       "dns_mx": [
         ""
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "rcmp-grc.oc.ca",
+      "dns_a": [
+        "172.64.80.1"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -23286,6 +23511,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "sac-isc.oc.ca",
+      "dns_a": [
+        "104.21.40.91"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3035::6815:285b"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "sac-isc.fc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -23308,16 +23543,6 @@
       ],
       "dns_mx": [
         ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "sac-isc.oc.ca",
-      "dns_a": [
-        "172.64.80.1"
-      ],
-      "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -23713,7 +23938,7 @@
         "104.21.40.91"
       ],
       "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
+        "2606:4700:130:436c:6f75:6466:6c61:7265"
       ]
     },
     {
@@ -23986,7 +24211,7 @@
         "172.64.80.1"
       ],
       "dns_aaaa": [
-        "2606:4700:130:436c:6f75:6466:6c61:7265"
+        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -24467,7 +24692,7 @@
         "104.21.40.91"
       ],
       "dns_aaaa": [
-        "2606:4700:130:436c:6f75:6466:6c61:7265"
+        "2606:4700:3035::6815:285b"
       ]
     },
     {
@@ -24971,7 +25196,7 @@
         "104.21.40.91"
       ],
       "dns_aaaa": [
-        "2606:4700:3035::6815:285b"
+        "2606:4700:130:436c:6f75:6466:6c61:7265"
       ]
     },
     {
