@@ -37,9 +37,6 @@
       ],
       "dns_a": [
         "!ServFail"
-      ],
-      "dns_mx": [
-        "!ServFail"
       ]
     },
     {
@@ -56,19 +53,6 @@
       ],
       "dns_mx": [
         "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "canadar.ca",
-      "dns_ns": [
-        "ns1.domain.com"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_mx": [
-        "mx.canadar.ca"
       ]
     },
     {
@@ -131,6 +115,22 @@
     },
     {
       "fuzzer": "addition",
+      "domain": "canadae.ca",
+      "dns_ns": [
+        "ns1.dns-parking.com"
+      ],
+      "dns_a": [
+        "147.79.120.98"
+      ],
+      "dns_aaaa": [
+        "2a02:4780:50:7978:2624:d930:a3fa:ad6"
+      ],
+      "dns_mx": [
+        "mx1.hostinger.com"
+      ]
+    },
+    {
+      "fuzzer": "addition",
       "domain": "canadab.ca",
       "dns_ns": [
         "ns65.domaincontrol.com"
@@ -187,18 +187,31 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "canadae.ca",
+      "domain": "canadaa.ca",
       "dns_ns": [
-        "ns1.dns-parking.com"
+        "lunlun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "191.96.144.200"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2a02:4780:1e:33bd:6503:df6c:140e:9400"
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "canadas.ca",
+      "dns_ns": [
+        "basi.ns.giantpanda.com"
+      ],
+      "dns_a": [
+        "192.155.84.236"
+      ],
+      "dns_aaaa": [
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
-        "mx1.hostinger.com"
+        "mail.mailerhost.net"
       ]
     },
     {
@@ -232,35 +245,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "canadaa.ca",
-      "dns_ns": [
-        "lunlun.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "canadas.ca",
-      "dns_ns": [
-        "basi.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
-      ],
-      "dns_mx": [
-        "mail.mailerhost.net"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "canadat.ca",
       "dns_ns": [
         "ns1.hostpapa.com"
@@ -286,6 +270,19 @@
       ],
       "dns_mx": [
         "mx.canada8.ca"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "canadar.ca",
+      "dns_ns": [
+        "ns1.domain.com"
+      ],
+      "dns_a": [
+        "66.96.162.146"
+      ],
+      "dns_mx": [
+        "mx.canadar.ca"
       ]
     },
     {
@@ -366,6 +363,19 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "canade.ca",
+      "dns_ns": [
+        "lunlun.ns.giantpanda.com"
+      ],
+      "dns_a": [
+        "192.155.84.236"
+      ],
+      "dns_aaaa": [
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "sanada.ca",
       "dns_ns": [
         "ns8247.hostgator.com"
@@ -385,19 +395,6 @@
       ],
       "dns_a": [
         "207.207.210.23"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "canade.ca",
-      "dns_ns": [
-        "lunlun.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
       ]
     },
     {
@@ -644,6 +641,22 @@
     },
     {
       "fuzzer": "omission",
+      "domain": "cnada.ca",
+      "dns_ns": [
+        "lunlun.ns.giantpanda.com"
+      ],
+      "dns_a": [
+        "192.155.84.236"
+      ],
+      "dns_aaaa": [
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ],
+      "dns_mx": [
+        "mail.mailerhost.net"
+      ]
+    },
+    {
+      "fuzzer": "omission",
       "domain": "caada.ca",
       "dns_ns": [
         "ns1.mdnsservice.com"
@@ -660,22 +673,6 @@
       ],
       "dns_a": [
         "216.40.47.17"
-      ]
-    },
-    {
-      "fuzzer": "omission",
-      "domain": "cnada.ca",
-      "dns_ns": [
-        "lunlun.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
-      ],
-      "dns_mx": [
-        "mail.mailerhost.net"
       ]
     },
     {
@@ -698,10 +695,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -714,10 +711,10 @@
         "lunlun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ]
     },
     {
@@ -757,6 +754,35 @@
       ],
       "dns_mx": [
         "mx-cluster-ca01.hornetsecurity.com"
+      ]
+    },
+    {
+      "fuzzer": "replacement",
+      "domain": "canads.ca",
+      "dns_ns": [
+        "lunlun.ns.giantpanda.com"
+      ],
+      "dns_a": [
+        "192.155.84.236"
+      ],
+      "dns_aaaa": [
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ],
+      "dns_mx": [
+        "mail.mailerhost.net"
+      ]
+    },
+    {
+      "fuzzer": "replacement",
+      "domain": "cansda.ca",
+      "dns_ns": [
+        "lunlun.ns.giantpanda.com"
+      ],
+      "dns_a": [
+        "192.155.84.236"
+      ],
+      "dns_aaaa": [
+        "2600:3c01::2000:3aff:feb3:2e94"
       ]
     },
     {
@@ -803,35 +829,6 @@
       ],
       "dns_mx": [
         "canady-ca.mail.protection.outlook.com"
-      ]
-    },
-    {
-      "fuzzer": "replacement",
-      "domain": "canads.ca",
-      "dns_ns": [
-        "lunlun.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
-      ],
-      "dns_mx": [
-        "mail.mailerhost.net"
-      ]
-    },
-    {
-      "fuzzer": "replacement",
-      "domain": "cansda.ca",
-      "dns_ns": [
-        "lunlun.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
       ]
     },
     {
@@ -888,6 +885,22 @@
     },
     {
       "fuzzer": "various",
+      "domain": "canadaca.ca",
+      "dns_ns": [
+        "lunlun.ns.giantpanda.com"
+      ],
+      "dns_a": [
+        "192.155.84.236"
+      ],
+      "dns_aaaa": [
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ],
+      "dns_mx": [
+        "mail.mailerhost.net"
+      ]
+    },
+    {
+      "fuzzer": "various",
       "domain": "canada-ca.com",
       "dns_ns": [
         "ns1.dns-redirect.com"
@@ -897,22 +910,6 @@
       ],
       "dns_aaaa": [
         "2406:da1e:214:c901:96d8:792e:6b11:ccf4"
-      ]
-    },
-    {
-      "fuzzer": "various",
-      "domain": "canadaca.ca",
-      "dns_ns": [
-        "lunlun.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
-      ],
-      "dns_mx": [
-        "mail.mailerhost.net"
       ]
     },
     {
@@ -1074,7 +1071,7 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.111"
+        "64.190.63.222"
       ],
       "dns_mx": [
         "localhost"
@@ -1090,13 +1087,6 @@
         "!ServFail"
       ],
       "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "cfc-swc.tgc.ca",
-      "dns_a": [
         "!ServFail"
       ]
     },
@@ -1141,6 +1131,13 @@
       "domain": "cfc-swc.gbc.ca",
       "dns_a": [
         "144.217.80.241"
+      ]
+    },
+    {
+      "fuzzer": "insertion",
+      "domain": "cfc-swc.tgc.ca",
+      "dns_ns": [
+        "!ServFail"
       ]
     },
     {
@@ -1196,10 +1193,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -1342,7 +1339,7 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.111"
+        "64.190.63.222"
       ],
       "dns_mx": [
         "localhost"
@@ -1457,10 +1454,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -1483,6 +1480,9 @@
       ],
       "dns_a": [
         "198.103.206.14"
+      ],
+      "dns_mx": [
+        "craarc-gc-ca0i.mail.protection.outlook.com"
       ]
     },
     {
@@ -1552,6 +1552,9 @@
       ],
       "dns_a": [
         "74.220.199.6"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
       ]
     },
     {
@@ -1674,6 +1677,13 @@
     },
     {
       "fuzzer": "replacement",
+      "domain": "cra-arc.gv.ca",
+      "dns_a": [
+        "107.190.2.105"
+      ]
+    },
+    {
+      "fuzzer": "replacement",
       "domain": "cra-arc.yc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -1705,10 +1715,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -1995,10 +2005,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -2256,10 +2266,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -2279,10 +2289,10 @@
         "ns1.dns-parking.com"
       ],
       "dns_a": [
-        "191.101.104.87"
+        "148.135.128.3"
       ],
       "dns_aaaa": [
-        "2a02:4780:21:e65e:a5c1:8aea:afa0:6f0e"
+        "2a02:4780:50:80f:ccd7:9151:c84a:53da"
       ],
       "dns_mx": [
         "mx1.hostinger.com"
@@ -2424,7 +2434,7 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.222"
+        "64.190.63.111"
       ],
       "dns_mx": [
         "localhost"
@@ -2629,13 +2639,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "irb-cisr.tgc.ca",
-      "dns_a": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "irb-cisr.gvc.ca",
       "dns_ns": [
         "ns3.afternic.com"
@@ -2730,10 +2733,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -2758,6 +2761,9 @@
     {
       "fuzzer": "addition",
       "domain": "library-archives.canada1.ca",
+      "dns_ns": [
+        "!ServFail"
+      ],
       "dns_a": [
         "!ServFail"
       ]
@@ -2770,9 +2776,35 @@
       ],
       "dns_a": [
         "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "library-archives.canadaa.ca",
+      "dns_ns": [
+        "basi.ns.giantpanda.com"
+      ],
+      "dns_a": [
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "!ServFail"
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "library-archives.canadas.ca",
+      "dns_ns": [
+        "basi.ns.giantpanda.com"
+      ],
+      "dns_a": [
+        "192.155.84.236"
+      ],
+      "dns_aaaa": [
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ],
+      "dns_mx": [
+        "mail.mailerhost.net"
       ]
     },
     {
@@ -2789,35 +2821,6 @@
       ],
       "dns_mx": [
         "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "library-archives.canadaa.ca",
-      "dns_ns": [
-        "basi.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "library-archives.canadas.ca",
-      "dns_ns": [
-        "basi.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
-      ],
-      "dns_mx": [
-        "mail.mailerhost.net"
       ]
     },
     {
@@ -2842,17 +2845,16 @@
       ]
     },
     {
-      "fuzzer": "addition",
-      "domain": "library-archives.canada7.ca",
-      "dns_ns": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "bitsquatting",
-      "domain": "library-archives.canadq.ca",
+      "domain": "library-archives.canafa.ca",
+      "dns_ns": [
+        "ns1.parkingcrew.net"
+      ],
       "dns_a": [
-        "207.207.210.23"
+        "104.247.81.99"
+      ],
+      "dns_mx": [
+        "mail.h-email.net"
       ]
     },
     {
@@ -2862,10 +2864,17 @@
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "library-archives.canadq.ca",
+      "dns_a": [
+        "207.207.210.23"
       ]
     },
     {
@@ -2883,20 +2892,17 @@
       ]
     },
     {
-      "fuzzer": "bitsquatting",
-      "domain": "library-archives.canafa.ca",
-      "dns_ns": [
-        "ns1.parkingcrew.net"
-      ],
-      "dns_mx": [
-        "mail.h-email.net"
-      ]
-    },
-    {
       "fuzzer": "insertion",
       "domain": "library-archives.canadsa.ca",
       "dns_a": [
         "207.207.210.23"
+      ]
+    },
+    {
+      "fuzzer": "insertion",
+      "domain": "library-archives.dcanada.ca",
+      "dns_a": [
+        "66.96.160.136"
       ]
     },
     {
@@ -2919,10 +2925,10 @@
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -2935,10 +2941,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -2951,10 +2957,10 @@
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ]
     },
     {
@@ -2972,25 +2978,15 @@
     },
     {
       "fuzzer": "replacement",
-      "domain": "library-archives.cahada.ca",
-      "dns_a": [
-        "207.207.210.23"
-      ]
-    },
-    {
-      "fuzzer": "replacement",
       "domain": "library-archives.canads.ca",
       "dns_ns": [
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
-      ],
-      "dns_mx": [
-        "mail.mailerhost.net"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ]
     },
     {
@@ -3000,10 +2996,17 @@
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ]
+    },
+    {
+      "fuzzer": "replacement",
+      "domain": "library-archives.cahada.ca",
+      "dns_a": [
+        "207.207.210.23"
       ]
     },
     {
@@ -3021,9 +3024,6 @@
       ],
       "dns_a": [
         "13.223.25.84"
-      ],
-      "dns_aaaa": [
-        "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
       ]
     },
     {
@@ -3033,10 +3033,10 @@
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -3301,10 +3301,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -3818,6 +3818,13 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "ncc-ccn.tgc.ca",
+      "dns_ns": [
+        "!ServFail"
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "ncc-ccn.ggc.ca",
       "dns_ns": [
@@ -3870,10 +3877,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -3897,6 +3904,26 @@
     },
     {
       "fuzzer": "addition",
+      "domain": "northern-pipeline.canada1.ca",
+      "dns_ns": [
+        "!ServFail"
+      ],
+      "dns_a": [
+        "!ServFail"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "northern-pipeline.canada7.ca",
+      "dns_a": [
+        "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "addition",
       "domain": "northern-pipeline.canadad.ca",
       "dns_ns": [
         "!ServFail"
@@ -3910,28 +3937,15 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "northern-pipeline.canada0.ca",
-      "dns_ns": [
-        "dns1.canspace.ca"
-      ],
-      "dns_a": [
-        "198.100.154.154"
-      ],
-      "dns_mx": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "northern-pipeline.canadaa.ca",
       "dns_ns": [
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ]
     },
     {
@@ -3941,13 +3955,29 @@
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "northern-pipeline.canada0.ca",
+      "dns_ns": [
+        "dns1.canspace.ca"
+      ],
+      "dns_a": [
+        "198.100.154.154"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "!ServFail"
       ]
     },
     {
@@ -3972,13 +4002,6 @@
       ]
     },
     {
-      "fuzzer": "addition",
-      "domain": "northern-pipeline.canada1.ca",
-      "dns_ns": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "bitsquatting",
       "domain": "northern-pipeline.canafa.ca",
       "dns_ns": [
@@ -3993,22 +4016,22 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "northern-pipeline.canadq.ca",
-      "dns_a": [
-        "207.207.210.23"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "northern-pipeline.canade.ca",
       "dns_ns": [
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "northern-pipeline.canadq.ca",
+      "dns_a": [
+        "207.207.210.23"
       ]
     },
     {
@@ -4059,10 +4082,10 @@
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -4075,10 +4098,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -4091,10 +4114,10 @@
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ]
     },
     {
@@ -4112,22 +4135,15 @@
     },
     {
       "fuzzer": "replacement",
-      "domain": "northern-pipeline.cahada.ca",
-      "dns_a": [
-        "207.207.210.23"
-      ]
-    },
-    {
-      "fuzzer": "replacement",
       "domain": "northern-pipeline.canads.ca",
       "dns_ns": [
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -4140,10 +4156,17 @@
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ]
+    },
+    {
+      "fuzzer": "replacement",
+      "domain": "northern-pipeline.cahada.ca",
+      "dns_a": [
+        "207.207.210.23"
       ]
     },
     {
@@ -4173,10 +4196,10 @@
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -4208,7 +4231,13 @@
     {
       "fuzzer": "addition",
       "domain": "nrc.canada1.ca",
+      "dns_ns": [
+        "!ServFail"
+      ],
       "dns_a": [
+        "!ServFail"
+      ],
+      "dns_aaaa": [
         "!ServFail"
       ]
     },
@@ -4227,6 +4256,35 @@
     },
     {
       "fuzzer": "addition",
+      "domain": "nrc.canadaa.ca",
+      "dns_ns": [
+        "basi.ns.giantpanda.com"
+      ],
+      "dns_a": [
+        "192.155.84.236"
+      ],
+      "dns_aaaa": [
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "nrc.canadas.ca",
+      "dns_ns": [
+        "basi.ns.giantpanda.com"
+      ],
+      "dns_a": [
+        "192.155.84.236"
+      ],
+      "dns_aaaa": [
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ],
+      "dns_mx": [
+        "mail.mailerhost.net"
+      ]
+    },
+    {
+      "fuzzer": "addition",
       "domain": "nrc.canada0.ca",
       "dns_ns": [
         "dns1.canspace.ca"
@@ -4239,35 +4297,6 @@
       ],
       "dns_mx": [
         "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "nrc.canadaa.ca",
-      "dns_ns": [
-        "basi.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "nrc.canadas.ca",
-      "dns_ns": [
-        "basi.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
-      ],
-      "dns_mx": [
-        "mail.mailerhost.net"
       ]
     },
     {
@@ -4306,22 +4335,22 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "nrc.canadq.ca",
-      "dns_a": [
-        "207.207.210.23"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "nrc.canade.ca",
       "dns_ns": [
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "nrc.canadq.ca",
+      "dns_a": [
+        "207.207.210.23"
       ]
     },
     {
@@ -4372,10 +4401,10 @@
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -4388,10 +4417,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -4404,10 +4433,10 @@
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ]
     },
     {
@@ -4425,22 +4454,15 @@
     },
     {
       "fuzzer": "replacement",
-      "domain": "nrc.cahada.ca",
-      "dns_a": [
-        "207.207.210.23"
-      ]
-    },
-    {
-      "fuzzer": "replacement",
       "domain": "nrc.canads.ca",
       "dns_ns": [
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -4453,10 +4475,17 @@
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ]
+    },
+    {
+      "fuzzer": "replacement",
+      "domain": "nrc.cahada.ca",
+      "dns_a": [
+        "207.207.210.23"
       ]
     },
     {
@@ -4496,10 +4525,10 @@
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -4632,14 +4661,8 @@
     {
       "fuzzer": "bitsquatting",
       "domain": "nrc-cnrc.gk.ca",
-      "dns_ns": [
-        "ns1.afternic.com"
-      ],
       "dns_a": [
         "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
       ]
     },
     {
@@ -4714,7 +4737,7 @@
     {
       "fuzzer": "insertion",
       "domain": "nrc-cnrc.tgc.ca",
-      "dns_aaaa": [
+      "dns_ns": [
         "!ServFail"
       ]
     },
@@ -4771,10 +4794,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -5032,10 +5055,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -5241,13 +5264,6 @@
       ]
     },
     {
-      "fuzzer": "insertion",
-      "domain": "otc-cta.tgc.ca",
-      "dns_ns": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "repetition",
       "domain": "otc-cta.ggc.ca",
       "dns_ns": [
@@ -5300,10 +5316,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -5561,10 +5577,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -5822,10 +5838,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -5845,10 +5861,10 @@
         "aster.dns-parking.com"
       ],
       "dns_a": [
-        "195.35.60.139"
+        "147.79.120.96"
       ],
       "dns_aaaa": [
-        "2a02:4780:1d:3cb:523a:eea5:b0c0:9d51"
+        "2a02:4780:4e:1be7:8afc:3234:ac09:5c65"
       ],
       "dns_mx": [
         "mx1.hostinger.com"
@@ -5910,19 +5926,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "pmprb-cepmb.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
-      "dns_a": [
-        "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "pmprb-cepmb.gcm.ca",
       "dns_a": [
         "20.125.28.80"
@@ -5939,6 +5942,16 @@
       ],
       "dns_aaaa": [
         "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "pmprb-cepmb.gca.ca",
+      "dns_ns": [
+        "ns5.afternic.com"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -6024,9 +6037,6 @@
       ],
       "dns_a": [
         "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
       ]
     },
     {
@@ -6099,10 +6109,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -6357,10 +6367,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -6378,14 +6388,8 @@
     {
       "fuzzer": "*original",
       "domain": "science.gc.ca",
-      "dns_ns": [
-        "ns1.d-zone.ca"
-      ],
       "dns_a": [
         "205.194.37.193"
-      ],
-      "dns_mx": [
-        "science-gc-ca.mail.protection.outlook.com"
       ]
     },
     {
@@ -6409,9 +6413,6 @@
       ],
       "dns_a": [
         "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
       ]
     },
     {
@@ -6430,14 +6431,8 @@
     {
       "fuzzer": "addition",
       "domain": "science.gca.ca",
-      "dns_ns": [
-        "ns5.afternic.com"
-      ],
       "dns_a": [
         "13.248.169.48"
-      ],
-      "dns_mx": [
-        ""
       ]
     },
     {
@@ -6618,10 +6613,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -6879,10 +6874,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -7043,6 +7038,19 @@
     },
     {
       "fuzzer": "insertion",
+      "domain": "travel.gvc.ca",
+      "dns_ns": [
+        "ns3.afternic.com"
+      ],
+      "dns_a": [
+        "13.248.169.48"
+      ],
+      "dns_mx": [
+        ""
+      ]
+    },
+    {
+      "fuzzer": "insertion",
       "domain": "travel.gzc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -7069,16 +7077,6 @@
       "domain": "travel.gbc.ca",
       "dns_a": [
         "144.217.80.241"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "travel.gvc.ca",
-      "dns_ns": [
-        "ns3.afternic.com"
-      ],
-      "dns_mx": [
-        ""
       ]
     },
     {
@@ -7134,10 +7132,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -7157,7 +7155,7 @@
         "ns1.hastydns.com"
       ],
       "dns_a": [
-        "69.162.80.51"
+        "69.162.80.56"
       ]
     }
   ],
@@ -7402,10 +7400,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -7425,10 +7423,10 @@
         "basi.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -7627,6 +7625,13 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "acoa-apeca.tgc.ca",
+      "dns_aaaa": [
+        "!ServFail"
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "acoa-apeca.ggc.ca",
       "dns_ns": [
@@ -7679,10 +7684,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -8349,10 +8354,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -8449,6 +8454,9 @@
     {
       "fuzzer": "addition",
       "domain": "asc-csa.gc3.ca",
+      "dns_ns": [
+        "!ServFail"
+      ],
       "dns_a": [
         "74.220.199.6"
       ],
@@ -8614,10 +8622,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -8808,6 +8816,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "bdk.ca",
+      "dns_ns": [
+        "ns1.whc.ca"
+      ],
+      "dns_a": [
+        "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "bda.ca",
       "dns_ns": [
         "gloria.ns.cloudflare.com"
@@ -8842,7 +8860,7 @@
         "ns1.siteground.net"
       ],
       "dns_a": [
-        "34.149.120.3"
+        "34.149.36.179"
       ],
       "dns_mx": [
         "mx10.antispam.mailspamprotection.com"
@@ -8918,13 +8936,6 @@
       ],
       "dns_mx": [
         "emailfwd.bdg.ca"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "bdk.ca",
-      "dns_ns": [
-        "ns1.whc.ca"
       ]
     },
     {
@@ -9367,7 +9378,7 @@
         "168.62.20.37"
       ],
       "dns_mx": [
-        "Q26W5YCQ6MXPQ7AVRIMN55SSHIMECBYMDHFFQRP7QM37ZPU5EBMA.MX-VERIFICATION.google.com"
+        "Q26W5YCQ6MXPQ7AVRIMN55SSHIMECBYMDHFFQRP7QM37ZPU5EBMA.MX-VERIFICATION.GOOGLE.COM"
       ]
     },
     {
@@ -9513,7 +9524,7 @@
         "ns-1258.awsdns-29.org"
       ],
       "dns_a": [
-        "3.162.174.123"
+        "18.155.173.101"
       ],
       "dns_mx": [
         "mh1.cpg-gpc.ca"
@@ -9700,13 +9711,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "cannor.tgc.ca",
-      "dns_a": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "cannor.gvc.ca",
       "dns_ns": [
         "ns3.afternic.com"
@@ -9801,10 +9805,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -10059,10 +10063,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -10205,7 +10209,7 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.222"
+        "64.190.63.111"
       ],
       "dns_mx": [
         "localhost"
@@ -10320,10 +10324,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -10581,10 +10585,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -10606,7 +10610,7 @@
         "a1-29.akam.net"
       ],
       "dns_a": [
-        "23.43.211.31"
+        "23.6.184.98"
       ],
       "dns_mx": [
         "eu-smtp-inbound-1.mimecast.com"
@@ -10649,22 +10653,6 @@
       ],
       "dns_a": [
         "13.248.169.48"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "cbcu.ca",
-      "dns_ns": [
-        "ns1.central1.com"
-      ],
-      "dns_a": [
-        "13.32.205.22"
-      ],
-      "dns_aaaa": [
-        "2600:9000:2015:1c00:b:8f7b:67c0:93a1"
-      ],
-      "dns_mx": [
-        "d402294.a.ess.ca.barracudanetworks.com"
       ]
     },
     {
@@ -10754,6 +10742,22 @@
     },
     {
       "fuzzer": "addition",
+      "domain": "cbca.ca",
+      "dns_ns": [
+        "baiyun.ns.giantpanda.com"
+      ],
+      "dns_a": [
+        "192.155.84.236"
+      ],
+      "dns_aaaa": [
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ],
+      "dns_mx": [
+        "mail.mailerhost.net"
+      ]
+    },
+    {
+      "fuzzer": "addition",
       "domain": "cbci.ca",
       "dns_ns": [
         "ns77.domaincontrol.com"
@@ -10813,22 +10817,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cbca.ca",
-      "dns_ns": [
-        "baiyun.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
-      ],
-      "dns_mx": [
-        "mail.mailerhost.net"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cbc4.ca",
       "dns_ns": [
         "htns1.namespro.ca"
@@ -10838,6 +10826,22 @@
       ],
       "dns_mx": [
         "mailroot8.namespro.ca"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cbcu.ca",
+      "dns_ns": [
+        "ns1.central1.com"
+      ],
+      "dns_a": [
+        "52.85.129.58"
+      ],
+      "dns_aaaa": [
+        "2600:9000:200c:4e00:b:8f7b:67c0:93a1"
+      ],
+      "dns_mx": [
+        "d402294.a.ess.ca.barracudanetworks.com"
       ]
     },
     {
@@ -11071,6 +11075,38 @@
     },
     {
       "fuzzer": "homoglyph",
+      "domain": "cclc.ca",
+      "dns_ns": [
+        "baiyun.ns.giantpanda.com"
+      ],
+      "dns_a": [
+        "192.155.84.236"
+      ],
+      "dns_aaaa": [
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ],
+      "dns_mx": [
+        "mail.mailerhost.net"
+      ]
+    },
+    {
+      "fuzzer": "homoglyph",
+      "domain": "clbc.ca",
+      "dns_ns": [
+        "baiyun.ns.giantpanda.com"
+      ],
+      "dns_a": [
+        "192.155.84.236"
+      ],
+      "dns_aaaa": [
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ],
+      "dns_mx": [
+        "mail.mailerhost.net"
+      ]
+    },
+    {
+      "fuzzer": "homoglyph",
       "domain": "cldc.ca",
       "dns_ns": [
         "pns.storm.ca"
@@ -11092,7 +11128,7 @@
         "a1-188.akam.net"
       ],
       "dns_a": [
-        "23.33.29.197"
+        "23.209.84.138"
       ],
       "dns_mx": [
         "mxa-00146707.gslb.pphosted.com"
@@ -11106,38 +11142,6 @@
       ],
       "dns_a": [
         "44.232.173.249"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "cclc.ca",
-      "dns_ns": [
-        "baiyun.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
-      ],
-      "dns_mx": [
-        "mail.mailerhost.net"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "clbc.ca",
-      "dns_ns": [
-        "baiyun.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
-      ],
-      "dns_mx": [
-        "mail.mailerhost.net"
       ]
     },
     {
@@ -11233,6 +11237,22 @@
     },
     {
       "fuzzer": "insertion",
+      "domain": "cbnc.ca",
+      "dns_ns": [
+        "baiyun.ns.giantpanda.com"
+      ],
+      "dns_a": [
+        "192.155.84.236"
+      ],
+      "dns_aaaa": [
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ],
+      "dns_mx": [
+        "mail.mailerhost.net"
+      ]
+    },
+    {
+      "fuzzer": "insertion",
       "domain": "chbc.ca",
       "dns_ns": [
         "ns-cloud-d1.googledomains.com"
@@ -11295,22 +11315,6 @@
     },
     {
       "fuzzer": "insertion",
-      "domain": "cbnc.ca",
-      "dns_ns": [
-        "baiyun.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
-      ],
-      "dns_mx": [
-        "mail.mailerhost.net"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
       "domain": "fcbc.ca",
       "dns_ns": [
         "ns1.linode.com"
@@ -11346,16 +11350,23 @@
       ]
     },
     {
+      "fuzzer": "omission",
+      "domain": "cb.ca",
+      "dns_ns": [
+        "ns.myidhosting.com"
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "ccbc.ca",
       "dns_ns": [
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -11502,13 +11513,6 @@
       ],
       "dns_mx": [
         "cbcca-ca.mail.protection.outlook.com"
-      ]
-    },
-    {
-      "fuzzer": "various",
-      "domain": "cbc-ca.com",
-      "dns_ns": [
-        "grace.ns.cloudflare.com"
       ]
     }
   ],
@@ -11756,10 +11760,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -12040,10 +12044,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -12150,6 +12154,22 @@
     },
     {
       "fuzzer": "addition",
+      "domain": "cccf.ca",
+      "dns_ns": [
+        "ns1.dns-parking.com"
+      ],
+      "dns_a": [
+        "147.79.120.21"
+      ],
+      "dns_aaaa": [
+        "2a02:4780:4f:91d6:b5e6:6be0:c6a7:555b"
+      ],
+      "dns_mx": [
+        "alt1.aspmx.l.google.com"
+      ]
+    },
+    {
+      "fuzzer": "addition",
       "domain": "cccl.ca",
       "dns_ns": [
         "ns33.domaincontrol.com"
@@ -12218,22 +12238,6 @@
       ],
       "dns_a": [
         "185.230.63.107"
-      ],
-      "dns_mx": [
-        "alt1.aspmx.l.google.com"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "cccf.ca",
-      "dns_ns": [
-        "ns1.dns-parking.com"
-      ],
-      "dns_a": [
-        "191.96.144.205"
-      ],
-      "dns_aaaa": [
-        "2a02:4780:1d:47ca:63f0:9044:43c:c8f4"
       ],
       "dns_mx": [
         "alt1.aspmx.l.google.com"
@@ -12402,7 +12406,7 @@
         "a1-29.akam.net"
       ],
       "dns_a": [
-        "23.43.211.31"
+        "23.204.188.36"
       ],
       "dns_mx": [
         "eu-smtp-inbound-1.mimecast.com"
@@ -12582,10 +12586,10 @@
         "edns1.ultradns.biz"
       ],
       "dns_a": [
-        "108.156.107.11"
+        "18.65.25.18"
       ],
       "dns_aaaa": [
-        "2600:9000:2350:1c00:17:27c8:dc00:93a1"
+        "2600:9000:2364:1200:17:27c8:dc00:93a1"
       ],
       "dns_mx": [
         "alt1.aspmx.l.google.com"
@@ -12619,6 +12623,22 @@
     },
     {
       "fuzzer": "insertion",
+      "domain": "cfcc.ca",
+      "dns_ns": [
+        "baiyun.ns.giantpanda.com"
+      ],
+      "dns_a": [
+        "192.155.84.236"
+      ],
+      "dns_aaaa": [
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ],
+      "dns_mx": [
+        "mail.mailerhost.net"
+      ]
+    },
+    {
+      "fuzzer": "insertion",
       "domain": "vccc.ca",
       "dns_ns": [
         "ns73.domaincontrol.com"
@@ -12628,22 +12648,6 @@
       ],
       "dns_mx": [
         "vccc-ca.mail.protection.outlook.com"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "cfcc.ca",
-      "dns_ns": [
-        "baiyun.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
-      ],
-      "dns_mx": [
-        "mail.mailerhost.net"
       ]
     },
     {
@@ -12727,6 +12731,19 @@
     },
     {
       "fuzzer": "replacement",
+      "domain": "vcc.ca",
+      "dns_ns": [
+        "ns-1134.awsdns-13.org"
+      ],
+      "dns_a": [
+        "15.156.241.103"
+      ],
+      "dns_mx": [
+        "vcc-ca.mail.protection.outlook.com"
+      ]
+    },
+    {
+      "fuzzer": "replacement",
       "domain": "fcc.ca",
       "dns_ns": [
         "ns1.webnames.ca"
@@ -12736,19 +12753,6 @@
       ],
       "dns_mx": [
         "fcc-ca.mail.protection.outlook.com"
-      ]
-    },
-    {
-      "fuzzer": "replacement",
-      "domain": "vcc.ca",
-      "dns_ns": [
-        "ns-1134.awsdns-13.org"
-      ],
-      "dns_a": [
-        "15.222.146.29"
-      ],
-      "dns_mx": [
-        "vcc-ca.mail.protection.outlook.com"
       ]
     },
     {
@@ -12771,10 +12775,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -12895,6 +12899,22 @@
     },
     {
       "fuzzer": "omission",
+      "domain": "cchs.ca",
+      "dns_ns": [
+        "baiyun.ns.giantpanda.com"
+      ],
+      "dns_a": [
+        "192.155.84.236"
+      ],
+      "dns_aaaa": [
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ],
+      "dns_mx": [
+        "mail.mailerhost.net"
+      ]
+    },
+    {
+      "fuzzer": "omission",
       "domain": "ccos.ca",
       "dns_ns": [
         "dns1.p01.nsone.net"
@@ -12904,22 +12924,6 @@
       ],
       "dns_mx": [
         "ccos-ca.mail.protection.outlook.com"
-      ]
-    },
-    {
-      "fuzzer": "omission",
-      "domain": "cchs.ca",
-      "dns_ns": [
-        "baiyun.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
-      ],
-      "dns_mx": [
-        "mail.mailerhost.net"
       ]
     },
     {
@@ -13102,6 +13106,22 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "clic.ca",
+      "dns_ns": [
+        "baiyun.ns.giantpanda.com"
+      ],
+      "dns_a": [
+        "192.155.84.236"
+      ],
+      "dns_aaaa": [
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ],
+      "dns_mx": [
+        "mail.mailerhost.net"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "cdkc.ca",
       "dns_ns": [
         "pdns11.domaincontrol.com"
@@ -13150,22 +13170,6 @@
       ],
       "dns_mx": [
         "alt1.aspmx.l.google.com"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "clic.ca",
-      "dns_ns": [
-        "baiyun.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
-      ],
-      "dns_mx": [
-        "mail.mailerhost.net"
       ]
     },
     {
@@ -13270,7 +13274,7 @@
         "ns1.torresdns.com"
       ],
       "dns_a": [
-        "23.92.212.163"
+        "23.92.212.166"
       ]
     },
     {
@@ -13322,7 +13326,7 @@
         "ns-116.awsdns-14.com"
       ],
       "dns_a": [
-        "18.154.110.30"
+        "18.238.109.125"
       ]
     },
     {
@@ -13701,10 +13705,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -13962,10 +13966,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -14223,10 +14227,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -14498,10 +14502,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -14759,10 +14763,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -15020,10 +15024,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -15080,6 +15084,9 @@
     {
       "fuzzer": "addition",
       "domain": "cse-cst.gcu.ca",
+      "dns_ns": [
+        "!ServFail"
+      ],
       "dns_a": [
         "!ServFail"
       ],
@@ -15278,10 +15285,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -15539,10 +15546,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -15685,7 +15692,7 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.111"
+        "64.190.63.222"
       ],
       "dns_mx": [
         "localhost"
@@ -15800,10 +15807,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -16021,6 +16028,9 @@
       "dns_ns": [
         "ns1.afternic.com"
       ],
+      "dns_a": [
+        "13.248.169.48"
+      ],
       "dns_mx": [
         ""
       ]
@@ -16035,15 +16045,27 @@
     {
       "fuzzer": "replacement",
       "domain": "dfo-mpo.yc.ca",
+      "dns_ns": [
+        "ns1.afternic.com"
+      ],
       "dns_a": [
         "13.248.169.48"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
       "fuzzer": "replacement",
       "domain": "dfo-mpo.zc.ca",
+      "dns_ns": [
+        "ns1.afternic.com"
+      ],
       "dns_a": [
         "13.248.169.48"
+      ],
+      "dns_mx": [
+        ""
       ]
     },
     {
@@ -16053,10 +16075,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -16242,19 +16264,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "efc.ca",
-      "dns_ns": [
-        "ns1.mediatemple.net"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "elc.ca",
       "dns_ns": [
         "ns1.zabco.net"
@@ -16376,6 +16385,16 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "efc.ca",
+      "dns_ns": [
+        "ns1.mediatemple.net"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "etc.ca",
       "dns_ns": [
         "ns-104.awsdns-13.com"
@@ -16445,6 +16464,22 @@
     },
     {
       "fuzzer": "homoglyph",
+      "domain": "cclc.ca",
+      "dns_ns": [
+        "baiyun.ns.giantpanda.com"
+      ],
+      "dns_a": [
+        "192.155.84.236"
+      ],
+      "dns_aaaa": [
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ],
+      "dns_mx": [
+        "mail.mailerhost.net"
+      ]
+    },
+    {
+      "fuzzer": "homoglyph",
       "domain": "eclc.ca",
       "dns_ns": [
         "connect1.squarespacedns.com"
@@ -16463,7 +16498,7 @@
         "a1-29.akam.net"
       ],
       "dns_a": [
-        "23.43.211.31"
+        "23.204.188.36"
       ],
       "dns_mx": [
         "eu-smtp-inbound-1.mimecast.com"
@@ -16477,22 +16512,6 @@
       ],
       "dns_a": [
         "44.232.173.249"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "cclc.ca",
-      "dns_ns": [
-        "baiyun.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
-      ],
-      "dns_mx": [
-        "mail.mailerhost.net"
       ]
     },
     {
@@ -16874,7 +16893,7 @@
         "dns1.p03.nsone.net"
       ],
       "dns_a": [
-        "18.208.88.157"
+        "13.52.188.95"
       ]
     }
   ],
@@ -17186,10 +17205,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -17447,10 +17466,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -17715,10 +17734,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -17729,9 +17748,6 @@
       "domain": "fja-cmf.gc-ca.com",
       "dns_a": [
         "127.0.0.1"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
       ]
     }
   ],
@@ -17885,6 +17901,9 @@
       "dns_a": [
         "!ServFail"
       ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
       "dns_mx": [
         "!ServFail"
       ]
@@ -17952,6 +17971,9 @@
       ],
       "dns_a": [
         "167.114.103.51"
+      ],
+      "dns_mx": [
+        "galley.ca"
       ]
     },
     {
@@ -18037,9 +18059,6 @@
         "ns51.securewebhosting.net"
       ],
       "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
         "!ServFail"
       ],
       "dns_mx": [
@@ -18318,6 +18337,22 @@
     },
     {
       "fuzzer": "bitsquatting",
+      "domain": "cg.ca",
+      "dns_ns": [
+        "lunlun.ns.giantpanda.com"
+      ],
+      "dns_a": [
+        "192.155.84.236"
+      ],
+      "dns_aaaa": [
+        "2600:3c01::2000:3aff:feb3:2e94"
+      ],
+      "dns_mx": [
+        "mail.mailerhost.net"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
       "domain": "gf.ca",
       "dns_ns": [
         "pdns05.domaincontrol.com"
@@ -18354,28 +18389,12 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "cg.ca",
-      "dns_ns": [
-        "lunlun.ns.giantpanda.com"
-      ],
-      "dns_a": [
-        "45.33.83.100"
-      ],
-      "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
-      ],
-      "dns_mx": [
-        "mail.mailerhost.net"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "go.ca",
       "dns_ns": [
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.111"
+        "64.190.63.222"
       ],
       "dns_mx": [
         "localhost"
@@ -19066,10 +19085,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -19378,10 +19397,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -19417,10 +19436,10 @@
         "ns1.dns-parking.com"
       ],
       "dns_a": [
-        "191.96.144.125"
+        "77.37.76.152"
       ],
       "dns_aaaa": [
-        "2a02:4780:1e:20ba:30e8:58bd:9a5c:f364"
+        "2a02:4780:4e:4a1e:da39:2957:dfca:f204"
       ],
       "dns_mx": [
         "fusion-relay.mxrouting.net"
@@ -19965,10 +19984,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -20239,10 +20258,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -20448,13 +20467,6 @@
       ]
     },
     {
-      "fuzzer": "insertion",
-      "domain": "international.tgc.ca",
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "repetition",
       "domain": "international.ggc.ca",
       "dns_ns": [
@@ -20507,10 +20519,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -20797,10 +20809,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -20880,10 +20892,10 @@
         "dns1.p09.nsone.net"
       ],
       "dns_a": [
-        "18.208.88.157"
+        "13.52.188.95"
       ],
       "dns_aaaa": [
-        "2600:1f18:16e:df01::258"
+        "2600:1f1c:446:4900::258"
       ]
     },
     {
@@ -21055,6 +21067,9 @@
       "domain": "mind.ca",
       "dns_ns": [
         "ns1.systemdns.com"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
       ]
     },
     {
@@ -21137,15 +21152,12 @@
       "fuzzer": "omission",
       "domain": "mit.ca",
       "dns_ns": [
-        "launch1.spaceship.net"
+        "!ServFail"
       ],
       "dns_a": [
         "!ServFail"
       ],
       "dns_aaaa": [
-        "!ServFail"
-      ],
-      "dns_mx": [
         "!ServFail"
       ]
     },
@@ -21302,7 +21314,7 @@
       "fuzzer": "*original",
       "domain": "nfb.ca",
       "dns_ns": [
-        "ns3.nfb.ca"
+        "NS3.nfb.ca"
       ],
       "dns_a": [
         "35.182.164.155"
@@ -21725,7 +21737,7 @@
         "a1-62.akam.net"
       ],
       "dns_a": [
-        "23.33.29.196"
+        "23.209.84.136"
       ],
       "dns_mx": [
         "nbf-ca.mail.protection.outlook.com"
@@ -21986,10 +21998,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -22254,10 +22266,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -22527,10 +22539,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -22791,10 +22803,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -23052,10 +23064,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -23326,10 +23338,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -23416,9 +23428,6 @@
     {
       "fuzzer": "addition",
       "domain": "publicsafety.gc3.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
       "dns_a": [
         "74.220.199.6"
       ],
@@ -23584,10 +23593,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -23793,13 +23802,6 @@
       ]
     },
     {
-      "fuzzer": "insertion",
-      "domain": "rcaanc-cirnac.tgc.ca",
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "repetition",
       "domain": "rcaanc-cirnac.ggc.ca",
       "dns_ns": [
@@ -23852,10 +23854,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -24113,10 +24115,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -24400,10 +24402,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -24861,10 +24863,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -25122,10 +25124,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -25383,10 +25385,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -25563,6 +25565,16 @@
     },
     {
       "fuzzer": "insertion",
+      "domain": "veterans.tgc.ca",
+      "dns_a": [
+        "!ServFail"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "insertion",
       "domain": "veterans.gvc.ca",
       "dns_ns": [
         "ns3.afternic.com"
@@ -25657,10 +25669,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -25767,6 +25779,13 @@
         "74.220.199.6"
       ],
       "dns_aaaa": [
+        "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "vrab-tacra.gco.ca",
+      "dns_ns": [
         "!ServFail"
       ]
     },
@@ -25928,10 +25947,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -26189,10 +26208,10 @@
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
@@ -26293,6 +26312,27 @@
       ]
     },
     {
+      "fuzzer": "addition",
+      "domain": "wd-deo.gce.ca",
+      "dns_ns": [
+        "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "wd-deo.gck.ca",
+      "dns_ns": [
+        "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "wd-deo.gco.ca",
+      "dns_ns": [
+        "!ServFail"
+      ]
+    },
+    {
       "fuzzer": "bitsquatting",
       "domain": "wd-deo.oc.ca",
       "dns_a": [
@@ -26342,6 +26382,13 @@
       ]
     },
     {
+      "fuzzer": "bitsquatting",
+      "domain": "wd-deo.ec.ca",
+      "dns_aaaa": [
+        "!ServFail"
+      ]
+    },
+    {
       "fuzzer": "homoglyph",
       "domain": "wd-deo.qe.ca",
       "dns_ns": [
@@ -26350,6 +26397,13 @@
       "dns_a": [
         "!ServFail"
       ],
+      "dns_aaaa": [
+        "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "homoglyph",
+      "domain": "wd-deo.ge.ca",
       "dns_aaaa": [
         "!ServFail"
       ]
@@ -26444,16 +26498,23 @@
       ]
     },
     {
+      "fuzzer": "replacement",
+      "domain": "wd-deo.gd.ca",
+      "dns_ns": [
+        "!ServFail"
+      ]
+    },
+    {
       "fuzzer": "transposition",
       "domain": "wd-deo.cg.ca",
       "dns_ns": [
         "baiyun.ns.giantpanda.com"
       ],
       "dns_a": [
-        "45.33.83.100"
+        "192.155.84.236"
       ],
       "dns_aaaa": [
-        "2600:3c03::f03c:95ff:fe00:29ca"
+        "2600:3c01::2000:3aff:feb3:2e94"
       ],
       "dns_mx": [
         "mail.mailerhost.net"
