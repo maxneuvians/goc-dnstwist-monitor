@@ -22,7 +22,7 @@
       "dns_a": [
         "!ServFail"
       ],
-      "dns_mx": [
+      "dns_aaaa": [
         "!ServFail"
       ]
     },
@@ -176,10 +176,10 @@
         "ns1.dns-parking.com"
       ],
       "dns_a": [
-        "191.101.104.182"
+        "191.101.104.35"
       ],
       "dns_aaaa": [
-        "2a02:4780:1d:14d2:be4e:657f:9c54:851b"
+        "2a02:4780:1e:1604:c2e9:1b9e:e979:f641"
       ],
       "dns_mx": [
         "mx1.hostinger.com"
@@ -300,12 +300,6 @@
       "domain": "canada1.ca",
       "dns_ns": [
         "ns1.bodis.com"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ],
-      "dns_mx": [
-        "!ServFail"
       ]
     },
     {
@@ -323,6 +317,22 @@
       ],
       "dns_mx": [
         "alt1.aspmx.l.google.com"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "sanada.ca",
+      "dns_ns": [
+        "ns8247.hostgator.com"
+      ],
+      "dns_a": [
+        "!ServFail"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ],
+      "dns_mx": [
+        "!ServFail"
       ]
     },
     {
@@ -372,19 +382,6 @@
       ],
       "dns_mx": [
         ""
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "sanada.ca",
-      "dns_ns": [
-        "ns8247.hostgator.com"
-      ],
-      "dns_a": [
-        "192.185.48.138"
-      ],
-      "dns_mx": [
-        "sanada.ca"
       ]
     },
     {
@@ -883,7 +880,7 @@
         "195.201.128.179"
       ],
       "dns_aaaa": [
-        "2406:da1e:214:c901:3f07:520c:34c1:9096"
+        "2406:da1e:214:c901:ac56:6ae3:2e96:68f5"
       ]
     },
     {
@@ -922,13 +919,13 @@
       "fuzzer": "vowel-swap",
       "domain": "canado.ca",
       "dns_ns": [
-        "ns1.netfirms.com"
+        "ns1.netfirms-expired.domainparkingserver.net"
       ],
       "dns_a": [
-        "66.96.160.133"
+        "66.81.203.134"
       ],
       "dns_mx": [
-        "mx.canado.ca"
+        "~"
       ]
     }
   ],
@@ -1048,7 +1045,7 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.222"
+        "64.190.63.111"
       ],
       "dns_mx": [
         "localhost"
@@ -1068,12 +1065,9 @@
       ]
     },
     {
-      "fuzzer": "homoglyph",
-      "domain": "cfc-swc.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
+      "fuzzer": "insertion",
+      "domain": "cfc-swc.tgc.ca",
+      "dns_a": [
         "!ServFail"
       ]
     },
@@ -1118,16 +1112,6 @@
       "domain": "cfc-swc.gbc.ca",
       "dns_a": [
         "144.217.80.241"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "cfc-swc.tgc.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
       ]
     },
     {
@@ -1330,6 +1314,13 @@
       ]
     },
     {
+      "fuzzer": "homoglyph",
+      "domain": "cihr-irsc.ge.ca",
+      "dns_ns": [
+        "!ServFail"
+      ]
+    },
+    {
       "fuzzer": "insertion",
       "domain": "cihr-irsc.gvc.ca",
       "dns_ns": [
@@ -1375,7 +1366,7 @@
     {
       "fuzzer": "insertion",
       "domain": "cihr-irsc.tgc.ca",
-      "dns_ns": [
+      "dns_aaaa": [
         "!ServFail"
       ]
     },
@@ -1559,7 +1550,7 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.111"
+        "64.190.63.222"
       ],
       "dns_mx": [
         "localhost"
@@ -2204,10 +2195,10 @@
         "ns1.dns-parking.com"
       ],
       "dns_a": [
-        "191.96.144.153"
+        "191.101.104.9"
       ],
       "dns_aaaa": [
-        "2a02:4780:1d:96d4:713d:5b3:816d:ee44"
+        "2a02:4780:1d:ee7:5c42:1c20:5c68:9249"
       ],
       "dns_mx": [
         "mx1.hostinger.com"
@@ -2606,6 +2597,16 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "irb-cisr.tgc.ca",
+      "dns_ns": [
+        "!ServFail"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "irb-cisr.ggc.ca",
       "dns_ns": [
@@ -2680,6 +2681,9 @@
     {
       "fuzzer": "addition",
       "domain": "library-archives.canada1.ca",
+      "dns_ns": [
+        "!ServFail"
+      ],
       "dns_a": [
         "!ServFail"
       ]
@@ -2691,9 +2695,6 @@
         "!ServFail"
       ],
       "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
         "!ServFail"
       ]
     },
@@ -2774,6 +2775,19 @@
       "domain": "library-archives.canaday.ca",
       "dns_a": [
         "69.16.231.58"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "library-archives.sanada.ca",
+      "dns_ns": [
+        "!ServFail"
+      ],
+      "dns_a": [
+        "!ServFail"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
       ]
     },
     {
@@ -3003,8 +3017,14 @@
     {
       "fuzzer": "vowel-swap",
       "domain": "library-archives.canado.ca",
+      "dns_ns": [
+        "ns118554.ztomy.com"
+      ],
       "dns_a": [
-        "66.96.160.133"
+        "66.81.203.134"
+      ],
+      "dns_mx": [
+        "~"
       ]
     }
   ],
@@ -3140,13 +3160,6 @@
         "!ServFail"
       ],
       "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "mpcc-cppm.tgc.ca",
-      "dns_a": [
         "!ServFail"
       ]
     },
@@ -3694,7 +3707,7 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.222"
+        "64.190.63.111"
       ],
       "dns_mx": [
         "localhost"
@@ -3754,6 +3767,13 @@
       "domain": "ncc-ccn.gbc.ca",
       "dns_a": [
         "144.217.80.241"
+      ]
+    },
+    {
+      "fuzzer": "insertion",
+      "domain": "ncc-ccn.tgc.ca",
+      "dns_ns": [
+        "!ServFail"
       ]
     },
     {
@@ -3826,6 +3846,16 @@
       "domain": "northern-pipeline.canada.ca",
       "dns_a": [
         "4.206.137.39"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "northern-pipeline.canada7.ca",
+      "dns_ns": [
+        "!ServFail"
+      ],
+      "dns_a": [
+        "!ServFail"
       ]
     },
     {
@@ -3909,8 +3939,18 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "northern-pipeline.canada7.ca",
+      "domain": "northern-pipeline.canada1.ca",
       "dns_ns": [
+        "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "northern-pipeline.sanada.ca",
+      "dns_ns": [
+        "!ServFail"
+      ],
+      "dns_a": [
         "!ServFail"
       ],
       "dns_aaaa": [
@@ -4144,8 +4184,14 @@
     {
       "fuzzer": "vowel-swap",
       "domain": "northern-pipeline.canado.ca",
+      "dns_ns": [
+        "ns118554.ztomy.com"
+      ],
       "dns_a": [
-        "66.96.160.133"
+        "66.81.203.134"
+      ],
+      "dns_mx": [
+        "~"
       ]
     }
   ],
@@ -4155,13 +4201,6 @@
       "domain": "nrc.canada.ca",
       "dns_a": [
         "167.37.63.16"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "nrc.canada7.ca",
-      "dns_a": [
-        "!ServFail"
       ]
     },
     {
@@ -4241,6 +4280,26 @@
       "domain": "nrc.canaday.ca",
       "dns_a": [
         "69.16.231.58"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "nrc.canada1.ca",
+      "dns_ns": [
+        "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "nrc.sanada.ca",
+      "dns_ns": [
+        "!ServFail"
+      ],
+      "dns_a": [
+        "!ServFail"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
       ]
     },
     {
@@ -4480,8 +4539,14 @@
     {
       "fuzzer": "vowel-swap",
       "domain": "nrc.canado.ca",
+      "dns_ns": [
+        "ns118554.ztomy.com"
+      ],
       "dns_a": [
-        "66.96.160.133"
+        "66.81.203.134"
+      ],
+      "dns_mx": [
+        "~"
       ]
     }
   ],
@@ -4851,6 +4916,16 @@
     },
     {
       "fuzzer": "homoglyph",
+      "domain": "nsira-ossnr.ge.ca",
+      "dns_a": [
+        "!ServFail"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "homoglyph",
       "domain": "nsira-ossnr.qe.ca",
       "dns_ns": [
         "!ServFail"
@@ -4903,6 +4978,13 @@
       "domain": "nsira-ossnr.gbc.ca",
       "dns_a": [
         "144.217.80.241"
+      ]
+    },
+    {
+      "fuzzer": "insertion",
+      "domain": "nsira-ossnr.tgc.ca",
+      "dns_aaaa": [
+        "!ServFail"
       ]
     },
     {
@@ -5145,6 +5227,13 @@
       "domain": "otc-cta.gbc.ca",
       "dns_a": [
         "144.217.80.241"
+      ]
+    },
+    {
+      "fuzzer": "insertion",
+      "domain": "otc-cta.tgc.ca",
+      "dns_aaaa": [
+        "!ServFail"
       ]
     },
     {
@@ -5701,10 +5790,10 @@
         "aster.dns-parking.com"
       ],
       "dns_a": [
-        "191.101.104.52"
+        "191.101.104.142"
       ],
       "dns_aaaa": [
-        "2a02:4780:21:ca81:20df:e970:d452:a95a"
+        "2a02:4780:1e:cae0:c108:f5d:5d47:1c9b"
       ],
       "dns_mx": [
         "mx1.hostinger.com"
@@ -6086,13 +6175,6 @@
       ]
     },
     {
-      "fuzzer": "homoglyph",
-      "domain": "publications.ge.ca",
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "insertion",
       "domain": "publications.gvc.ca",
       "dns_ns": [
@@ -6133,13 +6215,6 @@
       "domain": "publications.gbc.ca",
       "dns_a": [
         "144.217.80.241"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "publications.tgc.ca",
-      "dns_aaaa": [
-        "!ServFail"
       ]
     },
     {
@@ -6322,7 +6397,7 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.222"
+        "64.190.63.111"
       ],
       "dns_mx": [
         "localhost"
@@ -6564,7 +6639,7 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.111"
+        "64.190.63.222"
       ],
       "dns_mx": [
         "localhost"
@@ -6935,7 +7010,7 @@
         "ns1.hastydns.com"
       ],
       "dns_a": [
-        "69.162.80.52"
+        "69.162.80.56"
       ]
     }
   ],
@@ -7052,7 +7127,7 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.111"
+        "64.190.63.222"
       ],
       "dns_mx": [
         "localhost"
@@ -7310,7 +7385,7 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.111"
+        "64.190.63.222"
       ],
       "dns_mx": [
         "localhost"
@@ -8630,6 +8705,9 @@
       "domain": "bdk.ca",
       "dns_ns": [
         "ns1.whc.ca"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
       ]
     },
     {
@@ -9434,6 +9512,13 @@
       ]
     },
     {
+      "fuzzer": "insertion",
+      "domain": "cannor.tgc.ca",
+      "dns_aaaa": [
+        "!ServFail"
+      ]
+    },
+    {
       "fuzzer": "repetition",
       "domain": "cannor.ggc.ca",
       "dns_ns": [
@@ -9630,20 +9715,6 @@
       ]
     },
     {
-      "fuzzer": "homoglyph",
-      "domain": "cas-satj.ge.ca",
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "cas-satj.tgc.ca",
-      "dns_a": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "insertion",
       "domain": "cas-satj.gvc.ca",
       "dns_ns": [
@@ -9684,6 +9755,13 @@
       "domain": "cas-satj.gbc.ca",
       "dns_a": [
         "144.217.80.241"
+      ]
+    },
+    {
+      "fuzzer": "insertion",
+      "domain": "cas-satj.tgc.ca",
+      "dns_ns": [
+        "!ServFail"
       ]
     },
     {
@@ -9866,7 +9944,7 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.111"
+        "64.190.63.222"
       ],
       "dns_mx": [
         "localhost"
@@ -9882,13 +9960,6 @@
         "!ServFail"
       ],
       "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "catsa-acsta.tgc.ca",
-      "dns_a": [
         "!ServFail"
       ]
     },
@@ -10249,7 +10320,7 @@
         "a1-29.akam.net"
       ],
       "dns_a": [
-        "184.30.163.73"
+        "23.1.58.85"
       ],
       "dns_mx": [
         "eu-smtp-inbound-1.mimecast.com"
@@ -10292,6 +10363,22 @@
       ],
       "dns_a": [
         "13.248.169.48"
+      ]
+    },
+    {
+      "fuzzer": "addition",
+      "domain": "cbcu.ca",
+      "dns_ns": [
+        "ns1.central1.com"
+      ],
+      "dns_a": [
+        "13.32.179.51"
+      ],
+      "dns_aaaa": [
+        "2600:9000:286d:2000:b:8f7b:67c0:93a1"
+      ],
+      "dns_mx": [
+        "d402294.a.ess.ca.barracudanetworks.com"
       ]
     },
     {
@@ -10413,22 +10500,6 @@
       ],
       "dns_mx": [
         "alt1.aspmx.l.google.com"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "cbcu.ca",
-      "dns_ns": [
-        "ns1.central1.com"
-      ],
-      "dns_a": [
-        "3.170.19.107"
-      ],
-      "dns_aaaa": [
-        "2600:9000:286d:2200:b:8f7b:67c0:93a1"
-      ],
-      "dns_mx": [
-        "d402294.a.ess.ca.barracudanetworks.com"
       ]
     },
     {
@@ -10665,13 +10736,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "cbs.ca",
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "crc.ca",
       "dns_ns": [
         "ns1.d-zone.ca"
@@ -10724,19 +10788,6 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "cibc.ca",
-      "dns_ns": [
-        "a1-188.akam.net"
-      ],
-      "dns_a": [
-        "2.18.67.133"
-      ],
-      "dns_mx": [
-        "mxa-00146707.gslb.pphosted.com"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "cldc.ca",
       "dns_ns": [
         "pns.storm.ca"
@@ -10749,6 +10800,19 @@
       ],
       "dns_mx": [
         "cldc-ca.mail.protection.outlook.com"
+      ]
+    },
+    {
+      "fuzzer": "homoglyph",
+      "domain": "cibc.ca",
+      "dns_ns": [
+        "a1-188.akam.net"
+      ],
+      "dns_a": [
+        "23.12.145.141"
+      ],
+      "dns_mx": [
+        "mxa-00146707.gslb.pphosted.com"
       ]
     },
     {
@@ -10987,9 +11051,6 @@
       "domain": "cb.ca",
       "dns_ns": [
         "ns.myidhosting.com"
-      ],
-      "dns_mx": [
-        "!ServFail"
       ]
     },
     {
@@ -11156,9 +11217,6 @@
       "domain": "cbc-ca.com",
       "dns_ns": [
         "grace.ns.cloudflare.com"
-      ],
-      "dns_mx": [
-        "!ServFail"
       ]
     }
   ],
@@ -11204,16 +11262,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cbsa-asfc.gcw.ca",
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cbsa-asfc.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -11240,19 +11288,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "cbsa-asfc.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -11301,20 +11336,10 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.222"
+        "64.190.63.111"
       ],
       "dns_mx": [
         "localhost"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "cbsa-asfc.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ]
     },
     {
@@ -11323,16 +11348,6 @@
       "dns_ns": [
         "!ServFail"
       ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "cbsa-asfc.tgc.ca",
       "dns_a": [
         "!ServFail"
       ],
@@ -11512,16 +11527,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "ccbn-nbc.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "ccbn-nbc.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -11548,19 +11553,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "ccbn-nbc.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -11625,23 +11617,6 @@
         "!ServFail"
       ],
       "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "ccbn-nbc.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "ccbn-nbc.tgc.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
         "!ServFail"
       ]
     },
@@ -11941,10 +11916,10 @@
         "ns1.dns-parking.com"
       ],
       "dns_a": [
-        "195.35.60.70"
+        "191.96.144.117"
       ],
       "dns_aaaa": [
-        "2a02:4780:1e:f578:74a3:4183:7137:23f5"
+        "2a02:4780:1e:c310:eaaa:a56b:e523:e8c9"
       ],
       "dns_mx": [
         "alt1.aspmx.l.google.com"
@@ -12056,19 +12031,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "cbc.ca",
-      "dns_ns": [
-        "a1-29.akam.net"
-      ],
-      "dns_a": [
-        "184.30.163.73"
-      ],
-      "dns_mx": [
-        "eu-smtp-inbound-1.mimecast.com"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "acc.ca",
       "dns_ns": [
         "dns.internic.ca"
@@ -12104,6 +12066,19 @@
       ],
       "dns_mx": [
         "mail.cividalespa.com"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "cbc.ca",
+      "dns_ns": [
+        "a1-29.akam.net"
+      ],
+      "dns_a": [
+        "23.1.58.85"
+      ],
+      "dns_mx": [
+        "eu-smtp-inbound-1.mimecast.com"
       ]
     },
     {
@@ -12196,22 +12171,6 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "eec.ca",
-      "dns_ns": [
-        "ns.myidhosting.com"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ],
-      "dns_mx": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "cec.ca",
       "dns_ns": [
         "ns.anycast.ilap.com"
@@ -12283,6 +12242,29 @@
       ]
     },
     {
+      "fuzzer": "homoglyph",
+      "domain": "eec.ca",
+      "dns_ns": [
+        "ns.myidhosting.com"
+      ]
+    },
+    {
+      "fuzzer": "insertion",
+      "domain": "cdcc.ca",
+      "dns_ns": [
+        "edns1.ultradns.biz"
+      ],
+      "dns_a": [
+        "13.32.179.105"
+      ],
+      "dns_aaaa": [
+        "2600:9000:2009:1200:17:27c8:dc00:93a1"
+      ],
+      "dns_mx": [
+        "alt1.aspmx.l.google.com"
+      ]
+    },
+    {
       "fuzzer": "insertion",
       "domain": "dccc.ca",
       "dns_ns": [
@@ -12319,22 +12301,6 @@
       ],
       "dns_mx": [
         "vccc-ca.mail.protection.outlook.com"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "cdcc.ca",
-      "dns_ns": [
-        "edns1.ultradns.biz"
-      ],
-      "dns_a": [
-        "3.168.122.30"
-      ],
-      "dns_aaaa": [
-        "2600:9000:2009:3a00:17:27c8:dc00:93a1"
-      ],
-      "dns_mx": [
-        "alt1.aspmx.l.google.com"
       ]
     },
     {
@@ -12859,7 +12825,7 @@
         "ns1.siteground.net"
       ],
       "dns_a": [
-        "34.149.36.179"
+        "34.160.17.71"
       ],
       "dns_mx": [
         "alt1.aspmx.l.google.com"
@@ -12978,16 +12944,6 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "cbic.ca",
-      "dns_ns": [
-        "ns1.torresdns.com"
-      ],
-      "dns_a": [
-        "23.92.212.164"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "cblc.ca",
       "dns_ns": [
         "htns1.namespro.ca"
@@ -13013,6 +12969,16 @@
       ],
       "dns_mx": [
         "mail.edie.ca"
+      ]
+    },
+    {
+      "fuzzer": "homoglyph",
+      "domain": "cbic.ca",
+      "dns_ns": [
+        "ns1.torresdns.com"
+      ],
+      "dns_a": [
+        "78.41.207.28"
       ]
     },
     {
@@ -13225,16 +13191,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cer-rec.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cer-rec.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -13261,19 +13217,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "cer-rec.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -13338,26 +13281,6 @@
         "!ServFail"
       ],
       "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "cer-rec.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "cer-rec.tgc.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
         "!ServFail"
       ]
     },
@@ -13510,16 +13433,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "chrc-ccdp.gcw.ca",
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "chrc-ccdp.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -13546,19 +13459,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "chrc-ccdp.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -13627,16 +13527,6 @@
       ]
     },
     {
-      "fuzzer": "homoglyph",
-      "domain": "chrc-ccdp.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "insertion",
       "domain": "chrc-ccdp.gvc.ca",
       "dns_ns": [
@@ -13677,16 +13567,6 @@
       "domain": "chrc-ccdp.gbc.ca",
       "dns_a": [
         "144.217.80.241"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "chrc-ccdp.tgc.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
       ]
     },
     {
@@ -13795,19 +13675,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cmhc-schl.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cmhc-schl.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -13834,19 +13701,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "cmhc-schl.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -13958,16 +13812,6 @@
       ]
     },
     {
-      "fuzzer": "insertion",
-      "domain": "cmhc-schl.tgc.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "repetition",
       "domain": "cmhc-schl.ggc.ca",
       "dns_ns": [
@@ -14025,19 +13869,6 @@
     },
     {
       "fuzzer": "various",
-      "domain": "cmhc-schl-gc.ca",
-      "dns_ns": [
-        "ns1.webnames.ca"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_mx": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "various",
       "domain": "cmhc-schl.gc-ca.com",
       "dns_a": [
         "127.0.0.1"
@@ -14045,12 +13876,16 @@
     },
     {
       "fuzzer": "various",
+      "domain": "cmhc-schl-gc.ca",
+      "dns_ns": [
+        "ns1.webnames.ca"
+      ]
+    },
+    {
+      "fuzzer": "various",
       "domain": "cmhc-schlgc.ca",
       "dns_ns": [
         "dns.namescout.com"
-      ],
-      "dns_mx": [
-        "!ServFail"
       ]
     }
   ],
@@ -14096,19 +13931,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cnsc-ccsn.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cnsc-ccsn.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -14135,19 +13957,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "cnsc-ccsn.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -14204,16 +14013,6 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "cnsc-ccsn.ge.ca",
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "cnsc-ccsn.qe.ca",
       "dns_ns": [
         "!ServFail"
@@ -14222,16 +14021,6 @@
         "!ServFail"
       ],
       "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "cnsc-ccsn.tgc.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
         "!ServFail"
       ]
     },
@@ -14384,19 +14173,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "crcc-ccetp.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "crcc-ccetp.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -14423,19 +14199,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "crcc-ccetp.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -14492,16 +14255,6 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "crcc-ccetp.ge.ca",
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "crcc-ccetp.qe.ca",
       "dns_ns": [
         "!ServFail"
@@ -14554,13 +14307,6 @@
       "domain": "crcc-ccetp.gbc.ca",
       "dns_a": [
         "144.217.80.241"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "crcc-ccetp.tgc.ca",
-      "dns_ns": [
-        "!ServFail"
       ]
     },
     {
@@ -14669,19 +14415,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "csc-scc.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "csc-scc.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -14708,19 +14441,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "csc-scc.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -14777,27 +14497,17 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "csc-scc.qe.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
+      "domain": "csc-scc.ge.ca",
       "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
         "!ServFail"
       ]
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "csc-scc.ge.ca",
-      "dns_aaaa": [
+      "domain": "csc-scc.qe.ca",
+      "dns_ns": [
         "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "csc-scc.tgc.ca",
+      ],
       "dns_a": [
         "!ServFail"
       ],
@@ -14954,19 +14664,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "cse-cst.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "cse-cst.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -14993,19 +14690,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "cse-cst.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -15062,19 +14746,6 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "cse-cst.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "cse-cst.qe.ca",
       "dns_ns": [
         "!ServFail"
@@ -15089,10 +14760,10 @@
     {
       "fuzzer": "insertion",
       "domain": "cse-cst.tgc.ca",
-      "dns_a": [
+      "dns_ns": [
         "!ServFail"
       ],
-      "dns_aaaa": [
+      "dns_a": [
         "!ServFail"
       ]
     },
@@ -15245,19 +14916,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "csps-efpc.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "csps-efpc.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -15284,19 +14942,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "csps-efpc.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -15353,30 +14998,7 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "csps-efpc.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "csps-efpc.qe.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "csps-efpc.tgc.ca",
       "dns_ns": [
         "!ServFail"
       ],
@@ -15618,33 +15240,7 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "dec-ced.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "dec-ced.qe.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "dec-ced.tgc.ca",
       "dns_ns": [
         "!ServFail"
       ],
@@ -15811,13 +15407,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "dfo-mpo.gcw.ca",
-      "dns_a": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "dfo-mpo.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -15900,33 +15489,7 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "dfo-mpo.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "dfo-mpo.qe.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "dfo-mpo.tgc.ca",
       "dns_ns": [
         "!ServFail"
       ],
@@ -16182,20 +15745,7 @@
       "fuzzer": "bitsquatting",
       "domain": "edg.ca",
       "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "eec.ca",
-      "dns_ns": [
-        "ns.myidhosting.com"
+        "launch1.spaceship.net"
       ],
       "dns_a": [
         "!ServFail"
@@ -16322,9 +15872,13 @@
       "domain": "adc.ca",
       "dns_ns": [
         "ns.myidhosting.com"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "eec.ca",
+      "dns_ns": [
+        "ns.myidhosting.com"
       ]
     },
     {
@@ -16408,19 +15962,6 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "cbc.ca",
-      "dns_ns": [
-        "a1-29.akam.net"
-      ],
-      "dns_a": [
-        "184.30.163.73"
-      ],
-      "dns_mx": [
-        "eu-smtp-inbound-1.mimecast.com"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "eclc.ca",
       "dns_ns": [
         "connect1.squarespacedns.com"
@@ -16430,6 +15971,19 @@
       ],
       "dns_mx": [
         "eclc-ca.mail.protection.outlook.com"
+      ]
+    },
+    {
+      "fuzzer": "homoglyph",
+      "domain": "cbc.ca",
+      "dns_ns": [
+        "a1-29.akam.net"
+      ],
+      "dns_a": [
+        "23.1.58.85"
+      ],
+      "dns_mx": [
+        "eu-smtp-inbound-1.mimecast.com"
       ]
     },
     {
@@ -16619,19 +16173,6 @@
     },
     {
       "fuzzer": "omission",
-      "domain": "ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "omission",
       "domain": "ed.ca",
       "dns_ns": [
         "parking1.whc.ca"
@@ -16654,6 +16195,13 @@
       ],
       "dns_mx": [
         "dc-ca.mail.protection.outlook.com"
+      ]
+    },
+    {
+      "fuzzer": "omission",
+      "domain": "ec.ca",
+      "dns_ns": [
+        "ns1.netfirms-default.domainparkingserver.net"
       ]
     },
     {
@@ -16953,16 +16501,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "feddevontario.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "feddevontario.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -16989,19 +16527,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "feddevontario.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -17050,7 +16575,7 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.222"
+        "64.190.63.111"
       ],
       "dns_mx": [
         "localhost"
@@ -17063,16 +16588,6 @@
         "!ServFail"
       ],
       "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "feddevontario.ge.ca",
-      "dns_ns": [
         "!ServFail"
       ],
       "dns_aaaa": [
@@ -17120,16 +16635,6 @@
       "domain": "feddevontario.gbc.ca",
       "dns_a": [
         "144.217.80.241"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "feddevontario.tgc.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
       ]
     },
     {
@@ -17238,16 +16743,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "fintrac-canafe.gcw.ca",
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "fintrac-canafe.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -17274,19 +16769,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "fintrac-canafe.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -17335,23 +16817,10 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.111"
+        "64.190.63.222"
       ],
       "dns_mx": [
         "localhost"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "fintrac-canafe.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
       ]
     },
     {
@@ -17364,16 +16833,6 @@
         "!ServFail"
       ],
       "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "fintrac-canafe.tgc.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
         "!ServFail"
       ]
     },
@@ -17526,13 +16985,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "fja-cmf.gcw.ca",
-      "dns_a": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "fja-cmf.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -17607,30 +17059,10 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.111"
+        "64.190.63.222"
       ],
       "dns_mx": [
         "localhost"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "fja-cmf.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "fja-cmf.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ]
     },
     {
@@ -18069,6 +17501,19 @@
     },
     {
       "fuzzer": "addition",
+      "domain": "gg2.ca",
+      "dns_ns": [
+        "ganz.ns.cloudflare.com"
+      ],
+      "dns_a": [
+        "104.21.47.202"
+      ],
+      "dns_aaaa": [
+        "2606:4700:3033::6815:2fca"
+      ]
+    },
+    {
+      "fuzzer": "addition",
       "domain": "ggc.ca",
       "dns_ns": [
         "ns1.afternic.com"
@@ -18291,7 +17736,7 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.111"
+        "64.190.63.222"
       ],
       "dns_mx": [
         "localhost"
@@ -18318,13 +17763,6 @@
       ],
       "dns_a": [
         "66.113.136.229"
-      ]
-    },
-    {
-      "fuzzer": "addition",
-      "domain": "gg2.ca",
-      "dns_ns": [
-        "ganz.ns.cloudflare.com"
       ]
     },
     {
@@ -18409,7 +17847,7 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.111"
+        "64.190.63.222"
       ],
       "dns_mx": [
         "localhost"
@@ -18456,9 +17894,6 @@
       "domain": "ge.ca",
       "dns_ns": [
         "crpeomusanyca01.ge-dns.com"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
       ]
     },
     {
@@ -18514,22 +17949,6 @@
       ],
       "dns_mx": [
         "mx.g-g.ca"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "ghg.ca",
-      "dns_ns": [
-        "ns1.smartnameclassic.com"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ],
-      "dns_mx": [
-        "!ServFail"
       ]
     },
     {
@@ -18690,6 +18109,13 @@
       ],
       "dns_mx": [
         "asp.reflexion.net"
+      ]
+    },
+    {
+      "fuzzer": "insertion",
+      "domain": "ghg.ca",
+      "dns_ns": [
+        "ns1.smartnameclassic.com"
       ]
     },
     {
@@ -18901,19 +18327,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "grainscanada.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "grainscanada.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -18940,19 +18353,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "grainscanada.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -19009,30 +18409,7 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "grainscanada.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "grainscanada.qe.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "grainscanada.tgc.ca",
       "dns_ns": [
         "!ServFail"
       ],
@@ -19243,19 +18620,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "ic.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "ic.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -19284,13 +18648,6 @@
         "74.220.199.6"
       ],
       "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "ic.ec.ca",
-      "dns_a": [
         "!ServFail"
       ]
     },
@@ -19337,20 +18694,10 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.222"
+        "64.190.63.111"
       ],
       "dns_mx": [
         "localhost"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "ic.ge.ca",
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
       ]
     },
     {
@@ -19359,16 +18706,6 @@
       "dns_ns": [
         "!ServFail"
       ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "ic.tgc.ca",
       "dns_a": [
         "!ServFail"
       ],
@@ -19505,10 +18842,10 @@
         "ns1.dns-parking.com"
       ],
       "dns_a": [
-        "191.96.144.80"
+        "191.96.144.197"
       ],
       "dns_aaaa": [
-        "2a02:4780:1d:a855:126b:c3b4:b7ad:647d"
+        "2a02:4780:1d:80be:eb22:cc0:a6c3:f765"
       ],
       "dns_mx": [
         "fusion-relay.mxrouting.net"
@@ -19665,22 +19002,19 @@
     },
     {
       "fuzzer": "omission",
-      "domain": "idr.ca",
-      "dns_ns": [
-        "ns.myidhosting.com"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "omission",
       "domain": "idc.ca",
       "dns_ns": [
         "ns-1020.awsdns-63.net"
       ],
       "dns_a": [
         "32.194.101.183"
+      ]
+    },
+    {
+      "fuzzer": "omission",
+      "domain": "idr.ca",
+      "dns_ns": [
+        "ns.myidhosting.com"
       ]
     },
     {
@@ -19772,12 +19106,6 @@
       "domain": "iddc.ca",
       "dns_ns": [
         "dns.rebel.com"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ],
-      "dns_mx": [
-        "!ServFail"
       ]
     },
     {
@@ -19850,16 +19178,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "infrastructure.gcw.ca",
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "infrastructure.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -19886,16 +19204,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "infrastructure.ec.ca",
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -19952,27 +19260,7 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "infrastructure.ge.ca",
-      "dns_a": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "infrastructure.qe.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "infrastructure.tgc.ca",
       "dns_ns": [
         "!ServFail"
       ],
@@ -20164,13 +19452,6 @@
       ]
     },
     {
-      "fuzzer": "addition",
-      "domain": "inspection.gcw.ca",
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "bitsquatting",
       "domain": "inspection.gk.ca",
       "dns_ns": [
@@ -20220,16 +19501,6 @@
       ]
     },
     {
-      "fuzzer": "bitsquatting",
-      "domain": "inspection.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "homoglyph",
       "domain": "inspection.qe.ca",
       "dns_ns": [
@@ -20239,23 +19510,6 @@
         "!ServFail"
       ],
       "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "inspection.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "inspection.tgc.ca",
-      "dns_a": [
         "!ServFail"
       ]
     },
@@ -20421,19 +19675,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "international.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "international.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -20460,16 +19701,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "international.ec.ca",
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -20526,30 +19757,10 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "international.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "international.qe.ca",
       "dns_ns": [
         "!ServFail"
       ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "international.tgc.ca",
       "dns_a": [
         "!ServFail"
       ],
@@ -20735,16 +19946,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "justice.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "justice.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -20771,19 +19972,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "justice.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -20840,16 +20028,6 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "justice.ge.ca",
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "justice.qe.ca",
       "dns_ns": [
         "!ServFail"
@@ -20858,13 +20036,6 @@
         "!ServFail"
       ],
       "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "justice.tgc.ca",
-      "dns_a": [
         "!ServFail"
       ]
     },
@@ -21122,22 +20293,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "mind.ca",
-      "dns_ns": [
-        "ns1.systemdns.com"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ],
-      "dns_mx": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "mynt.ca",
       "dns_ns": [
         "launch1.spaceship.net"
@@ -21225,6 +20380,16 @@
       ],
       "dns_mx": [
         "mx.miot.ca"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "mind.ca",
+      "dns_ns": [
+        "ns1.systemdns.com"
+      ],
+      "dns_aaaa": [
+        "!ServFail"
       ]
     },
     {
@@ -21529,22 +20694,6 @@
     },
     {
       "fuzzer": "bitsquatting",
-      "domain": "ndb.ca",
-      "dns_ns": [
-        "ns.myidhosting.com"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ],
-      "dns_mx": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
       "domain": "nfc.ca",
       "dns_ns": [
         "launch1.spaceship.net"
@@ -21672,6 +20821,13 @@
       ],
       "dns_a": [
         "67.220.94.120"
+      ]
+    },
+    {
+      "fuzzer": "bitsquatting",
+      "domain": "ndb.ca",
+      "dns_ns": [
+        "ns.myidhosting.com"
       ]
     },
     {
@@ -21908,12 +21064,6 @@
       "domain": "ntb.ca",
       "dns_ns": [
         "ns.myidhosting.com"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ],
-      "dns_mx": [
-        "!ServFail"
       ]
     },
     {
@@ -21923,7 +21073,7 @@
         "a1-62.akam.net"
       ],
       "dns_a": [
-        "2.18.67.133"
+        "23.53.35.174"
       ],
       "dns_mx": [
         "nbf-ca.mail.protection.outlook.com"
@@ -21982,16 +21132,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "nrcan.gcw.ca",
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "nrcan.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -22020,16 +21160,6 @@
         "74.220.199.6"
       ],
       "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "nrcan.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
         "!ServFail"
       ]
     },
@@ -22096,13 +21226,6 @@
       ]
     },
     {
-      "fuzzer": "homoglyph",
-      "domain": "nrcan.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "insertion",
       "domain": "nrcan.gvc.ca",
       "dns_ns": [
@@ -22143,16 +21266,6 @@
       "domain": "nrcan.gbc.ca",
       "dns_a": [
         "144.217.80.241"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "nrcan.tgc.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
       ]
     },
     {
@@ -22213,19 +21326,16 @@
     },
     {
       "fuzzer": "various",
-      "domain": "nrcan-gc.ca",
-      "dns_ns": [
-        "ns16.veeblehosting.com"
-      ],
+      "domain": "nrcan.gc-ca.com",
       "dns_a": [
-        "!ServFail"
+        "127.0.0.1"
       ]
     },
     {
       "fuzzer": "various",
-      "domain": "nrcan.gc-ca.com",
-      "dns_a": [
-        "127.0.0.1"
+      "domain": "nrcan-gc.ca",
+      "dns_ns": [
+        "ns16.veeblehosting.com"
       ]
     }
   ],
@@ -22303,29 +21413,6 @@
       ]
     },
     {
-      "fuzzer": "addition",
-      "domain": "nserc-crsng.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "nserc-crsng.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "bitsquatting",
       "domain": "nserc-crsng.gk.ca",
       "dns_ns": [
@@ -22372,16 +21459,6 @@
       ],
       "dns_mx": [
         "localhost"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "nserc-crsng.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ]
     },
     {
@@ -22558,16 +21635,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "oci-bec.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "oci-bec.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -22594,19 +21661,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "oci-bec.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -22675,13 +21729,6 @@
       ]
     },
     {
-      "fuzzer": "homoglyph",
-      "domain": "oci-bec.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "insertion",
       "domain": "oci-bec.gvc.ca",
       "dns_ns": [
@@ -22722,13 +21769,6 @@
       "domain": "oci-bec.gbc.ca",
       "dns_a": [
         "144.217.80.241"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "oci-bec.tgc.ca",
-      "dns_aaaa": [
-        "!ServFail"
       ]
     },
     {
@@ -22872,29 +21912,6 @@
       ]
     },
     {
-      "fuzzer": "addition",
-      "domain": "osfi-bsif.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "osfi-bsif.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "bitsquatting",
       "domain": "osfi-bsif.gk.ca",
       "dns_ns": [
@@ -22941,16 +21958,6 @@
       ],
       "dns_mx": [
         "localhost"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "osfi-bsif.ge.ca",
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
       ]
     },
     {
@@ -23147,29 +22154,6 @@
       ]
     },
     {
-      "fuzzer": "addition",
-      "domain": "pc.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "pc.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "bitsquatting",
       "domain": "pc.gk.ca",
       "dns_ns": [
@@ -23212,20 +22196,10 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.222"
+        "64.190.63.111"
       ],
       "dns_mx": [
         "localhost"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "pc.ge.ca",
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
       ]
     },
     {
@@ -23238,16 +22212,6 @@
         "!ServFail"
       ],
       "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "pc.tgc.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
         "!ServFail"
       ]
     },
@@ -23413,19 +22377,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "ppsc-sppc.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "ppsc-sppc.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -23507,41 +22458,8 @@
       ]
     },
     {
-      "fuzzer": "bitsquatting",
-      "domain": "ppsc-sppc.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "homoglyph",
       "domain": "ppsc-sppc.qe.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "ppsc-sppc.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "ppsc-sppc.tgc.ca",
       "dns_ns": [
         "!ServFail"
       ],
@@ -23698,19 +22616,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "publicsafety.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "publicsafety.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -23737,19 +22642,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "publicsafety.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -23818,13 +22710,6 @@
       ]
     },
     {
-      "fuzzer": "homoglyph",
-      "domain": "publicsafety.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "insertion",
       "domain": "publicsafety.gvc.ca",
       "dns_ns": [
@@ -23865,16 +22750,6 @@
       "domain": "publicsafety.gbc.ca",
       "dns_a": [
         "144.217.80.241"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "publicsafety.tgc.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
       ]
     },
     {
@@ -23983,16 +22858,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "rcaanc-cirnac.gcw.ca",
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "rcaanc-cirnac.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -24074,32 +22939,12 @@
       ]
     },
     {
-      "fuzzer": "bitsquatting",
-      "domain": "rcaanc-cirnac.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "homoglyph",
       "domain": "rcaanc-cirnac.qe.ca",
       "dns_ns": [
         "!ServFail"
       ],
       "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "rcaanc-cirnac.ge.ca",
-      "dns_ns": [
         "!ServFail"
       ],
       "dns_aaaa": [
@@ -24147,16 +22992,6 @@
       "domain": "rcaanc-cirnac.gbc.ca",
       "dns_a": [
         "144.217.80.241"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "rcaanc-cirnac.tgc.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
       ]
     },
     {
@@ -24265,16 +23100,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "rcmp-grc.gcw.ca",
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "rcmp-grc.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -24301,19 +23126,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "rcmp-grc.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -24370,13 +23182,6 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "rcmp-grc.ge.ca",
-      "dns_a": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "rcmp-grc.qe.ca",
       "dns_ns": [
         "!ServFail"
@@ -24429,13 +23234,6 @@
       "domain": "rcmp-grc.gbc.ca",
       "dns_a": [
         "144.217.80.241"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "rcmp-grc.tgc.ca",
-      "dns_ns": [
-        "!ServFail"
       ]
     },
     {
@@ -24570,19 +23368,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "sac-isc.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "sac-isc.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -24609,19 +23394,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "sac-isc.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -24679,29 +23451,6 @@
     {
       "fuzzer": "homoglyph",
       "domain": "sac-isc.qe.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "sac-isc.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "sac-isc.tgc.ca",
       "dns_ns": [
         "!ServFail"
       ],
@@ -25061,19 +23810,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "sshrc-crsh.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "sshrc-crsh.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -25100,19 +23836,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "sshrc-crsh.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -25169,16 +23892,6 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "sshrc-crsh.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "sshrc-crsh.qe.ca",
       "dns_ns": [
         "!ServFail"
@@ -25231,13 +23944,6 @@
       "domain": "sshrc-crsh.gbc.ca",
       "dns_a": [
         "144.217.80.241"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "sshrc-crsh.tgc.ca",
-      "dns_aaaa": [
-        "!ServFail"
       ]
     },
     {
@@ -25346,19 +24052,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "statcan.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "statcan.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -25385,19 +24078,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "statcan.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -25466,12 +24146,9 @@
       ]
     },
     {
-      "fuzzer": "homoglyph",
-      "domain": "statcan.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
+      "fuzzer": "insertion",
+      "domain": "statcan.tgc.ca",
+      "dns_a": [
         "!ServFail"
       ]
     },
@@ -25516,13 +24193,6 @@
       "domain": "statcan.gbc.ca",
       "dns_a": [
         "144.217.80.241"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "statcan.tgc.ca",
-      "dns_ns": [
-        "!ServFail"
       ]
     },
     {
@@ -25631,19 +24301,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "tc.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "tc.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -25670,19 +24327,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "tc.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -25731,7 +24375,7 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.111"
+        "64.190.63.222"
       ],
       "dns_mx": [
         "localhost"
@@ -25744,16 +24388,6 @@
         "!ServFail"
       ],
       "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "tc.ge.ca",
-      "dns_ns": [
         "!ServFail"
       ],
       "dns_aaaa": [
@@ -25801,16 +24435,6 @@
       "domain": "tc.gbc.ca",
       "dns_a": [
         "144.217.80.241"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "tc.tgc.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
       ]
     },
     {
@@ -25932,19 +24556,6 @@
     },
     {
       "fuzzer": "addition",
-      "domain": "veterans.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "addition",
       "domain": "veterans.gca.ca",
       "dns_ns": [
         "ns5.afternic.com"
@@ -25971,16 +24582,6 @@
       ],
       "dns_a": [
         "74.220.199.6"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "veterans.ec.ca",
-      "dns_a": [
-        "!ServFail"
       ],
       "dns_aaaa": [
         "!ServFail"
@@ -26042,16 +24643,6 @@
         "!ServFail"
       ],
       "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "veterans.ge.ca",
-      "dns_ns": [
         "!ServFail"
       ],
       "dns_aaaa": [
@@ -26249,13 +24840,6 @@
       ]
     },
     {
-      "fuzzer": "addition",
-      "domain": "vrab-tacra.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "bitsquatting",
       "domain": "vrab-tacra.gk.ca",
       "dns_ns": [
@@ -26298,51 +24882,15 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.222"
+        "64.190.63.111"
       ],
       "dns_mx": [
         "localhost"
       ]
     },
     {
-      "fuzzer": "bitsquatting",
-      "domain": "vrab-tacra.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "vrab-tacra.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "homoglyph",
       "domain": "vrab-tacra.qe.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "vrab-tacra.tgc.ca",
       "dns_ns": [
         "!ServFail"
       ],
@@ -26534,23 +25082,6 @@
       ]
     },
     {
-      "fuzzer": "addition",
-      "domain": "tsb.gcw.ca",
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "bitsquatting",
-      "domain": "tsb.ec.ca",
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "bitsquatting",
       "domain": "tsb.gk.ca",
       "dns_ns": [
@@ -26593,7 +25124,7 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.222"
+        "64.190.63.111"
       ],
       "dns_mx": [
         "localhost"
@@ -26601,30 +25132,7 @@
     },
     {
       "fuzzer": "homoglyph",
-      "domain": "tsb.ge.ca",
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
       "domain": "tsb.qe.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "tsb.tgc.ca",
       "dns_ns": [
         "!ServFail"
       ],
@@ -26816,16 +25324,6 @@
       ]
     },
     {
-      "fuzzer": "addition",
-      "domain": "wd-deo.gcw.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "bitsquatting",
       "domain": "wd-deo.gk.ca",
       "dns_ns": [
@@ -26868,42 +25366,15 @@
         "ns1.sedoparking.com"
       ],
       "dns_a": [
-        "64.190.63.222"
+        "64.190.63.111"
       ],
       "dns_mx": [
         "localhost"
       ]
     },
     {
-      "fuzzer": "bitsquatting",
-      "domain": "wd-deo.ec.ca",
-      "dns_ns": [
-        "!ServFail"
-      ]
-    },
-    {
       "fuzzer": "homoglyph",
       "domain": "wd-deo.qe.ca",
-      "dns_ns": [
-        "!ServFail"
-      ],
-      "dns_a": [
-        "!ServFail"
-      ],
-      "dns_aaaa": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "homoglyph",
-      "domain": "wd-deo.ge.ca",
-      "dns_ns": [
-        "!ServFail"
-      ]
-    },
-    {
-      "fuzzer": "insertion",
-      "domain": "wd-deo.tgc.ca",
       "dns_ns": [
         "!ServFail"
       ],
